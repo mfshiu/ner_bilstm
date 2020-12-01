@@ -12,17 +12,21 @@ import random
 
 
 print("is_gpu_available: %s" % (tf.test.is_gpu_available(),))
-if tf.test.is_gpu_available():
-    BATCH_SIZE = 512  # Number of examples used in each iteration
-    EPOCHS = 20  # Number of passes through entire dataset
-    MAX_LEN = 75  # Max length of review (in words)
-    EMBEDDING = 40  # Dimension of word embedding vector
-# Hyperparams for CPU training
-else:
-    BATCH_SIZE = 32
-    EPOCHS = 5
-    MAX_LEN = 10
-    EMBEDDING = 20
+BATCH_SIZE = 512  # Number of examples used in each iteration
+EPOCHS = 20  # Number of passes through entire dataset
+MAX_LEN = 75  # Max length of review (in words)
+EMBEDDING = 40  # Dimension of word embedding vector
+# if tf.test.is_gpu_available():
+#     BATCH_SIZE = 512  # Number of examples used in each iteration
+#     EPOCHS = 20  # Number of passes through entire dataset
+#     MAX_LEN = 75  # Max length of review (in words)
+#     EMBEDDING = 40  # Dimension of word embedding vector
+# # Hyperparams for CPU training 1
+# else:
+#     BATCH_SIZE = 32
+#     EPOCHS = 5
+#     MAX_LEN = 10
+#     EMBEDDING = 20
 
 data = pd.read_csv("data/ner_dataset_2.csv", encoding="utf-8")
 data = data.fillna(method="ffill")
