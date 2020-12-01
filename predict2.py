@@ -26,8 +26,8 @@ tag2fullname = {
 
 input_path = "data/development_2.txt"
 output_path = "output/aicup.tsv"
-model = NerModel("data/ner_dataset_2.csv")
-model.load_weights("trained/train_2-20.pkl")
+model = NerModel("data/ner_dataset_2.csv", embedding_size=80)
+model.load_weights("trained/train_2-40.pkl")
 
 def wrap_sentences(wordss):
     def warp_list(words, size):
