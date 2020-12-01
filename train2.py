@@ -13,7 +13,7 @@ if tf.test.is_gpu_available():
     EPOCHS = 20  # Number of passes through entire dataset
     MAX_LEN = 75  # Max length of review (in words)
     EMBEDDING = 40  # Dimension of word embedding vector
-# Hyperparams for CPU training
+# Hyperparams for CPU training 1
 else:
     BATCH_SIZE = 32
     EPOCHS = 2
