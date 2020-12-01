@@ -137,4 +137,4 @@ model.summary()
 history = model.fit(X_tr, np.array(y_tr), batch_size=BATCH_SIZE,
                     epochs=EPOCHS,validation_split=0.1, verbose=2)
 
-model.save("trained/train_2-2.pkl")
+model.save("trained/train_2-5.pkl")
