@@ -34,11 +34,11 @@ class SentenceGetter(object):
 
 
 class NerModel:
-    def __init__(self, dataset_path):
+    def __init__(self, dataset_path, embedding_size = 40, max_words = 75):
         self.BATCH_SIZE = 512  # Number of examples used in each iteration
         self.EPOCHS = 20  # Number of passes through entire dataset
-        self.MAX_LEN = 75  # Max length of review (in words)
-        self.EMBEDDING = 40  # Dimension of word embedding vector
+        self.MAX_LEN = max_words  # Max length of review (in words)
+        self.EMBEDDING = embedding_size  # Dimension of word embedding vector
 
         self.WORD_PAD_INDEX = 0
         self.WORD_UNK_INDEX = 1
@@ -104,7 +104,7 @@ class NerModel:
 
         return self.model
 
-    def fit(self):
+    def fit(self, batch_size=self.BATCH_SIZE, epochs=self.EPOCHS):
         print("Fitting...", end="")
         y = [to_categorical(i, num_classes=self.n_tags + 1) for i in self.y]  # n_tags+1(PAD)
         X_tr, X_te, y_tr, y_te = train_test_split(self.X, y, test_size=0.1)
@@ -114,8 +114,8 @@ class NerModel:
         print('After processing, sample:', self.X[0])
         print('After processing, labels:', self.y[0])
 
-        history = self.model.fit(X_tr, np.array(y_tr), batch_size=self.BATCH_SIZE,
-                            epochs=self.EPOCHS, validation_split=0.1, verbose=2)
+        history = self.model.fit(X_tr, np.array(y_tr), batch_size,
+                            epochs, validation_split=0.1, verbose=2)
         print("done.")
         return history
 
