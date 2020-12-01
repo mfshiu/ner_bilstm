@@ -1,4 +1,3 @@
-import os
 from ckiptagger import construct_dictionary, WS
 
 
