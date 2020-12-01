@@ -23,7 +23,7 @@ if tf.test.is_gpu_available():
 # Hyperparams for CPU training 1
 else:
     BATCH_SIZE = 32
-    EPOCHS = 2
+    EPOCHS = 5
     MAX_LEN = 10
     EMBEDDING = 20
 
