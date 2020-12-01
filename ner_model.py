@@ -1,8 +1,6 @@
 import pandas as pd
 import numpy as np
 import tensorflow as tf
-import keras
-import sys
 
 from sklearn.model_selection import train_test_split
 from keras.preprocessing.sequence import pad_sequences
@@ -13,9 +11,6 @@ from keras_contrib.layers import CRF
 
 
 class SentenceGetter(object):
-    """Class to Get the sentence in this format:
-    [(Token_1, Part_of_Speech_1, Tag_1), ..., (Token_n, Part_of_Speech_1, Tag_1)]"""
-
     def __init__(self, data):
         """Args:
             data is the pandas.DataFrame which contains the above dataset"""
@@ -44,6 +39,10 @@ class NerModel:
         self.EPOCHS = 20  # Number of passes through entire dataset
         self.MAX_LEN = 75  # Max length of review (in words)
         self.EMBEDDING = 40  # Dimension of word embedding vector
+
+        self.WORD_PAD_INDEX = 0
+        self.WORD_UNK_INDEX = 1
+        self.TAG_PAD_INDEX = 0
 
         self.model = self.__init_model(dataset_path)
 
@@ -88,12 +87,12 @@ class NerModel:
 
         self.sentences = getter.sentences
         self.word2idx = {w: i + 2 for i, w in enumerate(words)}
-        self.word2idx["UNK"] = 1  # Unknown words
-        self.word2idx["PAD"] = 0  # Padding
+        self.word2idx["UNK"] = self.WORD_UNK_INDEX  # Unknown words
+        self.word2idx["PAD"] = self.WORD_PAD_INDEX  # Padding
         self.idx2word = {i: w for w, i in self.word2idx.items()}
 
         self.tag2idx = {t: i + 1 for i, t in enumerate(tags)}
-        self.tag2idx["PAD"] = 0
+        self.tag2idx["PAD"] = self.TAG_PAD_INDEX
         self.idx2tag = {i: w for w, i in self.tag2idx.items()}
 
         X = [[self.word2idx[w[0]] for w in s] for s in self.sentences]
@@ -106,6 +105,7 @@ class NerModel:
         return self.model
 
     def fit(self):
+        print("Fitting...", end="")
         y = [to_categorical(i, num_classes=self.n_tags + 1) for i in self.y]  # n_tags+1(PAD)
         X_tr, X_te, y_tr, y_te = train_test_split(self.X, y, test_size=0.1)
         X_tr.shape, X_te.shape, np.array(y_tr).shape, np.array(y_te).shape
@@ -116,8 +116,38 @@ class NerModel:
 
         history = self.model.fit(X_tr, np.array(y_tr), batch_size=self.BATCH_SIZE,
                             epochs=self.EPOCHS, validation_split=0.1, verbose=2)
+        print("done.")
         return history
 
 
+    def get_word_index(self,word):
+        if word in self.word2idx:
+            return self.word2idx[word]
+        else:
+            return self.WORD_PAD_INDEX
+
+
+    def load_weights(self, model_path):
+        print("Load from: %s ..."%(model_path,), end="")
+        self.model.load_weights(model_path)
+        print("done.")
+
+
+    # sentences = [
+    #   ['word', 'word', ... ,'word'],
+    #   ['word', 'word', ... ,'word'],
+    #   ...
+    #   ['word', 'word', ... ,'word'],
+    # ]
+    def predict(self, sentences):
+        X = [[self.get_word_index(w) for w in s] for s in sentences]
+        X = pad_sequences(maxlen=self.MAX_LEN, sequences=X, padding="post", value=self.WORD_PAD_INDEX)
+        pred_cat = self.model.predict(X)
+        pred = np.argmax(pred_cat, axis=-1)
+
+        return pred
+
     def save(self, model_path):
+        print("Save to: %s ..."%(model_path,), end="")
         self.model.save(model_path)
+        print("done.")

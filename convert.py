@@ -42,10 +42,16 @@ def parse_input(input_path):
         i, sen = 0, []
         for w in words:
             sen.append((w, tags[i]))
-            if w == "。":
+            if w == "。" or w == "？":
                 sentences.append(sen)
                 sen = []
             i += len(w)
+
+        # Generate answer sentence
+        for row in rows[2:]:
+            tokens = row.split('\t')
+            tag = "B-" + tokens[4][:3]
+            sentences.append([(tokens[3], tag)])
 
     return sentences
 
