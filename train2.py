@@ -27,7 +27,7 @@ else:
     MAX_LEN = 10
     EMBEDDING = 20
 
-data = pd.read_csv("data/ner_dataset_2-3.csv", encoding="utf-8")
+data = pd.read_csv("data/ner_dataset_2.csv", encoding="utf-8")
 data = data.fillna(method="ffill")
 print("Number of sentences: ", len(data.groupby(['Sentence #'])))
 words = list(set(data["Word"].values))
