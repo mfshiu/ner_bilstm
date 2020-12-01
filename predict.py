@@ -8,7 +8,7 @@ import sys
 from keras.models import Model, Input
 from keras.layers import LSTM, Embedding, Dense, TimeDistributed, Dropout, Bidirectional
 from keras_contrib.layers import CRF
-
+import random
 
 
 print("is_gpu_available: %s" % (tf.test.is_gpu_available(),))
@@ -21,10 +21,10 @@ if tf.test.is_gpu_available():
 else:
     BATCH_SIZE = 32
     EPOCHS = 5
-    MAX_LEN = 75
+    MAX_LEN = 10
     EMBEDDING = 20
 
-data = pd.read_csv("data/ner_dataset.csv", encoding="latin1")
+data = pd.read_csv("data/ner_dataset_2.csv", encoding="utf-8")
 data = data.fillna(method="ffill")
 print("Number of sentences: ", len(data.groupby(['Sentence #'])))
 words = list(set(data["Word"].values))
@@ -96,8 +96,8 @@ tag2idx["PAD"] = 0
 # Vocabulary Key:tag_index -> Value:Label/Tag
 idx2tag = {i: w for w, i in tag2idx.items()}
 
-print("The word Obama is identified by the index: {}".format(word2idx["Obama"]))
-print("The labels B-geo(which defines Geopraphical Enitities) is identified by the index: {}".format(tag2idx["B-geo"]))
+print("The word Obama is identified by the index: {}".format(word2idx["賈伯斯"]))
+print("The labels B-geo(which defines Geopraphical Enitities) is identified by the index: {}".format(tag2idx["B-nam"]))
 
 from keras.preprocessing.sequence import pad_sequences
 # Convert each sentence from list of Token to list of word_index
@@ -122,7 +122,7 @@ model = Model(input, out)
 model.compile(optimizer="rmsprop", loss=crf.loss_function, metrics=[crf.accuracy])
 model.summary()
 
-model.load_weights("trained/train-5.pkl")
+model.load_weights("trained/train_2-5.pkl")
 
 from keras.utils import to_categorical
 # One-Hot encode
@@ -141,15 +141,17 @@ y_te_true_tag = [[idx2tag[i] for i in row] for row in y_te_true]
 report = flat_classification_report(y_pred=pred_tag, y_true=y_te_true_tag)
 print(report)
 
-i = np.random.randint(0,X_te.shape[0]) # choose a random number between 0 and len(X_te)
-p = model.predict(np.array([X_te[i]]))
-p = np.argmax(p, axis=-1)
-true = np.argmax(y_te[i], -1)
+randomlist = [np.random.randint(0,X_te.shape[0]) for a in range(100)]
+for i in randomlist:
+    # i = np.random.randint(0,X_te.shape[0]) # choose a random number between 0 and len(X_te)
+    p = model.predict(np.array([X_te[i]]))
+    p = np.argmax(p, axis=-1)
+    true = np.argmax(y_te[i], -1)
 
-print("Sample number {} of {} (Test Set)".format(i, X_te.shape[0]))
-# Visualization
-print("{:15}||{:5}||{}".format("Word", "True", "Pred"))
-print(30 * "=")
-for w, t, pred in zip(X_te[i], true, p[0]):
-    if w != 0:
-        print("{:15}: {:5} {}".format(words[w-2], idx2tag[t], idx2tag[pred]))
+    print("\nSample number {} of {} (Test Set)".format(i, X_te.shape[0]))
+    # Visualization
+    print("{:15}||{:5}||{}".format("Word", "True", "Pred"))
+    print(30 * "=")
+    for w, t, pred in zip(X_te[i], true, p[0]):
+        if w != 0:
+            print("{:15}: {:5} {}".format(words[w-2], idx2tag[t], idx2tag[pred]))
