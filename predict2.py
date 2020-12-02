@@ -25,7 +25,7 @@ tag2fullname = {
 }
 
 input_path = "data/development_2.txt"
-output_path = "output/aicup.tsv"
+output_path = "output/aicup-20.tsv"
 model = NerModel("data/ner_dataset_2.csv", embedding_size=80)
 model.load_weights("trained/train_2-40.pkl")
 
