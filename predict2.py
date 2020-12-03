@@ -54,16 +54,16 @@ tagO_index = model.tag2idx[tagO]
 def merge_ckip_ner(wordss, tagss, entity_sentence_list):
     ckip_tags_map = {
         # "cardinal": "B-med",
-        "person": "B-nam",
+        # "person": "B-nam",
         "org": "B-org",
         "organization": "B-org",
         "gpe": "B-loc",
         "loc": "B-loc",
         "location": "B-loc",
         "event": "B-cli",
-        "date": "B-tim",
+        # "date": "B-tim",
         # "time": "B-tim",
-        # "percent": "B-med",
+        "percent": "B-med",
         "money": "B-mon",
     }
 
