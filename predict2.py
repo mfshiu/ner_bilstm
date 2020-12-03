@@ -1,6 +1,6 @@
 import numpy as np
 from ner_model import NerModel
-from ckiptagger import construct_dictionary, WS
+from ckiptagger import construct_dictionary, WS, POS, NER
 
 tag2fullname = {
     "acc": "account",
@@ -25,7 +25,7 @@ tag2fullname = {
 }
 
 input_path = "data/development_2.txt"
-output_path = "output/aicup-20.tsv"
+output_path = "output/aicup-40.tsv"
 model = NerModel("data/ner_dataset_2.csv", embedding_size=80)
 model.load_weights("trained/train_2-40.pkl")
 
@@ -46,6 +46,41 @@ def wrap_sentences(wordss):
         new_wordss.extend(warp_list(words, 75))
     return new_wordss
 
+tagO = "O"
+tagO_index = model.tag2idx[tagO]
+
+def merge_ckip_ner(wordss, tagss, entity_sentence_list):
+    ckip_tags_map = {
+        # "cardinal": "B-med",
+        "person": "B-nam",
+        "org": "B-org",
+        "organization": "B-org",
+        "gpe": "B-loc",
+        "loc": "B-loc",
+        "location": "B-loc",
+        "event": "B-cli",
+        "date": "B-tim",
+        "time": "B-tim",
+        "percent": "B-med",
+        "money": "B-mon",
+    }
+
+    for i, words in enumerate(wordss):
+        if len(entity_sentence_list[i]) > 0:
+            sentence = "".join(words)
+            ckip_tags = [None for a in range(len(sentence))]
+            for es in entity_sentence_list[i]:
+                if es[2].lower() in ckip_tags_map:
+                    ckip_tags[es[0]] = ckip_tags_map[es[2].lower()]
+            offset = 0
+            for j, word in enumerate(words):
+                if ckip_tags[offset]:
+                    if tagss[i][j] == tagO_index or tagss[i][j] == 0:
+                        tagss[i][j] = model.tag2idx[ckip_tags[offset]]
+                offset += len(word)
+
+    return tagss
+
 # sentences = [
 #     ["醫師", "：", "賈伯斯", "的", "你", "看了", "嗎", "？"],
 #     ["前天", "又", "有", "在", "發燒", "喔", "。"],
@@ -55,18 +90,22 @@ with open(input_path, "r") as fp:
     articles = [a[:-1] for i, a in enumerate(fp) if (i - 1) % 5 == 0]
 
 ws = WS("./ckipdata")  # , disable_cuda=not GPU)
+pos = POS("./ckipdata")
+ner = NER("./ckipdata")
 delimiters = {"，", "。", "：", "？", "！", "；", ",", ":", "?", "!", ";"}
 
 all_words = []
-tagO = "O"
-tagO_index = model.tag2idx[tagO]
 for article_id, article in enumerate(articles):
     print("[%d/%d] %s..." % (article_id, len(articles)-1, article[:50]))
     article2 = article.replace("。", "。 ").replace("？", "？ ").replace("！", "！ ")
     sentences = article2.split(" ")  # re.split("。|？|！|\n", article)
-    wordss = ws(sentences, segment_delimiter_set=delimiters)
-    wordss = wrap_sentences(wordss)
+    word_sentence_list = ws(sentences, segment_delimiter_set=delimiters)
+    wordss = wrap_sentences(word_sentence_list)
     tagss = model.predict(wordss)
+    pos_sentence_list = pos(wordss)
+    entity_sentence_list = ner(wordss, pos_sentence_list)
+    tagss = merge_ckip_ner(wordss, tagss, entity_sentence_list)
+
     offset = 0
     for i, words in enumerate(wordss):
         last_word, last_tag = "", ""

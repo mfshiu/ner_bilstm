@@ -47,11 +47,11 @@ def parse_input(input_path):
                 sen = []
             i += len(w)
 
-        # Generate answer sentence
-        for row in rows[2:]:
-            tokens = row.split('\t')
-            tag = "B-" + tokens[4][:3]
-            sentences.append([(tokens[3], tag)])
+        # # Generate answer sentence
+        # for row in rows[2:]:
+        #     tokens = row.split('\t')
+        #     tag = "B-" + tokens[4][:3]
+        #     sentences.append([(tokens[3], tag)])
 
     return sentences
 
