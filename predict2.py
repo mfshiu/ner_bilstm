@@ -62,7 +62,7 @@ def merge_ckip_ner(wordss, tagss, entity_sentence_list):
         "location": "B-loc",
         "event": "B-cli",
         "date": "B-tim",
-        "time": "B-tim",
+        # "time": "B-tim",
         "percent": "B-med",
         "money": "B-mon",
     }
