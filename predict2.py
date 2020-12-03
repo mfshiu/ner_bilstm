@@ -63,7 +63,7 @@ def merge_ckip_ner(wordss, tagss, entity_sentence_list):
         "event": "B-cli",
         "date": "B-tim",
         # "time": "B-tim",
-        "percent": "B-med",
+        # "percent": "B-med",
         "money": "B-mon",
     }
 
