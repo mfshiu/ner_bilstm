@@ -54,7 +54,7 @@ tagO_index = model.tag2idx[tagO]
 def merge_ckip_ner(wordss, tagss, entity_sentence_list):
     ckip_tags_map = {
         # "cardinal": "B-med",
-        # "person": "B-nam",
+        "person": "B-nam",
         "org": "B-org",
         "organization": "B-org",
         "gpe": "B-loc",
@@ -77,8 +77,9 @@ def merge_ckip_ner(wordss, tagss, entity_sentence_list):
             offset = 0
             for j, word in enumerate(words):
                 if ckip_tags[offset]:
-                    if tagss[i][j] == tagO_index or tagss[i][j] == 0:
-                        tagss[i][j] = model.tag2idx[ckip_tags[offset]]
+                    if "阿" != word[:1]:
+                        if tagss[i][j] == tagO_index or tagss[i][j] == 0:
+                            tagss[i][j] = model.tag2idx[ckip_tags[offset]]
                 offset += len(word)
 
     return tagss
@@ -100,7 +101,6 @@ all_words = []
 for article_id, article in enumerate(articles):
     print("[%d/%d] %s..." % (article_id, len(articles)-1, article[:50]))
     article2 = article.replace("。", "。 ").replace("？", "？ ").replace("！", "！ ")
-    article2 = article2.replace("阿", "_")
     sentences = article2.split(" ")  # re.split("。|？|！|\n", article)
     word_sentence_list = ws(sentences, segment_delimiter_set=delimiters)
     wordss = wrap_sentences(word_sentence_list)
