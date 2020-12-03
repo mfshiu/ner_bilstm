@@ -67,7 +67,7 @@ def gen_output_rows(sentences):
 
 
 if __name__ == '__main__':
-    input_path = "data/train_2.txt"
+    input_path = "data/train_2_d.txt"
     output_path = "data/ner_dataset_2.csv"
 
     sentences = parse_input(input_path)
