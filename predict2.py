@@ -1,6 +1,8 @@
-import numpy as np
+import os
 from ner_model import NerModel
 from ckiptagger import construct_dictionary, WS, POS, NER
+
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 tag2fullname = {
     "acc": "account",
