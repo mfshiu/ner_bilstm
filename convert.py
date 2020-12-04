@@ -78,7 +78,7 @@ def parse_input(input_path):
                 add_tag_history(tags[i], w)
             if w == "。" or w == "？":
                 # sentences.append(sen)
-                sens = extend_sentence(sen, 2)
+                sens = extend_sentence(sen, 4)
                 for s in sens:
                     sentences.append(s)
                 sen = []
@@ -105,7 +105,7 @@ def gen_output_rows(sentences):
 
 if __name__ == '__main__':
     input_path = "data/train_2.txt"
-    output_path = "data/ner_dataset_2-2d.csv"
+    output_path = "data/ner_dataset_2-4d.csv"
 
     sentences = parse_input(input_path)
     lines = gen_output_rows(sentences)

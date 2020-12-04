@@ -28,7 +28,7 @@ tag2fullname = {
 
 input_path = "data/development_2.txt"
 output_path = "output/aicup-40.tsv"
-model = NerModel("data/ner_dataset_2.csv", embedding_size=80)
+model = NerModel("data/ner_dataset_2-2d.csv", embedding_size=80)
 model.load_weights("trained/train_2-40-80.pkl")
 
 def wrap_sentences(wordss):
