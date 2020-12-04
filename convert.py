@@ -1,9 +1,41 @@
 # 1
-
+import random
 from ckiptagger import construct_dictionary, WS
 
 
 MAX_LENS = 70
+tags_history = dict()
+
+
+def add_tag_history(tag, name):
+    if tag not in tags_history:
+        tags_history[tag] = list()
+    tags_history[tag].append(name)
+
+
+def extend_sentence(sentence, extend_count):
+    def get_random_word(tag, default_word):
+        word = default_word
+        if tag in tags_history:
+            words = tags_history[tag]
+            if len(words) > 0:
+                word = random.choice(words)
+        return word
+
+    extends = [sentence]
+    sentences = [sentence.copy() for i in range(extend_count - 1)]
+    for sen in sentences:
+        change_count = 0
+        for i, word in enumerate(sen):
+            if word[1][:1] == "B":
+                new_word = get_random_word(word[1], word[0])
+                if new_word != word[0]:
+                    sen[i] = (get_random_word(word[1], word[0]), word[1])
+                    change_count += 1
+        if change_count > 0:
+            extends.append(sen)
+
+    return extends
 
 
 def parse_input(input_path):
@@ -19,7 +51,7 @@ def parse_input(input_path):
     for block_num, block in enumerate(blocks):
         rows = block.split('\n')
         article = rows[0]
-        print("\n[%d/%d] %s..."%(block_num+1, len(blocks), article[0:50]))
+        print("\n[%d/%d] %s..." % (block_num+1, len(blocks), article[0:50]))
 
         # Load tags
         tags = ["O" for i in range(len(article))]
@@ -42,8 +74,13 @@ def parse_input(input_path):
         i, sen = 0, []
         for w in words:
             sen.append((w, tags[i]))
+            if tags[i][:1] == "B":
+                add_tag_history(tags[i], w)
             if w == "。" or w == "？":
-                sentences.append(sen)
+                # sentences.append(sen)
+                sens = extend_sentence(sen, 2)
+                for s in sens:
+                    sentences.append(s)
                 sen = []
             i += len(w)
 
@@ -67,8 +104,8 @@ def gen_output_rows(sentences):
 
 
 if __name__ == '__main__':
-    input_path = "data/train_2_d.txt"
-    output_path = "data/ner_dataset_2.csv"
+    input_path = "data/train_2.txt"
+    output_path = "data/ner_dataset_2-2d.csv"
 
     sentences = parse_input(input_path)
     lines = gen_output_rows(sentences)
