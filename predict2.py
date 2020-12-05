@@ -1,6 +1,7 @@
 import os
 from ner_model import NerModel
 from ckiptagger import construct_dictionary, WS, POS, NER
+import train2
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
@@ -27,19 +28,19 @@ tag2fullname = {
 }
 
 input_path = "data/development_2.txt"
-output_path = "output/aicup-40-8d.tsv"
-data_path = "data/ner_dataset_2-8d.csv"
-model_path = "trained/train_2-40-80-8d.pkl"
+output_path = "output/aicup-60-160.tsv"
+data_path = train2.data_path
+model_path = train2.model_path
 
 model = NerModel(data_path, embedding_size=80)
 model.load_weights(model_path)
 
-print("\n\n##### START PREDICT #####")
+print("\n\n######################## START PREDICT ########################")
 print("input_path: " + input_path)
 print("output_path: " + output_path)
 print("data_path: " + data_path)
 print("model_path: " + model_path)
-print("########################\n")
+print("###############################################################\n")
 
 def wrap_sentences(wordss):
     def warp_list(words, size):
