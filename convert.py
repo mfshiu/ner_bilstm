@@ -5,6 +5,7 @@ import copy
 
 
 MAX_LENS = 70
+ALTER_SIZE = 32
 tags_history = dict()
 coerce_words = dict([(k, 1) for k in ["，", "個管師"]])
 
@@ -124,12 +125,17 @@ if __name__ == '__main__':
     input_path = "data/train_3.txt"
     output_path = "data/ner_dataset_3-32d.csv"
 
+    print("\n\n##### START CONVERT #####")
+    print("input_path: " + input_path)
+    print("output_path: " + output_path)
+    print("ALTER_SIZE: " + ALTER_SIZE)
+
     with open(output_path, "w") as fp:
         sentences = parse_input(input_path)
         lines = [line + "\n" for line in gen_output_rows(sentences, 1, True)]
         fp.writelines(lines)
         start_index = len(sentences) + 1
-        for i in range(32):
+        for i in range(ALTER_SIZE):
             sentences2 = alter_sentence(sentences)
             lines = [line + "\n" for line in gen_output_rows(sentences2, start_index, False)]
             fp.writelines(lines)
