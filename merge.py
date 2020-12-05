@@ -49,6 +49,7 @@ if __name__ == '__main__':
 
     with open(output_path, "w") as fp:
         fp.write(input_content)
+        fp.write("\n")
         fp.writelines(rows)
 
     print("Completed.")
