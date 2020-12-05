@@ -128,7 +128,7 @@ if __name__ == '__main__':
     print("\n\n##### START CONVERT #####")
     print("input_path: " + input_path)
     print("output_path: " + output_path)
-    print("ALTER_SIZE: " + ALTER_SIZE)
+    print("ALTER_SIZE: " + str(ALTER_SIZE))
 
     with open(output_path, "w") as fp:
         sentences = parse_input(input_path)
