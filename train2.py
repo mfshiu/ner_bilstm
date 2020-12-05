@@ -9,6 +9,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 data_path = "data/ner_dataset_2-8d.csv"
 model_path = "trained/train_2-40-80-8d.pkl"
 
+print("\n\n##### START #####")
 print("data_path: " + data_path)
 print("model_path: " + model_path)
 

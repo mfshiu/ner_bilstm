@@ -27,9 +27,19 @@ tag2fullname = {
 }
 
 input_path = "data/development_2.txt"
-output_path = "output/aicup-40-4d.tsv"
-model = NerModel("data/ner_dataset_2-4d.csv", embedding_size=80)
-model.load_weights("trained/train_2-40-80-4d.pkl")
+output_path = "output/aicup-40-8d.tsv"
+data_path = "data/ner_dataset_2-8d.csv"
+model_path = "trained/train_2-40-80-8d.pkl"
+
+model = NerModel(data_path, embedding_size=80)
+model.load_weights(model_path)
+
+print("\n\n##### START PREDICT #####")
+print("input_path: " + input_path)
+print("output_path: " + output_path)
+print("data_path: " + data_path)
+print("model_path: " + model_path)
+print("########################\n")
 
 def wrap_sentences(wordss):
     def warp_list(words, size):
