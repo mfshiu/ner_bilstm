@@ -6,6 +6,7 @@ import copy
 
 MAX_LENS = 70
 tags_history = dict()
+coerce_words = dict([(k, 1) for k in ["，", "個管師"]])
 
 
 def add_tag_history(tag, name):
@@ -46,7 +47,6 @@ def parse_input(input_path):
         file_text = fp.read().encode('utf-8').decode('utf-8-sig')
     print("Initial CKIP...")
     delimiters = {"，", "。", "：", "？", "！", "；", ",", ":", "?", "!", ";"}
-    coerce_words = dict([(k, 1) for k in ["，"]])
     ws = WS("./ckipdata")  # , disable_cuda=not GPU)
     blocks = file_text.split('\n\n--------------------\n\n')[:-1]
     for block_num, block in enumerate(blocks):

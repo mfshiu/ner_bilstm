@@ -4,7 +4,7 @@ def read_articles(file_path):
     return articles
 
 
-def read_articles_predicts(file_path):
+def read_articles_predicts(file_path, start_article_id):
     with open(file_path, "r", encoding="utf-8") as fp:
         rows = fp.readlines()[1:]
     if rows[-1][-1] != "\n":
@@ -13,10 +13,11 @@ def read_articles_predicts(file_path):
 
     articles_predicts = []
     predicts = []
-    article_id = rows[0][0]
+    article_id = str(start_article_id + int(rows[0][0]))
     for row in rows:
-        id = row[0]
-        line = "\t".join(row[1:])
+        id = str(start_article_id + int(row[0]))
+        row[0] = id
+        line = "\t".join(row)
         if id != article_id:
             articles_predicts.append(predicts)
             predicts = []
@@ -34,7 +35,7 @@ if __name__ == '__main__':
     output_path = "data/train_3.txt"
 
     articles = read_articles(development_path)
-    articles_predicts = read_articles_predicts(result_path)
+    articles_predicts = read_articles_predicts(result_path, 200)
 
     rows = []
     for i, article in enumerate(articles):

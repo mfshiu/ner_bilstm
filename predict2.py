@@ -1,7 +1,7 @@
 import os
 from ner_model import NerModel
 from ckiptagger import construct_dictionary, WS, POS, NER
-import train2
+import convert, train2
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
@@ -113,7 +113,9 @@ for article_id, article in enumerate(articles):
     print("[%d/%d] %s..." % (article_id, len(articles)-1, article[:50]))
     article2 = article.replace("。", "。 ").replace("？", "？ ").replace("！", "！ ")
     sentences = article2.split(" ")  # re.split("。|？|！|\n", article)
-    word_sentence_list = ws(sentences, segment_delimiter_set=delimiters)
+    word_sentence_list = ws(sentences,
+                            segment_delimiter_set=delimiters,
+                            coerce_dictionary=construct_dictionary(convert.coerce_words))
     wordss = wrap_sentences(word_sentence_list)
     tagss = model.predict(wordss)
     pos_sentence_list = pos(wordss)
