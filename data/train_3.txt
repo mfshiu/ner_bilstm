@@ -6081,7 +6081,7 @@ article_id	start_position	end_position	entity_text	entity_type
 248	428	431	166	med_exam
 248	441	444	217	med_exam
 248	455	458	200	med_exam
-248	463	4466	225	med_exam
+248	463	466	225	med_exam
 248	473	476	200	med_exam
 248	562	564	47	med_exam
 248	568	570	22	med_exam
@@ -6095,7 +6095,8 @@ article_id	start_position	end_position	entity_text	entity_type
 248	1428	1433	25000	med_exam
 248	1437	1442	30000	med_exam
 248	1448	1453	30000	med_exam
-248	1486	1495	25000，25K	med_exam
+48	1486	1491	25000	med_exam
+48	1492	1495	25K	med_exam
 248	1499	1501	25	med_exam
 248	1528	1531	143	med_exam
 248	1535	1538	143	med_exam
