@@ -1,6 +1,7 @@
 # 1
 import random
 from ckiptagger import construct_dictionary, WS
+import copy
 
 
 MAX_LENS = 70
@@ -73,44 +74,65 @@ def parse_input(input_path):
         # Generate sentence
         i, sen = 0, []
         for w in words:
-            sen.append((w, tags[i]))
-            if tags[i][:1] == "B":
+            if tags[i] != "O":
                 add_tag_history(tags[i], w)
+            sen.append((w, tags[i]))
             if w == "。" or w == "？":
-                # sentences.append(sen)
-                sens = extend_sentence(sen, 4)
-                for s in sens:
-                    sentences.append(s)
+                sentences.append(sen)
                 sen = []
             i += len(w)
-
-        # # Generate answer sentence
-        # for row in rows[2:]:
-        #     tokens = row.split('\t')
-        #     tag = "B-" + tokens[4][:3]
-        #     sentences.append([(tokens[3], tag)])
 
     return sentences
 
 
-def gen_output_rows(sentences):
-    rows = ["Sentence #,Word,POS,Tag"]
+def alter_sentence(sentences):
+    sentences2 = []
+
+    def count_O(sen):
+        cnt = 0
+        for w in sen:
+            if w[1] == "O":
+                cnt += 1
+        return cnt
+
     for i, sen in enumerate(sentences):
-        rows.append("%s,%s,_,%s"%("Sentence: " + str(i + 1), sen[0][0], sen[0][1]))
+        if count_O(sen) < len(sen):
+            sen2 = sen.copy()
+            for j, w in enumerate(sen2):
+                if w[1] != "O":
+                    w2 = random.choice(tags_history[w[1]])
+                    sen2[j] = (w2, w[1])
+            sentences2.append(sen2)
+
+    return sentences2
+
+def gen_output_rows(sentences, start_id, show_head):
+    rows = []
+    if show_head:
+        rows.append("Sentence #,Word,POS,Tag")
+    id = start_id
+    for sen in sentences:
+        rows.append("%s,%s,_,%s"%("Sentence: " + str(id), sen[0][0], sen[0][1]))
         for c in sen[1:]:
             rows.append(",%s,_,%s" % (c[0], c[1]))
+        id += 1
 
     return rows
 
 
 if __name__ == '__main__':
     input_path = "data/train_2.txt"
-    output_path = "data/ner_dataset_2-4d.csv"
+    output_path = "data/ner_dataset_2-8d.csv"
 
-    sentences = parse_input(input_path)
-    lines = gen_output_rows(sentences)
-    lines = [line + "\n" for line in lines]
     with open(output_path, "w") as fp:
+        sentences = parse_input(input_path)
+        lines = [line + "\n" for line in gen_output_rows(sentences, 1, True)]
         fp.writelines(lines)
+        start_index = len(sentences) + 1
+        for i in range(8):
+            sentences2 = alter_sentence(sentences)
+            lines = [line + "\n" for line in gen_output_rows(sentences2, start_index, False)]
+            fp.writelines(lines)
+            start_index += len(sentences2)
 
     print("Completed.")

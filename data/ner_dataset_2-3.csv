@@ -507,17 +507,7 @@ Sentence: 58,然後,_,O
 ,，,_,O
 ,102,_,B-med
 ,。,_,O
-Sentence: 59,然後,_,O
-,肝,_,O
-,功能,_,O
-,比較,_,O
-,異常,_,O
-,，,_,O
-,102,_,B-med
-,，,_,O
-,102,_,B-med
-,。,_,O
-Sentence: 60,民眾,_,O
+Sentence: 59,民眾,_,O
 ,：,_,O
 ,這,_,O
 ,個,_,O
@@ -526,19 +516,19 @@ Sentence: 60,民眾,_,O
 ,沒,_,O
 ,睡好,_,O
 ,。,_,O
-Sentence: 61,醫師,_,O
+Sentence: 60,醫師,_,O
 ,：,_,O
 ,也,_,O
 ,有,_,O
 ,可能,_,O
 ,。,_,O
-Sentence: 62,你,_,O
+Sentence: 61,你,_,O
 ,有沒有,_,O
 ,喝,_,O
 ,酒,_,O
 ,應酬,_,O
 ,？,_,O
-Sentence: 63,民眾,_,O
+Sentence: 62,民眾,_,O
 ,：,_,O
 ,喝,_,O
 ,酒,_,O
@@ -549,16 +539,16 @@ Sentence: 63,民眾,_,O
 ,了,_,O
 ,欸,_,O
 ,。,_,O
-Sentence: 64,醫師,_,O
+Sentence: 63,醫師,_,O
 ,：,_,O
 ,一陣子,_,O
 ,沒有,_,O
 ,。,_,O
-Sentence: 65,民眾,_,O
+Sentence: 64,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,。,_,O
-Sentence: 66,你,_,O
+Sentence: 65,你,_,O
 ,說,_,O
 ,假如,_,O
 ,是,_,O
@@ -572,26 +562,12 @@ Sentence: 66,你,_,O
 ,去年,_,B-tim
 ,可能,_,O
 ,。,_,O
-Sentence: 67,你,_,O
-,說,_,O
-,假如,_,O
-,是,_,O
-,前年,_,B-tim
-,，,_,O
-,那,_,O
-,有,_,O
-,可能,_,O
-,，,_,O
-,但是,_,O
-,前天,_,B-tim
-,可能,_,O
-,。,_,O
-Sentence: 68,醫師,_,O
+Sentence: 66,醫師,_,O
 ,：,_,O
 ,就,_,O
 ,沒有,_,O
 ,。,_,O
-Sentence: 69,民眾,_,O
+Sentence: 67,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,阿。,_,O
@@ -607,23 +583,17 @@ Sentence: 69,民眾,_,O
 ,比較,_,O
 ,多,_,O
 ,。,_,O
-Sentence: 70,醫師,_,O
+Sentence: 68,醫師,_,O
 ,：,_,O
 ,喔,_,O
 ,，,_,O
 ,前年,_,B-tim
 ,。,_,O
-Sentence: 71,醫師,_,O
-,：,_,O
-,喔,_,O
-,，,_,O
-,前天,_,B-tim
-,。,_,O
-Sentence: 72,民眾,_,O
+Sentence: 69,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,。,_,O
-Sentence: 73,醫師,_,O
+Sentence: 70,醫師,_,O
 ,：,_,O
 ,它,_,O
 ,，,_,O
@@ -632,7 +602,7 @@ Sentence: 73,醫師,_,O
 ,設廠,_,O
 ,喔,_,O
 ,？,_,O
-Sentence: 74,民眾,_,O
+Sentence: 71,民眾,_,O
 ,：,_,O
 ,欸,_,O
 ,，,_,O
@@ -640,13 +610,13 @@ Sentence: 74,民眾,_,O
 ,在,_,O
 ,那邊,_,O
 ,。,_,O
-Sentence: 75,醫師,_,O
+Sentence: 72,醫師,_,O
 ,：,_,O
 ,客戶,_,O
 ,在,_,O
 ,那邊,_,O
 ,。,_,O
-Sentence: 76,民眾,_,O
+Sentence: 73,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,對,_,O
@@ -659,7 +629,7 @@ Sentence: 76,民眾,_,O
 ,有,_,O
 ,設廠,_,O
 ,。,_,O
-Sentence: 77,醫師,_,O
+Sentence: 74,醫師,_,O
 ,：,_,O
 ,你,_,O
 ,是,_,O
@@ -669,13 +639,13 @@ Sentence: 77,醫師,_,O
 ,業務,_,O
 ,這樣子,_,O
 ,。,_,O
-Sentence: 78,民眾,_,O
+Sentence: 75,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,對,_,O
 ,對,_,O
 ,。,_,O
-Sentence: 79,醫師,_,O
+Sentence: 76,醫師,_,O
 ,：,_,O
 ,Google,_,B-pro
 ,不,_,O
@@ -687,10 +657,10 @@ Sentence: 79,醫師,_,O
 ,，,_,O
 ,ABS,_,O
 ,？,_,O
-Sentence: 80,民眾,_,O
+Sentence: 77,民眾,_,O
 ,：ABS,_,O
 ,。,_,O
-Sentence: 81,ABS,_,O
+Sentence: 78,ABS,_,O
 ,阿,_,O
 ,，,_,O
 ,跟,_,O
@@ -698,12 +668,12 @@ Sentence: 81,ABS,_,O
 ,個,_,O
 ,壓克力,_,O
 ,。,_,O
-Sentence: 82,醫師,_,O
+Sentence: 79,醫師,_,O
 ,：,_,O
 ,壓克力,_,O
 ,這樣子,_,O
 ,。,_,O
-Sentence: 83,所以,_,O
+Sentence: 80,所以,_,O
 ,我,_,O
 ,，,_,O
 ,我們,_,O
@@ -727,11 +697,11 @@ Sentence: 83,所以,_,O
 ,你,_,O
 ,看,_,O
 ,。,_,O
-Sentence: 84,民眾,_,O
+Sentence: 81,民眾,_,O
 ,：,_,O
 ,是,_,O
 ,。,_,O
-Sentence: 85,醫師,_,O
+Sentence: 82,醫師,_,O
 ,：,_,O
 ,就是,_,O
 ,這,_,O
@@ -741,7 +711,7 @@ Sentence: 85,醫師,_,O
 ,就,_,O
 ,是,_,O
 ,。,_,O
-Sentence: 86,這,_,O
+Sentence: 83,這,_,O
 ,是,_,O
 ,，,_,O
 ,你,_,O
@@ -751,17 +721,7 @@ Sentence: 86,這,_,O
 ,的,_,O
 ,時候,_,O
 ,。,_,O
-Sentence: 87,這,_,O
-,是,_,O
-,，,_,O
-,你,_,O
-,三月,_,B-tim
-,十八,_,I-tim
-,住院,_,O
-,的,_,O
-,時候,_,O
-,。,_,O
-Sentence: 88,民眾,_,O
+Sentence: 84,民眾,_,O
 ,：,_,O
 ,嗯,_,O
 ,嗯,_,O
@@ -769,7 +729,7 @@ Sentence: 88,民眾,_,O
 ,，,_,O
 ,有,_,O
 ,。,_,O
-Sentence: 89,醫師,_,O
+Sentence: 85,醫師,_,O
 ,：,_,O
 ,然後,_,O
 ,就,_,O
@@ -781,18 +741,18 @@ Sentence: 89,醫師,_,O
 ,有點,_,O
 ,發炎,_,O
 ,。,_,O
-Sentence: 90,腸子,_,O
+Sentence: 86,腸子,_,O
 ,，,_,O
 ,腸壁,_,O
 ,比較,_,O
 ,厚,_,O
 ,一點,_,O
 ,。,_,O
-Sentence: 91,民眾,_,O
+Sentence: 87,民眾,_,O
 ,：,_,O
 ,喔,_,O
 ,。,_,O
-Sentence: 92,醫師,_,O
+Sentence: 88,醫師,_,O
 ,：,_,O
 ,就是,_,O
 ,這邊,_,O
@@ -802,7 +762,7 @@ Sentence: 92,醫師,_,O
 ,厚厚,_,O
 ,的,_,O
 ,。,_,O
-Sentence: 93,正常,_,O
+Sentence: 89,正常,_,O
 ,應該,_,O
 ,像,_,O
 ,蛋殼,_,O
@@ -819,39 +779,39 @@ Sentence: 93,正常,_,O
 ,厚,_,O
 ,一點,_,O
 ,。,_,O
-Sentence: 94,民眾,_,O
+Sentence: 90,民眾,_,O
 ,：,_,O
 ,嗯,_,O
 ,，,_,O
 ,了,_,O
 ,解,_,O
 ,。,_,O
-Sentence: 95,醫師,_,O
+Sentence: 91,醫師,_,O
 ,：,_,O
 ,就,_,O
 ,比較,_,O
 ,厚,_,O
 ,一點,_,O
 ,。,_,O
-Sentence: 96,民眾,_,O
+Sentence: 92,民眾,_,O
 ,：,_,O
 ,那,_,O
 ,厚,_,O
 ,很多,_,O
 ,欸,_,O
 ,。,_,O
-Sentence: 97,醫師,_,O
+Sentence: 93,醫師,_,O
 ,：,_,O
 ,對,_,O
 ,，,_,O
 ,厚,_,O
 ,很多,_,O
 ,。,_,O
-Sentence: 98,民眾,_,O
+Sentence: 94,民眾,_,O
 ,：,_,O
 ,喔,_,O
 ,。,_,O
-Sentence: 99,醫師,_,O
+Sentence: 95,醫師,_,O
 ,：,_,O
 ,就,_,O
 ,是,_,O
@@ -865,7 +825,7 @@ Sentence: 99,醫師,_,O
 ,做,_,O
 ,切片,_,O
 ,。,_,O
-Sentence: 100,民眾,_,O
+Sentence: 96,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,，,_,O
@@ -873,19 +833,19 @@ Sentence: 100,民眾,_,O
 ,，,_,O
 ,對,_,O
 ,。,_,O
-Sentence: 101,醫師,_,O
+Sentence: 97,醫師,_,O
 ,：,_,O
 ,所以,_,O
 ,是,_,O
 ,發炎,_,O
 ,啦,_,O
 ,。,_,O
-Sentence: 102,民眾,_,O
+Sentence: 98,民眾,_,O
 ,：,_,O
 ,是,_,O
 ,發炎,_,O
 ,。,_,O
-Sentence: 103,醫師,_,O
+Sentence: 99,醫師,_,O
 ,：,_,O
 ,也許,_,O
 ,是,_,O
@@ -905,11 +865,11 @@ Sentence: 103,醫師,_,O
 ,發燒,_,O
 ,這樣子,_,O
 ,。,_,O
-Sentence: 104,民眾,_,O
+Sentence: 100,民眾,_,O
 ,：,_,O
 ,嗯,_,O
 ,。,_,O
-Sentence: 105,我,_,O
+Sentence: 101,我,_,O
 ,覺得,_,O
 ,一,_,O
 ,開始,_,O
@@ -917,13 +877,13 @@ Sentence: 105,我,_,O
 ,是,_,O
 ,這樣,_,O
 ,。,_,O
-Sentence: 106,醫師,_,O
+Sentence: 102,醫師,_,O
 ,：,_,O
 ,應該,_,O
 ,是,_,O
 ,這樣,_,O
 ,。,_,O
-Sentence: 107,民眾,_,O
+Sentence: 103,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,阿。,_,O
@@ -937,27 +897,27 @@ Sentence: 107,民眾,_,O
 ,看,_,O
 ,這邊,_,O
 ,。,_,O
-Sentence: 108,這,_,O
+Sentence: 104,這,_,O
 ,是,_,O
 ,主動脈,_,O
 ,嘛,_,O
 ,。,_,O
-Sentence: 109,民眾,_,O
+Sentence: 105,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,。,_,O
-Sentence: 110,醫師,_,O
+Sentence: 106,醫師,_,O
 ,：,_,O
 ,這,_,O
 ,條,_,O
 ,是,_,O
 ,大主動脈,_,O
 ,。,_,O
-Sentence: 111,民眾,_,O
+Sentence: 107,民眾,_,O
 ,：,_,O
 ,嗯,_,O
 ,。,_,O
-Sentence: 112,醫師,_,O
+Sentence: 108,醫師,_,O
 ,：,_,O
 ,阿旁邊,_,O
 ,你,_,O
@@ -972,7 +932,7 @@ Sentence: 112,醫師,_,O
 ,的,_,O
 ,有沒有,_,O
 ,。,_,O
-Sentence: 113,民眾,_,O
+Sentence: 109,民眾,_,O
 ,：,_,O
 ,那,_,O
 ,個,_,O
@@ -980,31 +940,31 @@ Sentence: 113,民眾,_,O
 ,淋巴結,_,O
 ,嗎,_,O
 ,？,_,O
-Sentence: 114,醫師,_,O
+Sentence: 110,醫師,_,O
 ,：,_,O
 ,那,_,O
 ,是,_,O
 ,淋巴結,_,O
 ,。,_,O
-Sentence: 115,民眾,_,O
+Sentence: 111,民眾,_,O
 ,：,_,O
 ,喔,_,O
 ,。,_,O
-Sentence: 116,醫師,_,O
+Sentence: 112,醫師,_,O
 ,：,_,O
 ,對,_,O
 ,。,_,O
-Sentence: 117,民眾,_,O
+Sentence: 113,民眾,_,O
 ,：,_,O
 ,怎麼,_,O
 ,那麼,_,O
 ,腫,_,O
 ,。,_,O
-Sentence: 118,醫師,_,O
+Sentence: 114,醫師,_,O
 ,：,_,O
 ,嘿,_,O
 ,。,_,O
-Sentence: 119,民眾,_,O
+Sentence: 115,民眾,_,O
 ,：,_,O
 ,理論,_,O
 ,上,_,O
@@ -1016,7 +976,7 @@ Sentence: 119,民眾,_,O
 ,不,_,O
 ,對,_,O
 ,。,_,O
-Sentence: 120,醫師,_,O
+Sentence: 116,醫師,_,O
 ,：,_,O
 ,對,_,O
 ,，,_,O
@@ -1025,7 +985,7 @@ Sentence: 120,醫師,_,O
 ,不應該,_,O
 ,這麼多,_,O
 ,。,_,O
-Sentence: 121,但是,_,O
+Sentence: 117,但是,_,O
 ,，,_,O
 ,淋巴結,_,O
 ,是,_,O
@@ -1038,13 +998,13 @@ Sentence: 121,但是,_,O
 ,的,_,O
 ,意思,_,O
 ,。,_,O
-Sentence: 122,民眾,_,O
+Sentence: 118,民眾,_,O
 ,：,_,O
 ,喔,_,O
 ,，,_,O
 ,哨站,_,O
 ,。,_,O
-Sentence: 123,醫師,_,O
+Sentence: 119,醫師,_,O
 ,：,_,O
 ,哨站,_,O
 ,，,_,O
@@ -1052,7 +1012,7 @@ Sentence: 123,醫師,_,O
 ,對,_,O
 ,對,_,O
 ,。,_,O
-Sentence: 124,也就是說,_,O
+Sentence: 120,也就是說,_,O
 ,，,_,O
 ,這,_,O
 ,個,_,O
@@ -1070,13 +1030,13 @@ Sentence: 124,也就是說,_,O
 ,或,_,O
 ,病毒,_,O
 ,。,_,O
-Sentence: 125,民眾,_,O
+Sentence: 121,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,對,_,O
 ,對,_,O
 ,。,_,O
-Sentence: 126,醫師,_,O
+Sentence: 122,醫師,_,O
 ,：,_,O
 ,阿周,_,O
 ,遭,_,O
@@ -1085,12 +1045,12 @@ Sentence: 126,醫師,_,O
 ,就,_,O
 ,會,_,O
 ,。,_,O
-Sentence: 127,民眾,_,O
+Sentence: 123,民眾,_,O
 ,：,_,O
 ,阿浪,_,O
 ,這樣子,_,O
 ,。,_,O
-Sentence: 128,醫師,_,O
+Sentence: 124,醫師,_,O
 ,：,_,O
 ,就,_,O
 ,會,_,O
@@ -1110,7 +1070,7 @@ Sentence: 128,醫師,_,O
 ,兵,_,O
 ,嘛,_,O
 ,。,_,O
-Sentence: 129,就,_,O
+Sentence: 125,就,_,O
 ,是,_,O
 ,阿兵哥,_,O
 ,就,_,O
@@ -1122,7 +1082,7 @@ Sentence: 129,就,_,O
 ,過來,_,O
 ,這樣子,_,O
 ,。,_,O
-Sentence: 130,民眾,_,O
+Sentence: 126,民眾,_,O
 ,：,_,O
 ,欸,_,O
 ,可是,_,O
@@ -1144,7 +1104,7 @@ Sentence: 130,民眾,_,O
 ,白血球,_,O
 ,嗎,_,O
 ,？,_,O
-Sentence: 131,民眾,_,O
+Sentence: 127,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,阿。,_,O
@@ -1155,7 +1115,7 @@ Sentence: 131,民眾,_,O
 ,是,_,O
 ,嗎,_,O
 ,？,_,O
-Sentence: 132,醫師,_,O
+Sentence: 128,醫師,_,O
 ,：,_,O
 ,對,_,O
 ,，,_,O
@@ -1164,7 +1124,7 @@ Sentence: 132,醫師,_,O
 ,特別,_,O
 ,多,_,O
 ,。,_,O
-Sentence: 133,民眾,_,O
+Sentence: 129,民眾,_,O
 ,：,_,O
 ,喔,_,O
 ,，,_,O
@@ -1178,13 +1138,13 @@ Sentence: 133,民眾,_,O
 ,不,_,O
 ,是,_,O
 ,？,_,O
-Sentence: 134,醫師,_,O
+Sentence: 130,醫師,_,O
 ,：,_,O
 ,應該,_,O
 ,是,_,O
 ,說,_,O
 ,。,_,O
-Sentence: 135,民眾,_,O
+Sentence: 131,民眾,_,O
 ,：,_,O
 ,這樣,_,O
 ,還,_,O
@@ -1205,7 +1165,7 @@ Sentence: 135,民眾,_,O
 ,應該,_,O
 ,要,_,O
 ,。,_,O
-Sentence: 136,醫師,_,O
+Sentence: 132,醫師,_,O
 ,：,_,O
 ,這,_,O
 ,比較,_,O
@@ -1216,13 +1176,13 @@ Sentence: 136,醫師,_,O
 ,會,_,O
 ,這樣,_,O
 ,。,_,O
-Sentence: 137,民眾,_,O
+Sentence: 133,民眾,_,O
 ,：,_,O
 ,真,_,O
 ,的,_,O
 ,嗎,_,O
 ,？,_,O
-Sentence: 138,醫師,_,O
+Sentence: 134,醫師,_,O
 ,：,_,O
 ,病毒,_,O
 ,的,_,O
@@ -1231,18 +1191,18 @@ Sentence: 138,醫師,_,O
 ,，,_,O
 ,這樣子,_,O
 ,。,_,O
-Sentence: 139,細菌,_,O
+Sentence: 135,細菌,_,O
 ,的話,_,O
 ,通常,_,O
 ,都,_,O
 ,會,_,O
 ,衝高,_,O
 ,。,_,O
-Sentence: 140,民眾,_,O
+Sentence: 136,民眾,_,O
 ,：,_,O
 ,嗯,_,O
 ,。,_,O
-Sentence: 141,醫師,_,O
+Sentence: 137,醫師,_,O
 ,：,_,O
 ,嘿,_,O
 ,，,_,O
@@ -1251,7 +1211,7 @@ Sentence: 141,醫師,_,O
 ,會,_,O
 ,衝高,_,O
 ,。,_,O
-Sentence: 142,阿你,_,O
+Sentence: 138,阿你,_,O
 ,的,_,O
 ,白血球,_,O
 ,不,_,O
@@ -1259,7 +1219,7 @@ Sentence: 142,阿你,_,O
 ,很,_,O
 ,高,_,O
 ,。,_,O
-Sentence: 143,阿不過,_,O
+Sentence: 139,阿不過,_,O
 ,我,_,O
 ,必須,_,O
 ,，,_,O
@@ -1274,7 +1234,7 @@ Sentence: 143,阿不過,_,O
 ,是,_,O
 ,還好,_,O
 ,。,_,O
-Sentence: 144,因為,_,O
+Sentence: 140,因為,_,O
 ,淋巴結齁,_,O
 ,，,_,O
 ,放射科,_,O
@@ -1292,11 +1252,11 @@ Sentence: 144,因為,_,O
 ,淋巴結,_,O
 ,腫大,_,O
 ,。,_,O
-Sentence: 145,民眾,_,O
+Sentence: 141,民眾,_,O
 ,：,_,O
 ,嗯,_,O
 ,。,_,O
-Sentence: 146,醫師,_,O
+Sentence: 142,醫師,_,O
 ,：,_,O
 ,這,_,O
 ,種,_,O
@@ -1304,12 +1264,12 @@ Sentence: 146,醫師,_,O
 ,良性,_,O
 ,的,_,O
 ,。,_,O
-Sentence: 147,民眾,_,O
+Sentence: 143,民眾,_,O
 ,：,_,O
 ,喔喔,_,O
 ,喔,_,O
 ,。,_,O
-Sentence: 148,醫師,_,O
+Sentence: 144,醫師,_,O
 ,：,_,O
 ,所以,_,O
 ,就,_,O
@@ -1319,13 +1279,13 @@ Sentence: 148,醫師,_,O
 ,，,_,O
 ,reactive,_,O
 ,。,_,O
-Sentence: 149,民眾,_,O
+Sentence: 145,民眾,_,O
 ,：,_,O
 ,嗯,_,O
 ,嗯,_,O
 ,嗯,_,O
 ,。,_,O
-Sentence: 150,醫師,_,O
+Sentence: 146,醫師,_,O
 ,：,_,O
 ,阿你,_,O
 ,發炎,_,O
@@ -1338,13 +1298,13 @@ Sentence: 150,醫師,_,O
 ,會,_,O
 ,消下去,_,O
 ,。,_,O
-Sentence: 151,民眾,_,O
+Sentence: 147,民眾,_,O
 ,：,_,O
 ,一定,_,O
 ,會,_,O
 ,消下來,_,O
 ,。,_,O
-Sentence: 152,醫師,_,O
+Sentence: 148,醫師,_,O
 ,：,_,O
 ,它,_,O
 ,就,_,O
@@ -1353,13 +1313,13 @@ Sentence: 152,醫師,_,O
 ,了,_,O
 ,嘛,_,O
 ,。,_,O
-Sentence: 153,民眾,_,O
+Sentence: 149,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,對,_,O
 ,對,_,O
 ,。,_,O
-Sentence: 154,醫師,_,O
+Sentence: 150,醫師,_,O
 ,：,_,O
 ,阿假如,_,O
 ,是,_,O
@@ -1367,16 +1327,16 @@ Sentence: 154,醫師,_,O
 ,的話,_,O
 ,呢,_,O
 ,？,_,O
-Sentence: 155,它,_,O
+Sentence: 151,它,_,O
 ,就,_,O
 ,會,_,O
 ,。,_,O
-Sentence: 156,民眾,_,O
+Sentence: 152,民眾,_,O
 ,：,_,O
 ,一直,_,O
 ,持續,_,O
 ,。,_,O
-Sentence: 157,醫師,_,O
+Sentence: 153,醫師,_,O
 ,：,_,O
 ,一直,_,O
 ,持續,_,O
@@ -1386,13 +1346,13 @@ Sentence: 157,醫師,_,O
 ,變大,_,O
 ,這樣子,_,O
 ,。,_,O
-Sentence: 158,民眾,_,O
+Sentence: 154,民眾,_,O
 ,：,_,O
 ,嗯,_,O
 ,嗯,_,O
 ,嗯,_,O
 ,。,_,O
-Sentence: 159,醫師,_,O
+Sentence: 155,醫師,_,O
 ,：,_,O
 ,那,_,O
 ,時候,_,O
@@ -1402,12 +1362,12 @@ Sentence: 159,醫師,_,O
 ,切片,_,O
 ,這樣子,_,O
 ,。,_,O
-Sentence: 160,民眾,_,O
+Sentence: 156,民眾,_,O
 ,：,_,O
 ,了,_,O
 ,解,_,O
 ,。,_,O
-Sentence: 161,醫師,_,O
+Sentence: 157,醫師,_,O
 ,：,_,O
 ,阿但,_,O
 ,是,_,O
@@ -1424,11 +1384,11 @@ Sentence: 161,醫師,_,O
 ,很,_,O
 ,大,_,O
 ,。,_,O
-Sentence: 162,民眾,_,O
+Sentence: 158,民眾,_,O
 ,：,_,O
 ,嗯,_,O
 ,。,_,O
-Sentence: 163,醫師,_,O
+Sentence: 159,醫師,_,O
 ,：,_,O
 ,而且,_,O
 ,它,_,O
@@ -1437,7 +1397,7 @@ Sentence: 163,醫師,_,O
 ,是,_,O
 ,會,_,O
 ,。,_,O
-Sentence: 164,民眾,_,O
+Sentence: 160,民眾,_,O
 ,：,_,O
 ,會,_,O
 ,比,_,O
@@ -1446,7 +1406,7 @@ Sentence: 164,民眾,_,O
 ,還,_,O
 ,大,_,O
 ,。,_,O
-Sentence: 165,醫師,_,O
+Sentence: 161,醫師,_,O
 ,：,_,O
 ,會,_,O
 ,比較,_,O
@@ -1459,13 +1419,13 @@ Sentence: 165,醫師,_,O
 ,的,_,O
 ,這樣,_,O
 ,。,_,O
-Sentence: 166,民眾,_,O
+Sentence: 162,民眾,_,O
 ,：,_,O
 ,嗯,_,O
 ,嗯,_,O
 ,嗯,_,O
 ,。,_,O
-Sentence: 167,醫師,_,O
+Sentence: 163,醫師,_,O
 ,：,_,O
 ,你,_,O
 ,可以,_,O
@@ -1486,18 +1446,18 @@ Sentence: 167,醫師,_,O
 ,不,_,O
 ,規則,_,O
 ,。,_,O
-Sentence: 168,民眾,_,O
+Sentence: 164,民眾,_,O
 ,：,_,O
 ,比較,_,O
 ,怪異,_,O
 ,。,_,O
-Sentence: 169,醫師,_,O
+Sentence: 165,醫師,_,O
 ,：,_,O
 ,比較,_,O
 ,怪異,_,O
 ,這樣,_,O
 ,。,_,O
-Sentence: 170,阿當然,_,O
+Sentence: 166,阿當然,_,O
 ,最,_,O
 ,準,_,O
 ,的話,_,O
@@ -1514,21 +1474,21 @@ Sentence: 170,阿當然,_,O
 ,怎麼,_,O
 ,切,_,O
 ,。,_,O
-Sentence: 171,民眾,_,O
+Sentence: 167,民眾,_,O
 ,：,_,O
 ,這,_,O
 ,個,_,O
 ,不,_,O
 ,要,_,O
 ,。,_,O
-Sentence: 172,醫師,_,O
+Sentence: 168,醫師,_,O
 ,：,_,O
 ,不要,_,O
 ,啦,_,O
 ,，,_,O
 ,不要,_,O
 ,。,_,O
-Sentence: 173,民眾,_,O
+Sentence: 169,民眾,_,O
 ,：,_,O
 ,不要,_,O
 ,開膛,_,O
@@ -1537,12 +1497,12 @@ Sentence: 173,民眾,_,O
 ,算了,_,O
 ,算了,_,O
 ,。,_,O
-Sentence: 174,醫師,_,O
+Sentence: 170,醫師,_,O
 ,：,_,O
 ,不要,_,O
 ,不要,_,O
 ,。,_,O
-Sentence: 175,我,_,O
+Sentence: 171,我,_,O
 ,想,_,O
 ,我們,_,O
 ,計劃,_,O
@@ -1563,7 +1523,7 @@ Sentence: 175,我,_,O
 ,就,_,O
 ,OK,_,O
 ,。,_,O
-Sentence: 176,我們,_,O
+Sentence: 172,我們,_,O
 ,過,_,O
 ,一,_,O
 ,段,_,O
@@ -1576,12 +1536,12 @@ Sentence: 176,我們,_,O
 ,好,_,O
 ,了,_,O
 ,。,_,O
-Sentence: 177,民眾,_,O
+Sentence: 173,民眾,_,O
 ,：,_,O
 ,可以,_,O
 ,啊,_,O
 ,。,_,O
-Sentence: 178,醫師,_,O
+Sentence: 174,醫師,_,O
 ,：,_,O
 ,兩,_,B-tim
 ,個,_,I-tim
@@ -1594,20 +1554,7 @@ Sentence: 178,醫師,_,O
 ,沒有,_,O
 ,問題,_,O
 ,。,_,O
-Sentence: 179,醫師,_,O
-,：,_,O
-,前天,_,B-tim
-,個,_,I-tim
-,月,_,I-tim
-,之後,_,O
-,再,_,O
-,追蹤,_,O
-,看看,_,O
-,，,_,O
-,沒有,_,O
-,問題,_,O
-,。,_,O
-Sentence: 180,民眾,_,O
+Sentence: 175,民眾,_,O
 ,：,_,O
 ,喔,_,O
 ,，,_,O
@@ -1615,7 +1562,7 @@ Sentence: 180,民眾,_,O
 ,是,_,O
 ,回,_,O
 ,。,_,O
-Sentence: 181,醫師,_,O
+Sentence: 176,醫師,_,O
 ,：,_,O
 ,嘿,_,O
 ,阿,_,O
@@ -1626,11 +1573,11 @@ Sentence: 181,醫師,_,O
 ,的,_,O
 ,方式,_,O
 ,。,_,O
-Sentence: 182,民眾,_,O
+Sentence: 177,民眾,_,O
 ,：,_,O
 ,可以,_,O
 ,。,_,O
-Sentence: 183,醫師,_,O
+Sentence: 178,醫師,_,O
 ,：,_,O
 ,阿賈伯斯,_,O
 ,的,_,O
@@ -1639,16 +1586,16 @@ Sentence: 183,醫師,_,O
 ,了,_,O
 ,嗎,_,O
 ,？,_,O
-Sentence: 184,民眾,_,O
+Sentence: 179,民眾,_,O
 ,：,_,O
 ,賈伯斯,_,B-nam
 ,的,_,O
 ,。,_,O
-Sentence: 185,醫師,_,O
+Sentence: 180,醫師,_,O
 ,：,_,O
 ,門診,_,O
 ,。,_,O
-Sentence: 186,民眾,_,O
+Sentence: 181,民眾,_,O
 ,：,_,O
 ,門診,_,O
 ,還,_,O
@@ -1659,18 +1606,7 @@ Sentence: 186,民眾,_,O
 ,下下,_,B-tim
 ,禮拜,_,I-tim
 ,。,_,O
-Sentence: 187,民眾,_,O
-,：,_,O
-,門診,_,O
-,還,_,O
-,沒有,_,O
-,，,_,O
-,他,_,O
-,是,_,O
-,前年,_,B-tim
-,禮拜,_,I-tim
-,。,_,O
-Sentence: 188,醫師,_,O
+Sentence: 182,醫師,_,O
 ,：,_,O
 ,喔,_,O
 ,，,_,O
@@ -1679,16 +1615,7 @@ Sentence: 188,醫師,_,O
 ,下下,_,B-tim
 ,禮拜,_,I-tim
 ,。,_,O
-Sentence: 189,醫師,_,O
-,：,_,O
-,喔,_,O
-,，,_,O
-,他,_,O
-,是,_,O
-,去年,_,B-tim
-,禮拜,_,I-tim
-,。,_,O
-Sentence: 190,民眾,_,O
+Sentence: 183,民眾,_,O
 ,：,_,O
 ,而且,_,O
 ,他,_,O
@@ -1698,16 +1625,16 @@ Sentence: 190,民眾,_,O
 ,很多,_,O
 ,血,_,O
 ,。,_,O
-Sentence: 191,醫師,_,O
+Sentence: 184,醫師,_,O
 ,：,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 192,民眾,_,O
+Sentence: 185,民眾,_,O
 ,：,_,O
 ,是,_,O
 ,還好,_,O
 ,。,_,O
-Sentence: 193,醫師,_,O
+Sentence: 186,醫師,_,O
 ,：,_,O
 ,你,_,O
 ,住院,_,O
@@ -1723,23 +1650,7 @@ Sentence: 193,醫師,_,O
 ,個,_,I-tim
 ,禮拜,_,I-tim
 ,。,_,O
-Sentence: 194,醫師,_,O
-,：,_,O
-,你,_,O
-,住院,_,O
-,前年,_,B-tim
-,二十一,_,I-tim
-,到,_,O
-,現在,_,O
-,，,_,O
-,那,_,O
-,我們,_,O
-,再,_,O
-,前天,_,B-tim
-,個,_,I-tim
-,禮拜,_,I-tim
-,。,_,O
-Sentence: 195,我,_,O
+Sentence: 187,我,_,O
 ,想,_,O
 ,抗生素,_,O
 ,還是,_,O
@@ -1751,7 +1662,7 @@ Sentence: 195,我,_,O
 ,，,_,O
 ,預防,_,O
 ,。,_,O
-Sentence: 196,民眾,_,O
+Sentence: 188,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,，,_,O
@@ -1765,14 +1676,14 @@ Sentence: 196,民眾,_,O
 ,有,_,O
 ,吃,_,O
 ,。,_,O
-Sentence: 197,醫師,_,O
+Sentence: 189,醫師,_,O
 ,：,_,O
 ,那,_,O
 ,顆,_,O
 ,綠色,_,O
 ,的,_,O
 ,。,_,O
-Sentence: 198,民眾,_,O
+Sentence: 190,民眾,_,O
 ,：,_,O
 ,欸,_,O
 ,，,_,O
@@ -1786,7 +1697,7 @@ Sentence: 198,民眾,_,O
 ,也,_,O
 ,有,_,O
 ,。,_,O
-Sentence: 199,醫師,_,O
+Sentence: 191,醫師,_,O
 ,：,_,O
 ,我,_,O
 ,看,_,O
@@ -1798,7 +1709,7 @@ Sentence: 199,醫師,_,O
 ,看,_,O
 ,一下,_,O
 ,。,_,O
-Sentence: 200,那,_,O
+Sentence: 192,那,_,O
 ,我們,_,O
 ,就,_,O
 ,先,_,O
@@ -1807,7 +1718,7 @@ Sentence: 200,那,_,O
 ,個,_,O
 ,好不好,_,O
 ,？,_,O
-Sentence: 201,先,_,O
+Sentence: 193,先,_,O
 ,停,_,O
 ,黃色,_,O
 ,的,_,O
@@ -1816,13 +1727,13 @@ Sentence: 201,先,_,O
 ,的,_,O
 ,啦,_,O
 ,。,_,O
-Sentence: 202,民眾,_,O
+Sentence: 194,民眾,_,O
 ,：,_,O
 ,喔,_,O
 ,真的,_,O
 ,喔,_,O
 ,。,_,O
-Sentence: 203,醫師,_,O
+Sentence: 195,醫師,_,O
 ,：,_,O
 ,還是,_,O
 ,再,_,O
@@ -1831,7 +1742,7 @@ Sentence: 203,醫師,_,O
 ,串,_,O
 ,這樣子,_,O
 ,。,_,O
-Sentence: 204,民眾,_,O
+Sentence: 196,民眾,_,O
 ,：,_,O
 ,我,_,O
 ,都,_,O
@@ -1842,7 +1753,7 @@ Sentence: 204,民眾,_,O
 ,都,_,O
 ,可以,_,O
 ,。,_,O
-Sentence: 205,醫師,_,O
+Sentence: 197,醫師,_,O
 ,：,_,O
 ,那,_,O
 ,把,_,O
@@ -1850,22 +1761,22 @@ Sentence: 205,醫師,_,O
 ,吃完,_,O
 ,好了,_,O
 ,。,_,O
-Sentence: 206,民眾,_,O
+Sentence: 198,民眾,_,O
 ,：,_,O
 ,把,_,O
 ,它,_,O
 ,吃完,_,O
 ,。,_,O
-Sentence: 207,醫師,_,O
+Sentence: 199,醫師,_,O
 ,：,_,O
 ,嘿,_,O
 ,，,_,O
 ,吃完,_,O
 ,。,_,O
-Sentence: 208,民眾,_,O
+Sentence: 200,民眾,_,O
 ,：OKOK,_,O
 ,。,_,O
-Sentence: 209,醫師,_,O
+Sentence: 201,醫師,_,O
 ,：,_,O
 ,再,_,O
 ,吃,_,O
@@ -1873,15 +1784,7 @@ Sentence: 209,醫師,_,O
 ,個,_,I-tim
 ,禮拜,_,I-tim
 ,。,_,O
-Sentence: 210,醫師,_,O
-,：,_,O
-,再,_,O
-,吃,_,O
-,兩,_,B-tim
-,個,_,I-tim
-,禮拜,_,I-tim
-,。,_,O
-Sentence: 211,民眾,_,O
+Sentence: 202,民眾,_,O
 ,：,_,O
 ,欸,_,O
 ,，,_,O
@@ -1892,14 +1795,14 @@ Sentence: 211,民眾,_,O
 ,什麼,_,O
 ,的,_,O
 ,？,_,O
-Sentence: 212,醫師,_,O
+Sentence: 203,醫師,_,O
 ,：,_,O
 ,就,_,O
 ,一般,_,O
 ,的,_,O
 ,細菌,_,O
 ,。,_,O
-Sentence: 213,民眾,_,O
+Sentence: 204,民眾,_,O
 ,：,_,O
 ,黃色,_,O
 ,是,_,O
@@ -1907,11 +1810,11 @@ Sentence: 213,民眾,_,O
 ,的,_,O
 ,細菌,_,O
 ,。,_,O
-Sentence: 214,醫師,_,O
+Sentence: 205,醫師,_,O
 ,：,_,O
 ,對,_,O
 ,。,_,O
-Sentence: 215,民眾,_,O
+Sentence: 206,民眾,_,O
 ,：,_,O
 ,我,_,O
 ,聽說,_,O
@@ -1927,7 +1830,7 @@ Sentence: 215,民眾,_,O
 ,難搞,_,O
 ,的,_,O
 ,。,_,O
-Sentence: 216,醫師,_,O
+Sentence: 207,醫師,_,O
 ,：,_,O
 ,對,_,O
 ,對,_,O
@@ -1939,12 +1842,12 @@ Sentence: 216,醫師,_,O
 ,罕見,_,O
 ,的,_,O
 ,。,_,O
-Sentence: 217,民眾,_,O
+Sentence: 208,民眾,_,O
 ,：,_,O
 ,嗯,_,O
 ,嗯,_,O
 ,。,_,O
-Sentence: 218,醫師,_,O
+Sentence: 209,醫師,_,O
 ,：,_,O
 ,綠色,_,O
 ,的,_,O
@@ -1952,12 +1855,12 @@ Sentence: 218,醫師,_,O
 ,要,_,O
 ,吃,_,O
 ,。,_,O
-Sentence: 219,民眾,_,O
+Sentence: 210,民眾,_,O
 ,：,_,O
 ,嗯,_,O
 ,嗯,_,O
 ,。,_,O
-Sentence: 220,醫師,_,O
+Sentence: 211,醫師,_,O
 ,：,_,O
 ,算了,_,O
 ,，,_,O
@@ -1969,7 +1872,7 @@ Sentence: 220,醫師,_,O
 ,停掉,_,O
 ,好了,_,O
 ,。,_,O
-Sentence: 221,黃色,_,O
+Sentence: 212,黃色,_,O
 ,的,_,O
 ,，,_,O
 ,因為,_,O
@@ -1999,12 +1902,12 @@ Sentence: 221,黃色,_,O
 ,的,_,O
 ,好了,_,O
 ,。,_,O
-Sentence: 222,民眾,_,O
+Sentence: 213,民眾,_,O
 ,：,_,O
 ,可以,_,O
 ,啊,_,O
 ,。,_,O
-Sentence: 223,醫師,_,O
+Sentence: 214,醫師,_,O
 ,：,_,O
 ,那,_,O
 ,你,_,O
@@ -2013,7 +1916,7 @@ Sentence: 223,醫師,_,O
 ,請假,_,O
 ,還是,_,O
 ,？,_,O
-Sentence: 224,民眾,_,O
+Sentence: 215,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,阿,_,O
@@ -2022,21 +1925,17 @@ Sentence: 224,民眾,_,O
 ,繼續,_,O
 ,請,_,O
 ,。,_,O
-Sentence: 225,我,_,O
+Sentence: 216,我,_,O
 ,後天,_,B-tim
 ,上班,_,O
 ,。,_,O
-Sentence: 226,我,_,O
-,兩,_,B-tim
-,上班,_,O
-,。,_,O
-Sentence: 227,醫師,_,O
+Sentence: 217,醫師,_,O
 ,：,_,O
 ,阿不要,_,O
 ,太,_,O
 ,累,_,O
 ,。,_,O
-Sentence: 228,民眾,_,O
+Sentence: 218,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,阿,_,O
@@ -2048,14 +1947,14 @@ Sentence: 228,民眾,_,O
 ,虛虛,_,O
 ,的,_,O
 ,。,_,O
-Sentence: 229,畢竟,_,O
+Sentence: 219,畢竟,_,O
 ,。,_,O
-Sentence: 230,醫師,_,O
+Sentence: 220,醫師,_,O
 ,：,_,O
 ,虛虛,_,O
 ,的,_,O
 ,。,_,O
-Sentence: 231,民眾,_,O
+Sentence: 221,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,阿,_,O
@@ -2064,14 +1963,14 @@ Sentence: 231,民眾,_,O
 ,那,_,O
 ,個,_,O
 ,。,_,O
-Sentence: 232,醫師,_,O
+Sentence: 222,醫師,_,O
 ,：,_,O
 ,阿你,_,O
 ,定居,_,O
 ,美國,_,B-loc
 ,這樣,_,O
 ,？,_,O
-Sentence: 233,民眾,_,O
+Sentence: 223,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,阿,_,O
@@ -2080,36 +1979,30 @@ Sentence: 233,民眾,_,O
 ,現在,_,O
 ,住,_,O
 ,。,_,O
-Sentence: 234,醫師,_,O
+Sentence: 224,醫師,_,O
 ,：,_,O
 ,買,_,O
 ,房子,_,O
 ,。,_,O
-Sentence: 235,民眾,_,O
+Sentence: 225,民眾,_,O
 ,：,_,O
 ,住,_,O
 ,紐約,_,B-loc
 ,那邊,_,O
 ,。,_,O
-Sentence: 236,醫師,_,O
+Sentence: 226,醫師,_,O
 ,：,_,O
 ,喔,_,O
 ,，,_,O
 ,紐約,_,B-loc
 ,。,_,O
-Sentence: 237,醫師,_,O
-,：,_,O
-,喔,_,O
-,，,_,O
-,紐約,_,B-loc
-,。,_,O
-Sentence: 238,民眾,_,O
+Sentence: 227,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,對,_,O
 ,對,_,O
 ,。,_,O
-Sentence: 239,醫師,_,O
+Sentence: 228,醫師,_,O
 ,：,_,O
 ,喔,_,O
 ,，,_,O
@@ -2118,11 +2011,11 @@ Sentence: 239,醫師,_,O
 ,社區,_,O
 ,欸,_,O
 ,。,_,O
-Sentence: 240,民眾,_,O
+Sentence: 229,民眾,_,O
 ,：,_,O
 ,嘿,_,O
 ,。,_,O
-Sentence: 241,醫師,_,O
+Sentence: 230,醫師,_,O
 ,：,_,O
 ,那,_,O
 ,還,_,O
@@ -2136,7 +2029,7 @@ Sentence: 241,醫師,_,O
 ,圖書館,_,O
 ,這樣,_,O
 ,。,_,O
-Sentence: 242,民眾,_,O
+Sentence: 231,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,，,_,O
@@ -2146,25 +2039,25 @@ Sentence: 242,民眾,_,O
 ,新,_,O
 ,總圖,_,O
 ,。,_,O
-Sentence: 243,醫師,_,O
+Sentence: 232,醫師,_,O
 ,：,_,O
 ,新,_,O
 ,總圖,_,O
 ,這樣子,_,O
 ,。,_,O
-Sentence: 244,民眾,_,O
+Sentence: 233,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,對,_,O
 ,對,_,O
 ,。,_,O
-Sentence: 245,醫師,_,O
+Sentence: 234,醫師,_,O
 ,：,_,O
 ,還,_,O
 ,沒,_,O
 ,結婚,_,O
 ,？,_,O
-Sentence: 246,民眾,_,O
+Sentence: 235,民眾,_,O
 ,：,_,O
 ,還,_,O
 ,沒,_,O
@@ -2177,7 +2070,7 @@ Sentence: 246,民眾,_,O
 ,不,_,O
 ,順遂,_,O
 ,。,_,O
-Sentence: 247,醫師,_,O
+Sentence: 236,醫師,_,O
 ,：,_,O
 ,沒關係,_,O
 ,，,_,O
@@ -2189,7 +2082,7 @@ Sentence: 247,醫師,_,O
 ,就,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 248,民眾,_,O
+Sentence: 237,民眾,_,O
 ,：,_,O
 ,我,_,O
 ,也,_,O
@@ -2197,7 +2090,7 @@ Sentence: 248,民眾,_,O
 ,這樣,_,O
 ,想,_,O
 ,。,_,O
-Sentence: 249,醫師,_,O
+Sentence: 238,醫師,_,O
 ,：,_,O
 ,然後,_,O
 ,，,_,O
@@ -2209,23 +2102,11 @@ Sentence: 249,醫師,_,O
 ,有,_,O
 ,抽血,_,O
 ,。,_,O
-Sentence: 250,醫師,_,O
-,：,_,O
-,然後,_,O
-,，,_,O
-,抽血,_,O
-,，,_,O
-,賈伯斯,_,B-nam
-,兩,_,B-tim
-,禮拜,_,I-tim
-,有,_,O
-,抽血,_,O
-,。,_,O
-Sentence: 251,民眾,_,O
+Sentence: 239,民眾,_,O
 ,：,_,O
 ,嗯,_,O
 ,。,_,O
-Sentence: 252,醫師,_,O
+Sentence: 240,醫師,_,O
 ,：,_,O
 ,那,_,O
 ,我,_,O
@@ -2237,7 +2118,7 @@ Sentence: 252,醫師,_,O
 ,就,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 253,民眾,_,O
+Sentence: 241,民眾,_,O
 ,：,_,O
 ,也,_,O
 ,可以,_,O
@@ -2251,7 +2132,7 @@ Sentence: 253,民眾,_,O
 ,可以,_,O
 ,啊,_,O
 ,。,_,O
-Sentence: 254,醫師,_,O
+Sentence: 242,醫師,_,O
 ,：,_,O
 ,阿然,_,O
 ,後,_,O
@@ -2262,19 +2143,19 @@ Sentence: 254,醫師,_,O
 ,有,_,O
 ,嗎,_,O
 ,？,_,O
-Sentence: 255,可以,_,O
+Sentence: 243,可以,_,O
 ,稍微,_,O
 ,預備,_,O
 ,著,_,O
 ,。,_,O
-Sentence: 256,民眾,_,O
+Sentence: 244,民眾,_,O
 ,：,_,O
 ,應該,_,O
 ,都,_,O
 ,還,_,O
 ,有,_,O
 ,。,_,O
-Sentence: 257,醫師,_,O
+Sentence: 245,醫師,_,O
 ,：,_,O
 ,都,_,O
 ,還,_,O
@@ -2292,11 +2173,11 @@ Sentence: 257,醫師,_,O
 ,吃,_,O
 ,的,_,O
 ,。,_,O
-Sentence: 258,民眾,_,O
+Sentence: 246,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,。,_,O
-Sentence: 259,醫師,_,O
+Sentence: 247,醫師,_,O
 ,：,_,O
 ,好,_,O
 ,，,_,O
@@ -2305,9 +2186,9 @@ Sentence: 259,醫師,_,O
 ,的,_,O
 ,藥,_,O
 ,。,_,O
-Sentence: 260,普拿疼齁,_,O
+Sentence: 248,普拿疼齁,_,O
 ,。,_,O
-Sentence: 261,民眾,_,O
+Sentence: 249,民眾,_,O
 ,：,_,O
 ,欸,_,O
 ,，,_,O
@@ -2321,11 +2202,11 @@ Sentence: 261,民眾,_,O
 ,會,_,O
 ,停,_,O
 ,？,_,O
-Sentence: 262,醫師,_,O
+Sentence: 250,醫師,_,O
 ,：,_,O
 ,我們,_,O
 ,。,_,O
-Sentence: 263,因為,_,O
+Sentence: 251,因為,_,O
 ,你,_,O
 ,現在,_,O
 ,不,_,O
@@ -2337,11 +2218,11 @@ Sentence: 263,因為,_,O
 ,還是,_,O
 ,開,_,O
 ,。,_,O
-Sentence: 264,民眾,_,O
+Sentence: 252,民眾,_,O
 ,：,_,O
 ,嗯,_,O
 ,。,_,O
-Sentence: 265,醫師,_,O
+Sentence: 253,醫師,_,O
 ,：,_,O
 ,那,_,O
 ,我們,_,O
@@ -2349,7 +2230,7 @@ Sentence: 265,醫師,_,O
 ,備用,_,O
 ,的,_,O
 ,。,_,O
-Sentence: 266,民眾,_,O
+Sentence: 254,民眾,_,O
 ,：,_,O
 ,就是,_,O
 ,不用說,_,O
@@ -2362,7 +2243,7 @@ Sentence: 266,民眾,_,O
 ,就,_,O
 ,吃,_,O
 ,。,_,O
-Sentence: 267,醫師,_,O
+Sentence: 255,醫師,_,O
 ,：,_,O
 ,你,_,O
 ,覺得,_,O
@@ -2376,14 +2257,14 @@ Sentence: 267,醫師,_,O
 ,不,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 268,民眾,_,O
+Sentence: 256,民眾,_,O
 ,：,_,O
 ,好,_,O
 ,，,_,O
 ,了,_,O
 ,解,_,O
 ,。,_,O
-Sentence: 269,醫師,_,O
+Sentence: 257,醫師,_,O
 ,：,_,O
 ,就,_,O
 ,比較,_,O
@@ -2392,17 +2273,17 @@ Sentence: 269,醫師,_,O
 ,方式,_,O
 ,這樣子,_,O
 ,。,_,O
-Sentence: 270,民眾,_,O
+Sentence: 258,民眾,_,O
 ,：,_,O
 ,了,_,O
 ,解,_,O
 ,。,_,O
-Sentence: 271,醫師,_,O
+Sentence: 259,醫師,_,O
 ,：,_,O
 ,好,_,O
 ,喔,_,O
 ,。,_,O
-Sentence: 272,那,_,O
+Sentence: 260,那,_,O
 ,就,_,O
 ,藥物,_,O
 ,挑,_,O
@@ -2424,13 +2305,13 @@ Sentence: 272,那,_,O
 ,持續,_,O
 ,這樣子,_,O
 ,。,_,O
-Sentence: 273,民眾,_,O
+Sentence: 261,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,對,_,O
 ,對,_,O
 ,。,_,O
-Sentence: 274,醫師,_,O
+Sentence: 262,醫師,_,O
 ,：,_,O
 ,那,_,O
 ,我,_,O
@@ -2444,52 +2325,35 @@ Sentence: 274,醫師,_,O
 ,個,_,I-tim
 ,禮拜,_,I-tim
 ,。,_,O
-Sentence: 275,民眾,_,O
+Sentence: 263,民眾,_,O
 ,：,_,O
 ,下下,_,B-tim
 ,禮拜,_,I-tim
 ,。,_,O
-Sentence: 276,民眾,_,O
-,：,_,O
-,兩,_,B-tim
-,禮拜,_,I-tim
-,。,_,O
-Sentence: 277,醫師,_,O
+Sentence: 264,醫師,_,O
 ,：,_,O
 ,好,_,O
 ,不好,_,O
 ,？,_,O
-Sentence: 278,因為,_,O
+Sentence: 265,因為,_,O
 ,你,_,O
 ,本來,_,O
 ,就,_,O
 ,賈伯斯,_,B-nam
 ,。,_,O
-Sentence: 279,民眾,_,O
+Sentence: 266,民眾,_,O
 ,：,_,O
 ,賈伯斯,_,B-nam
 ,是,_,O
 ,七號,_,B-tim
 ,。,_,O
-Sentence: 280,民眾,_,O
-,：,_,O
-,賈伯斯,_,B-nam
-,是,_,O
-,三月,_,B-tim
-,。,_,O
-Sentence: 281,醫師,_,O
+Sentence: 267,醫師,_,O
 ,：,_,O
 ,四月,_,B-tim
 ,，,_,O
 ,今天,_,O
 ,。,_,O
-Sentence: 282,醫師,_,O
-,：,_,O
-,下下,_,B-tim
-,，,_,O
-,今天,_,O
-,。,_,O
-Sentence: 283,民眾,_,O
+Sentence: 268,民眾,_,O
 ,：,_,O
 ,今天,_,O
 ,二十號,_,B-tim
@@ -2501,52 +2365,26 @@ Sentence: 283,民眾,_,O
 ,禮拜七,_,I-tim
 ,號,_,I-tim
 ,。,_,O
-Sentence: 284,民眾,_,O
-,：,_,O
-,今天,_,O
-,二十號,_,B-tim
-,，,_,O
-,剛好,_,O
-,是,_,O
-,到,_,O
-,七號,_,B-tim
-,禮拜七,_,I-tim
-,號,_,I-tim
-,。,_,O
-Sentence: 285,醫師,_,O
+Sentence: 269,醫師,_,O
 ,：,_,O
 ,到,_,O
 ,下下,_,B-tim
 ,禮拜九,_,I-tim
 ,號,_,I-tim
 ,。,_,O
-Sentence: 286,醫師,_,O
-,：,_,O
-,到,_,O
-,後天,_,B-tim
-,禮拜九,_,I-tim
-,號,_,I-tim
-,。,_,O
-Sentence: 287,民眾,_,O
+Sentence: 270,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,，,_,O
 ,四月,_,B-tim
 ,四號,_,I-tim
 ,。,_,O
-Sentence: 288,民眾,_,O
-,：,_,O
-,對,_,O
-,，,_,O
-,前天,_,B-tim
-,四號,_,I-tim
-,。,_,O
-Sentence: 289,醫師,_,O
+Sentence: 271,醫師,_,O
 ,：,_,O
 ,可以,_,O
 ,齁,_,O
 ,？,_,O
-Sentence: 290,民眾,_,O
+Sentence: 272,民眾,_,O
 ,：,_,O
 ,可以,_,O
 ,啊,_,O
@@ -2560,27 +2398,13 @@ Sentence: 290,民眾,_,O
 ,三,_,B-tim
 ,個,_,I-tim
 ,。,_,O
-Sentence: 291,民眾,_,O
-,：,_,O
-,可以,_,O
-,啊,_,O
-,，,_,O
-,等於,_,O
-,說,_,O
-,一,_,O
-,次,_,O
-,來,_,O
-,看,_,O
-,下下,_,B-tim
-,個,_,I-tim
-,。,_,O
-Sentence: 292,醫師,_,O
+Sentence: 273,醫師,_,O
 ,：,_,O
 ,齁,_,O
 ,，,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 293,民眾,_,O
+Sentence: 274,民眾,_,O
 ,：,_,O
 ,也,_,O
 ,OK,_,O
@@ -2590,7 +2414,7 @@ Sentence: 293,民眾,_,O
 ,OK,_,O
 ,呀,_,O
 ,。,_,O
-Sentence: 294,醫師,_,O
+Sentence: 275,醫師,_,O
 ,：,_,O
 ,啊,_,O
 ,然後,_,O
@@ -2606,7 +2430,7 @@ Sentence: 294,醫師,_,O
 ,了,_,O
 ,吧,_,O
 ,？,_,O
-Sentence: 295,民眾,_,O
+Sentence: 276,民眾,_,O
 ,：,_,O
 ,你,_,O
 ,說,_,O
@@ -2622,7 +2446,7 @@ Sentence: 295,民眾,_,O
 ,一,_,O
 ,次,_,O
 ,。,_,O
-Sentence: 296,醫師,_,O
+Sentence: 277,醫師,_,O
 ,：,_,O
 ,好,_,O
 ,，,_,O
@@ -2632,21 +2456,21 @@ Sentence: 296,醫師,_,O
 ,開給,_,O
 ,你,_,O
 ,。,_,O
-Sentence: 297,民眾,_,O
+Sentence: 278,民眾,_,O
 ,：OKOK,_,O
 ,。,_,O
-Sentence: 298,醫師,_,O
+Sentence: 279,醫師,_,O
 ,：,_,O
 ,我,_,O
 ,順便,_,O
 ,開給,_,O
 ,你,_,O
 ,。,_,O
-Sentence: 299,民眾,_,O
+Sentence: 280,民眾,_,O
 ,：,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 300,醫師,_,O
+Sentence: 281,醫師,_,O
 ,：,_,O
 ,喔,_,O
 ,，,_,O
@@ -2661,17 +2485,17 @@ Sentence: 300,醫師,_,O
 ,看,_,O
 ,一下,_,O
 ,。,_,O
-Sentence: 301,民眾,_,O
+Sentence: 282,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,。,_,O
-Sentence: 302,醫師,_,O
+Sentence: 283,醫師,_,O
 ,：,_,O
 ,然後,_,O
 ,抽,_,O
 ,血單,_,O
 ,。,_,O
-Sentence: 303,民眾,_,O
+Sentence: 284,民眾,_,O
 ,：,_,O
 ,欸,_,O
 ,對,_,O
@@ -2686,7 +2510,7 @@ Sentence: 303,民眾,_,O
 ,應該,_,O
 ,都,_,O
 ,。,_,O
-Sentence: 304,醫師,_,O
+Sentence: 285,醫師,_,O
 ,：,_,O
 ,沒有,_,O
 ,惡性,_,O
@@ -2708,13 +2532,13 @@ Sentence: 304,醫師,_,O
 ,幽門,_,O
 ,螺旋桿菌,_,O
 ,。,_,O
-Sentence: 305,民眾,_,O
+Sentence: 286,民眾,_,O
 ,：,_,O
 ,嗯,_,O
 ,嗯,_,O
 ,嗯,_,O
 ,。,_,O
-Sentence: 306,醫師,_,O
+Sentence: 287,醫師,_,O
 ,：,_,O
 ,所以,_,O
 ,，,_,O
@@ -2728,7 +2552,7 @@ Sentence: 306,醫師,_,O
 ,就,_,O
 ,是,_,O
 ,。,_,O
-Sentence: 307,民眾,_,O
+Sentence: 288,民眾,_,O
 ,：,_,O
 ,欸,_,O
 ,，,_,O
@@ -2752,7 +2576,7 @@ Sentence: 307,民眾,_,O
 ,像,_,O
 ,齁,_,O
 ,。,_,O
-Sentence: 308,那,_,O
+Sentence: 289,那,_,O
 ,好像,_,O
 ,不,_,O
 ,是,_,O
@@ -2769,7 +2593,7 @@ Sentence: 308,那,_,O
 ,諾羅,_,O
 ,病毒,_,O
 ,。,_,O
-Sentence: 309,醫師,_,O
+Sentence: 290,醫師,_,O
 ,：,_,O
 ,啊,_,O
 ,你,_,O
@@ -2780,7 +2604,7 @@ Sentence: 309,醫師,_,O
 ,像,_,O
 ,這樣子,_,O
 ,？,_,O
-Sentence: 310,民眾,_,O
+Sentence: 291,民眾,_,O
 ,：,_,O
 ,欸,_,O
 ,，,_,O
@@ -2793,7 +2617,7 @@ Sentence: 310,民眾,_,O
 ,那麼,_,O
 ,久,_,O
 ,。,_,O
-Sentence: 311,醫師,_,O
+Sentence: 292,醫師,_,O
 ,：,_,O
 ,諾羅,_,O
 ,病毒,_,O
@@ -2804,7 +2628,7 @@ Sentence: 311,醫師,_,O
 ,兩,_,O
 ,天,_,O
 ,。,_,O
-Sentence: 312,民眾,_,O
+Sentence: 293,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,阿。,_,O
@@ -2814,28 +2638,18 @@ Sentence: 312,民眾,_,O
 ,五,_,B-tim
 ,天,_,I-tim
 ,。,_,O
-Sentence: 313,民眾,_,O
-,：,_,O
-,對,_,O
-,阿。,_,O
-,啊,_,O
-,像,_,O
-,我,_,O
-,後天,_,B-tim
-,天,_,I-tim
-,。,_,O
-Sentence: 314,醫師,_,O
+Sentence: 294,醫師,_,O
 ,：,_,O
 ,好像,_,O
 ,有點,_,O
 ,久,_,O
 ,。,_,O
-Sentence: 315,民眾,_,O
+Sentence: 295,民眾,_,O
 ,：,_,O
 ,嘿,_,O
 ,啊,_,O
 ,。,_,O
-Sentence: 316,醫師,_,O
+Sentence: 296,醫師,_,O
 ,：,_,O
 ,阿諾羅,_,O
 ,病毒,_,O
@@ -2844,7 +2658,7 @@ Sentence: 316,醫師,_,O
 ,上吐下瀉,_,O
 ,這樣子,_,O
 ,。,_,O
-Sentence: 317,民眾,_,O
+Sentence: 297,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,，,_,O
@@ -2862,7 +2676,7 @@ Sentence: 317,民眾,_,O
 ,剩下,_,O
 ,好像,_,O
 ,。,_,O
-Sentence: 318,醫師,_,O
+Sentence: 298,醫師,_,O
 ,：,_,O
 ,好像,_,O
 ,，,_,O
@@ -2880,23 +2694,23 @@ Sentence: 318,醫師,_,O
 ,病毒,_,O
 ,吧,_,O
 ,。,_,O
-Sentence: 319,民眾,_,O
+Sentence: 299,民眾,_,O
 ,：,_,O
 ,喔,_,O
 ,。,_,O
-Sentence: 320,醫師,_,O
+Sentence: 300,醫師,_,O
 ,：,_,O
 ,我,_,O
 ,在,_,O
 ,猜,_,O
 ,這樣子,_,O
 ,。,_,O
-Sentence: 321,民眾,_,O
+Sentence: 301,民眾,_,O
 ,：,_,O
 ,了,_,O
 ,解,_,O
 ,。,_,O
-Sentence: 322,民眾,_,O
+Sentence: 302,民眾,_,O
 ,：,_,O
 ,因為,_,O
 ,是,_,O
@@ -2910,34 +2724,34 @@ Sentence: 322,民眾,_,O
 ,腸胃,_,O
 ,啦,_,O
 ,。,_,O
-Sentence: 323,醫師,_,O
+Sentence: 303,醫師,_,O
 ,：,_,O
 ,是,_,O
 ,腸胃,_,O
 ,沒有,_,O
 ,錯,_,O
 ,。,_,O
-Sentence: 324,民眾,_,O
+Sentence: 304,民眾,_,O
 ,：,_,O
 ,這,_,O
 ,是,_,O
 ,確定,_,O
 ,的,_,O
 ,。,_,O
-Sentence: 325,醫師,_,O
+Sentence: 305,醫師,_,O
 ,：,_,O
 ,確定,_,O
 ,沒有,_,O
 ,錯,_,O
 ,的,_,O
 ,。,_,O
-Sentence: 326,民眾,_,O
+Sentence: 306,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,對,_,O
 ,對,_,O
 ,。,_,O
-Sentence: 327,醫師,_,O
+Sentence: 307,醫師,_,O
 ,：,_,O
 ,你,_,O
 ,以前,_,O
@@ -2949,7 +2763,7 @@ Sentence: 327,醫師,_,O
 ,在,_,O
 ,哪裡,_,O
 ,。,_,O
-Sentence: 328,民眾,_,O
+Sentence: 308,民眾,_,O
 ,：,_,O
 ,這,_,O
 ,拖,_,O
@@ -2963,7 +2777,7 @@ Sentence: 328,民眾,_,O
 ,久,_,O
 ,了,_,O
 ,。,_,O
-Sentence: 329,現在,_,O
+Sentence: 309,現在,_,O
 ,想起來,_,O
 ,還,_,O
 ,真的,_,O
@@ -2985,7 +2799,7 @@ Sentence: 329,現在,_,O
 ,是,_,O
 ,TT,_,O
 ,。,_,O
-Sentence: 330,醫師,_,O
+Sentence: 310,醫師,_,O
 ,：,_,O
 ,你,_,O
 ,覺得,_,O
@@ -2993,19 +2807,19 @@ Sentence: 330,醫師,_,O
 ,是,_,O
 ,TT,_,O
 ,。,_,O
-Sentence: 331,民眾,_,O
+Sentence: 311,民眾,_,O
 ,：,_,O
 ,我,_,O
 ,覺得,_,O
 ,不,_,O
 ,是,_,O
 ,。,_,O
-Sentence: 332,只是,_,O
+Sentence: 312,只是,_,O
 ,剛好,_,O
 ,那,_,O
 ,時候,_,O
 ,。,_,O
-Sentence: 333,醫師,_,O
+Sentence: 313,醫師,_,O
 ,：,_,O
 ,剛好,_,O
 ,那,_,O
@@ -3014,7 +2828,7 @@ Sentence: 333,醫師,_,O
 ,要,_,O
 ,退,_,O
 ,。,_,O
-Sentence: 334,民眾,_,O
+Sentence: 314,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,對,_,O
@@ -3026,13 +2840,13 @@ Sentence: 334,民眾,_,O
 ,對,_,O
 ,欸,_,O
 ,。,_,O
-Sentence: 335,然後,_,O
+Sentence: 315,然後,_,O
 ,吃到,_,O
 ,TT,_,O
 ,的,_,O
 ,藥,_,O
 ,。,_,O
-Sentence: 336,醫師,_,O
+Sentence: 316,醫師,_,O
 ,：,_,O
 ,而且,_,O
 ,你,_,O
@@ -3055,7 +2869,7 @@ Sentence: 336,醫師,_,O
 ,開進去,_,O
 ,了,_,O
 ,。,_,O
-Sentence: 337,民眾,_,O
+Sentence: 317,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,啊,_,O
@@ -3064,12 +2878,12 @@ Sentence: 337,民眾,_,O
 ,開進去,_,O
 ,了,_,O
 ,。,_,O
-Sentence: 338,醫師,_,O
+Sentence: 318,醫師,_,O
 ,：,_,O
 ,對,_,O
 ,啊,_,O
 ,。,_,O
-Sentence: 339,民眾,_,O
+Sentence: 319,民眾,_,O
 ,：,_,O
 ,心包膜,_,O
 ,跟,_,O
@@ -3079,7 +2893,7 @@ Sentence: 339,民眾,_,O
 ,了,_,O
 ,啊,_,O
 ,。,_,O
-Sentence: 340,醫師,_,O
+Sentence: 320,醫師,_,O
 ,：,_,O
 ,發現,_,O
 ,你,_,O
@@ -3092,7 +2906,7 @@ Sentence: 340,醫師,_,O
 ,敏感,_,O
 ,的,_,O
 ,。,_,O
-Sentence: 341,我,_,O
+Sentence: 321,我,_,O
 ,不,_,O
 ,知道,_,O
 ,，,_,O
@@ -3101,12 +2915,12 @@ Sentence: 341,我,_,O
 ,是,_,O
 ,這樣,_,O
 ,。,_,O
-Sentence: 342,民眾,_,O
+Sentence: 322,民眾,_,O
 ,：,_,O
 ,哈,_,O
 ,哈哈,_,O
 ,。,_,O
-Sentence: 343,醫師,_,O
+Sentence: 323,醫師,_,O
 ,：,_,O
 ,好,_,O
 ,好,_,O
@@ -3122,19 +2936,19 @@ Sentence: 343,醫師,_,O
 ,給,_,O
 ,你,_,O
 ,。,_,O
-Sentence: 344,民眾,_,O
+Sentence: 324,民眾,_,O
 ,：OK,_,O
 ,。,_,O
-Sentence: 345,好,_,O
+Sentence: 325,好,_,O
 ,好,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 346,醫師,_,O
+Sentence: 326,醫師,_,O
 ,：,_,O
 ,好,_,O
 ,喔,_,O
 ,。,_,O
-Sentence: 347,民眾,_,O
+Sentence: 327,民眾,_,O
 ,：OK,_,O
 ,，,_,O
 ,好,_,O
@@ -3143,7 +2957,7 @@ Sentence: 347,民眾,_,O
 ,，,_,O
 ,謝謝,_,O
 ,。,_,O
-Sentence: 348,醫師,_,O
+Sentence: 328,醫師,_,O
 ,：,_,O
 ,啊,_,O
 ,我們,_,O
@@ -3161,13 +2975,13 @@ Sentence: 348,醫師,_,O
 ,一點點,_,O
 ,車馬費,_,O
 ,。,_,O
-Sentence: 349,民眾,_,O
+Sentence: 329,民眾,_,O
 ,：,_,O
 ,這麼,_,O
 ,好,_,O
 ,喔,_,O
 ,。,_,O
-Sentence: 350,醫師,_,O
+Sentence: 330,醫師,_,O
 ,：,_,O
 ,阿阿嬤,_,O
 ,她,_,O
@@ -3182,22 +2996,7 @@ Sentence: 350,醫師,_,O
 ,發燒,_,O
 ,喔,_,O
 ,。,_,O
-Sentence: 351,醫師,_,O
-,：,_,O
-,阿阿嬤,_,O
-,她,_,O
-,好像,_,O
-,說,_,O
-,有,_,O
-,，,_,O
-,前年,_,B-tim
-,又,_,O
-,有,_,O
-,在,_,O
-,發燒,_,O
-,喔,_,O
-,。,_,O
-Sentence: 352,家屬,_,O
+Sentence: 331,家屬,_,O
 ,：,_,O
 ,對,_,O
 ,阿都,_,O
@@ -3223,14 +3022,14 @@ Sentence: 352,家屬,_,O
 ,次,_,O
 ,了,_,O
 ,。,_,O
-Sentence: 353,醫師,_,O
+Sentence: 332,醫師,_,O
 ,：,_,O
 ,好,_,O
 ,，,_,O
 ,那樣,_,O
 ,不行,_,O
 ,。,_,O
-Sentence: 354,家屬,_,O
+Sentence: 333,家屬,_,O
 ,：,_,O
 ,下午,_,O
 ,誒,_,O
@@ -3250,38 +3049,18 @@ Sentence: 354,家屬,_,O
 ,燒到,_,O
 ,38.2,_,B-med
 ,。,_,O
-Sentence: 355,家屬,_,O
-,：,_,O
-,下午,_,O
-,誒,_,O
-,，,_,O
-,昨天,_,O
-,前年,_,B-tim
-,四點,_,I-tim
-,一,_,O
-,次,_,O
-,，,_,O
-,然後,_,O
-,半夜,_,O
-,前天,_,B-tim
-,兩點,_,I-tim
-,那邊,_,O
-,又,_,O
-,燒到,_,O
-,38.2,_,B-med
-,。,_,O
-Sentence: 356,醫師,_,O
+Sentence: 334,醫師,_,O
 ,：,_,O
 ,喔,_,O
 ,，,_,O
 ,是,_,O
 ,是,_,O
 ,。,_,O
-Sentence: 357,家屬,_,O
+Sentence: 335,家屬,_,O
 ,：,_,O
 ,對,_,O
 ,。,_,O
-Sentence: 358,醫師,_,O
+Sentence: 336,醫師,_,O
 ,：,_,O
 ,因為,_,O
 ,主要,_,O
@@ -3319,11 +3098,11 @@ Sentence: 358,醫師,_,O
 ,嘛,_,O
 ,齁,_,O
 ,。,_,O
-Sentence: 359,家屬,_,O
+Sentence: 337,家屬,_,O
 ,：,_,O
 ,恩哼,_,O
 ,。,_,O
-Sentence: 360,醫師,_,O
+Sentence: 338,醫師,_,O
 ,：,_,O
 ,這,_,O
 ,個,_,O
@@ -3340,11 +3119,11 @@ Sentence: 360,醫師,_,O
 ,而已,_,O
 ,啦,_,O
 ,。,_,O
-Sentence: 361,家屬,_,O
+Sentence: 339,家屬,_,O
 ,：,_,O
 ,喔,_,O
 ,。,_,O
-Sentence: 362,醫師,_,O
+Sentence: 340,醫師,_,O
 ,：,_,O
 ,克雷伯氏,_,O
 ,細菌,_,O
@@ -3388,7 +3167,7 @@ Sentence: 362,醫師,_,O
 ,，,_,O
 ,好好,_,O
 ,。,_,O
-Sentence: 363,醫師,_,O
+Sentence: 341,醫師,_,O
 ,：,_,O
 ,是,_,O
 ,，,_,O
@@ -3399,11 +3178,11 @@ Sentence: 363,醫師,_,O
 ,注射,_,O
 ,的,_,O
 ,。,_,O
-Sentence: 364,家屬,_,O
+Sentence: 342,家屬,_,O
 ,：,_,O
 ,喔,_,O
 ,。,_,O
-Sentence: 365,醫師,_,O
+Sentence: 343,醫師,_,O
 ,：,_,O
 ,我們,_,O
 ,，,_,O
@@ -3418,11 +3197,11 @@ Sentence: 365,醫師,_,O
 ,藥,_,O
 ,回去,_,O
 ,。,_,O
-Sentence: 366,家屬,_,O
+Sentence: 344,家屬,_,O
 ,：,_,O
 ,好好,_,O
 ,。,_,O
-Sentence: 367,醫師,_,O
+Sentence: 345,醫師,_,O
 ,：,_,O
 ,阿,_,O
 ,這,_,O
@@ -3439,11 +3218,11 @@ Sentence: 367,醫師,_,O
 ,一,_,O
 ,次,_,O
 ,。,_,O
-Sentence: 368,家屬,_,O
+Sentence: 346,家屬,_,O
 ,：,_,O
 ,恩,_,O
 ,。,_,O
-Sentence: 369,醫師,_,O
+Sentence: 347,醫師,_,O
 ,：,_,O
 ,一,_,O
 ,天,_,O
@@ -3458,7 +3237,7 @@ Sentence: 369,醫師,_,O
 ,次,_,O
 ,這樣,_,O
 ,。,_,O
-Sentence: 370,民眾,_,O
+Sentence: 348,民眾,_,O
 ,：,_,O
 ,一,_,O
 ,天,_,O
@@ -3467,17 +3246,17 @@ Sentence: 370,民眾,_,O
 ,一,_,O
 ,次,_,O
 ,？,_,O
-Sentence: 371,醫師,_,O
+Sentence: 349,醫師,_,O
 ,：,_,O
 ,是,_,O
 ,。,_,O
-Sentence: 372,民眾,_,O
+Sentence: 350,民眾,_,O
 ,：,_,O
 ,喔,_,O
 ,，,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 373,醫師,_,O
+Sentence: 351,醫師,_,O
 ,：,_,O
 ,這樣,_,O
 ,你,_,O
@@ -3487,7 +3266,7 @@ Sentence: 373,醫師,_,O
 ,有,_,O
 ,辦法,_,O
 ,？,_,O
-Sentence: 374,民眾,_,O
+Sentence: 352,民眾,_,O
 ,：,_,O
 ,有,_,O
 ,，,_,O
@@ -3498,13 +3277,13 @@ Sentence: 374,民眾,_,O
 ,間,_,O
 ,診所,_,O
 ,。,_,O
-Sentence: 375,醫師,_,O
+Sentence: 353,醫師,_,O
 ,：,_,O
 ,阿他們,_,O
 ,可以,_,O
 ,齁,_,O
 ,？,_,O
-Sentence: 376,家屬,_,O
+Sentence: 354,家屬,_,O
 ,：,_,O
 ,可以,_,O
 ,，,_,O
@@ -3524,7 +3303,7 @@ Sentence: 376,家屬,_,O
 ,一樣,_,O
 ,的,_,O
 ,。,_,O
-Sentence: 377,家屬,_,O
+Sentence: 355,家屬,_,O
 ,：,_,O
 ,這樣,_,O
 ,有,_,O
@@ -3536,7 +3315,7 @@ Sentence: 377,家屬,_,O
 ,誒,_,O
 ,衝突,_,O
 ,？,_,O
-Sentence: 378,醫師,_,O
+Sentence: 356,醫師,_,O
 ,：,_,O
 ,就,_,O
 ,是,_,O
@@ -3551,17 +3330,17 @@ Sentence: 378,醫師,_,O
 ,就,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 379,醫師,_,O
+Sentence: 357,醫師,_,O
 ,：,_,O
 ,分開,_,O
 ,就,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 380,家屬,_,O
+Sentence: 358,家屬,_,O
 ,：,_,O
 ,喔,_,O
 ,。,_,O
-Sentence: 381,醫師,_,O
+Sentence: 359,醫師,_,O
 ,：,_,O
 ,阿那,_,O
 ,我,_,O
@@ -3570,11 +3349,11 @@ Sentence: 381,醫師,_,O
 ,個,_,O
 ,轉診單,_,O
 ,。,_,O
-Sentence: 382,家屬,_,O
+Sentence: 360,家屬,_,O
 ,：,_,O
 ,是,_,O
 ,。,_,O
-Sentence: 383,醫師,_,O
+Sentence: 361,醫師,_,O
 ,：,_,O
 ,給,_,O
 ,她,_,O
@@ -3589,13 +3368,13 @@ Sentence: 383,醫師,_,O
 ,解,_,O
 ,這樣,_,O
 ,。,_,O
-Sentence: 384,家屬,_,O
+Sentence: 362,家屬,_,O
 ,：,_,O
 ,喔,_,O
 ,，,_,O
 ,好好,_,O
 ,。,_,O
-Sentence: 385,醫師,_,O
+Sentence: 363,醫師,_,O
 ,：,_,O
 ,阿它,_,O
 ,…,_,O
@@ -3612,7 +3391,7 @@ Sentence: 385,醫師,_,O
 ,名字,_,O
 ,呢,_,O
 ,？,_,O
-Sentence: 386,家屬,_,O
+Sentence: 364,家屬,_,O
 ,：,_,O
 ,阿那,_,O
 ,個,_,O
@@ -3621,7 +3400,7 @@ Sentence: 386,家屬,_,O
 ,個,_,O
 ,全名,_,O
 ,？,_,O
-Sentence: 387,民眾,_,O
+Sentence: 365,民眾,_,O
 ,：,_,O
 ,我,_,O
 ,…,_,O
@@ -3640,7 +3419,7 @@ Sentence: 387,民眾,_,O
 ,，,_,O
 ,怎樣,_,O
 ,？,_,O
-Sentence: 388,民眾,_,O
+Sentence: 366,民眾,_,O
 ,：,_,O
 ,阿那,_,O
 ,個,_,O
@@ -3661,23 +3440,23 @@ Sentence: 388,民眾,_,O
 ,個,_,O
 ,鴻,_,O
 ,？,_,O
-Sentence: 389,醫師,_,O
+Sentence: 367,醫師,_,O
 ,：,_,O
 ,我,_,O
 ,要,_,O
 ,寫,_,O
 ,轉診單,_,O
 ,。,_,O
-Sentence: 390,家屬,_,O
+Sentence: 368,家屬,_,O
 ,：,_,O
 ,江鳥鴻,_,O
 ,嗎,_,O
 ,？,_,O
-Sentence: 391,醫師,_,O
+Sentence: 369,醫師,_,O
 ,：,_,O
 ,江鳥鴻齁,_,O
 ,。,_,O
-Sentence: 392,家屬,_,O
+Sentence: 370,家屬,_,O
 ,：,_,O
 ,好,_,O
 ,，,_,O
@@ -3687,18 +3466,18 @@ Sentence: 392,家屬,_,O
 ,健保,_,O
 ,喔,_,O
 ,？,_,O
-Sentence: 393,醫師,_,O
+Sentence: 371,醫師,_,O
 ,：,_,O
 ,他,_,O
 ,。,_,O
-Sentence: 394,家屬,_,O
+Sentence: 372,家屬,_,O
 ,：,_,O
 ,它,_,O
 ,是,_,O
 ,自費,_,O
 ,的,_,O
 ,？,_,O
-Sentence: 395,醫師,_,O
+Sentence: 373,醫師,_,O
 ,：,_,O
 ,她,_,O
 ,她,_,O
@@ -3714,7 +3493,7 @@ Sentence: 395,醫師,_,O
 ,不,_,O
 ,對,_,O
 ,？,_,O
-Sentence: 396,家屬,_,O
+Sentence: 374,家屬,_,O
 ,：,_,O
 ,有,_,O
 ,有,_,O
@@ -3722,7 +3501,7 @@ Sentence: 396,家屬,_,O
 ,有,_,O
 ,有,_,O
 ,。,_,O
-Sentence: 397,醫師,_,O
+Sentence: 375,醫師,_,O
 ,：,_,O
 ,喔,_,O
 ,，,_,O
@@ -3731,7 +3510,7 @@ Sentence: 397,醫師,_,O
 ,可以,_,O
 ,了,_,O
 ,。,_,O
-Sentence: 398,家屬,_,O
+Sentence: 376,家屬,_,O
 ,：,_,O
 ,江,_,O
 ,…,_,O
@@ -3743,7 +3522,7 @@ Sentence: 398,家屬,_,O
 ,叫做,_,O
 ,慶鴻,_,O
 ,。,_,O
-Sentence: 399,家屬,_,O
+Sentence: 377,家屬,_,O
 ,：,_,O
 ,誒,_,O
 ,她,_,O
@@ -3759,26 +3538,26 @@ Sentence: 399,家屬,_,O
 ,血管,_,O
 ,的,_,O
 ,？,_,O
-Sentence: 400,醫師,_,O
+Sentence: 378,醫師,_,O
 ,：,_,O
 ,血管,_,O
 ,的,_,O
 ,。,_,O
-Sentence: 401,家屬,_,O
+Sentence: 379,家屬,_,O
 ,：,_,O
 ,血管,_,O
 ,血管,_,O
 ,。,_,O
-Sentence: 402,誒,_,O
+Sentence: 380,誒,_,O
 ,可以,_,O
 ,埋針,_,O
 ,嗎,_,O
 ,？,_,O
-Sentence: 403,醫師,_,O
+Sentence: 381,醫師,_,O
 ,：,_,O
 ,可以,_,O
 ,。,_,O
-Sentence: 404,家屬,_,O
+Sentence: 382,家屬,_,O
 ,：,_,O
 ,阿有,_,O
 ,附針頭,_,O
@@ -3791,7 +3570,7 @@ Sentence: 404,家屬,_,O
 ,針頭,_,O
 ,嗎,_,O
 ,？,_,O
-Sentence: 405,家屬,_,O
+Sentence: 383,家屬,_,O
 ,：,_,O
 ,好像,_,O
 ,…,_,O
@@ -3799,11 +3578,11 @@ Sentence: 405,家屬,_,O
 ,沒有,_,O
 ,喔,_,O
 ,？,_,O
-Sentence: 406,醫師,_,O
+Sentence: 384,醫師,_,O
 ,：,_,O
 ,沒有,_,O
 ,。,_,O
-Sentence: 407,家屬,_,O
+Sentence: 385,家屬,_,O
 ,：,_,O
 ,沒辦法,_,O
 ,，,_,O
@@ -3813,7 +3592,7 @@ Sentence: 407,家屬,_,O
 ,沒關係,_,O
 ,沒關係,_,O
 ,。,_,O
-Sentence: 408,醫師,_,O
+Sentence: 386,醫師,_,O
 ,：,_,O
 ,還是,_,O
 ,用,_,O
@@ -3823,7 +3602,7 @@ Sentence: 408,醫師,_,O
 ,一,_,O
 ,針,_,O
 ,。,_,O
-Sentence: 409,家屬,_,O
+Sentence: 387,家屬,_,O
 ,：,_,O
 ,要,_,O
 ,轉診,_,O
@@ -3851,17 +3630,17 @@ Sentence: 409,家屬,_,O
 ,，,_,O
 ,好好,_,O
 ,。,_,O
-Sentence: 410,家屬,_,O
+Sentence: 388,家屬,_,O
 ,：,_,O
 ,鴻,_,O
 ,是,_,O
 ,江鳥鴻,_,O
 ,。,_,O
-Sentence: 411,醫師,_,O
+Sentence: 389,醫師,_,O
 ,：,_,O
 ,江鳥鴻,_,O
 ,。,_,O
-Sentence: 412,醫師,_,O
+Sentence: 390,醫師,_,O
 ,：,_,O
 ,阿食,_,O
 ,鹽水,_,O
@@ -3870,11 +3649,11 @@ Sentence: 412,醫師,_,O
 ,你,_,O
 ,這樣,_,O
 ,。,_,O
-Sentence: 413,家屬,_,O
+Sentence: 391,家屬,_,O
 ,：,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 414,醫師,_,O
+Sentence: 392,醫師,_,O
 ,：,_,O
 ,阿,_,O
 ,今天,_,O
@@ -3885,11 +3664,11 @@ Sentence: 414,醫師,_,O
 ,，,_,O
 ,齁,_,O
 ,。,_,O
-Sentence: 415,家屬,_,O
+Sentence: 393,家屬,_,O
 ,：,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 416,醫師,_,O
+Sentence: 394,醫師,_,O
 ,：,_,O
 ,我,_,O
 ,開,_,O
@@ -3908,31 +3687,12 @@ Sentence: 416,醫師,_,O
 ,怎麼樣,_,O
 ,這樣子,_,O
 ,。,_,O
-Sentence: 417,醫師,_,O
-,：,_,O
-,我,_,O
-,開,_,O
-,四月,_,B-tim
-,天,_,I-tim
-,，,_,O
-,因為,_,O
-,我,_,O
-,前年,_,B-tim
-,有診,_,O
-,，,_,O
-,就,_,O
-,看,_,O
-,一下,_,O
-,狀況,_,O
-,怎麼樣,_,O
-,這樣子,_,O
-,。,_,O
-Sentence: 418,家屬,_,O
+Sentence: 395,家屬,_,O
 ,：,_,O
 ,喔,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 419,民眾,_,O
+Sentence: 396,民眾,_,O
 ,：,_,O
 ,我,_,O
 ,都,_,O
@@ -3953,7 +3713,7 @@ Sentence: 419,民眾,_,O
 ,不會,_,O
 ,啦,_,O
 ,。,_,O
-Sentence: 420,醫師,_,O
+Sentence: 397,醫師,_,O
 ,：,_,O
 ,現在,_,O
 ,是,_,O
@@ -3963,14 +3723,14 @@ Sentence: 420,醫師,_,O
 ,不,_,O
 ,是,_,O
 ,？,_,O
-Sentence: 421,家屬,_,O
+Sentence: 398,家屬,_,O
 ,：,_,O
 ,不會,_,O
 ,亂,_,O
 ,跑,_,O
 ,啦,_,O
 ,。,_,O
-Sentence: 422,民眾,_,O
+Sentence: 399,民眾,_,O
 ,：,_,O
 ,就是,_,O
 ,…,_,O
@@ -3994,7 +3754,7 @@ Sentence: 422,民眾,_,O
 ,：,_,O
 ,昏睡,_,O
 ,。,_,O
-Sentence: 423,醫師,_,O
+Sentence: 400,醫師,_,O
 ,：,_,O
 ,昏睡,_,O
 ,阿,_,O
@@ -4009,7 +3769,7 @@ Sentence: 423,醫師,_,O
 ,有,_,O
 ,嗎,_,O
 ,？,_,O
-Sentence: 424,家屬,_,O
+Sentence: 401,家屬,_,O
 ,：,_,O
 ,是,_,O
 ,沒有,_,O
@@ -4032,7 +3792,7 @@ Sentence: 424,家屬,_,O
 ,不,_,O
 ,起來,_,O
 ,。,_,O
-Sentence: 425,醫師,_,O
+Sentence: 402,醫師,_,O
 ,：,_,O
 ,喔,_,O
 ,她,_,O
@@ -4042,17 +3802,17 @@ Sentence: 425,醫師,_,O
 ,發燒,_,O
 ,嗎,_,O
 ,？,_,O
-Sentence: 426,家屬,_,O
+Sentence: 403,家屬,_,O
 ,：,_,O
 ,沒,_,O
 ,發燒,_,O
 ,。,_,O
-Sentence: 427,醫師,_,O
+Sentence: 404,醫師,_,O
 ,：,_,O
 ,沒,_,O
 ,發燒,_,O
 ,。,_,O
-Sentence: 428,家屬,_,O
+Sentence: 405,家屬,_,O
 ,：,_,O
 ,有,_,O
 ,，,_,O
@@ -4062,12 +3822,12 @@ Sentence: 428,家屬,_,O
 ,都,_,O
 ,這樣,_,O
 ,。,_,O
-Sentence: 429,醫師,_,O
+Sentence: 406,醫師,_,O
 ,：,_,O
 ,還是,_,O
 ,藥,_,O
 ,？,_,O
-Sentence: 430,家屬,_,O
+Sentence: 407,家屬,_,O
 ,：,_,O
 ,藥,_,O
 ,，,_,O
@@ -4075,7 +3835,7 @@ Sentence: 430,家屬,_,O
 ,藥,_,O
 ,喔,_,O
 ,？,_,O
-Sentence: 431,醫師,_,O
+Sentence: 408,醫師,_,O
 ,：,_,O
 ,結核菌,_,O
 ,是,_,O
@@ -4099,11 +3859,11 @@ Sentence: 431,醫師,_,O
 ,很,_,O
 ,低,_,O
 ,。,_,O
-Sentence: 432,家屬,_,O
+Sentence: 409,家屬,_,O
 ,：,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 433,醫師,_,O
+Sentence: 410,醫師,_,O
 ,：,_,O
 ,阿但,_,O
 ,是,_,O
@@ -4128,11 +3888,11 @@ Sentence: 433,醫師,_,O
 ,這樣,_,O
 ,嗎,_,O
 ,？,_,O
-Sentence: 434,醫師,_,O
+Sentence: 411,醫師,_,O
 ,：,_,O
 ,是,_,O
 ,。,_,O
-Sentence: 435,民眾,_,O
+Sentence: 412,民眾,_,O
 ,：,_,O
 ,就,_,O
 ,是,_,O
@@ -4143,7 +3903,7 @@ Sentence: 435,民眾,_,O
 ,在,_,O
 ,輪,_,O
 ,？,_,O
-Sentence: 436,醫師,_,O
+Sentence: 413,醫師,_,O
 ,：,_,O
 ,不,_,O
 ,…,_,O
@@ -4155,11 +3915,11 @@ Sentence: 436,醫師,_,O
 ,調整,_,O
 ,啦,_,O
 ,。,_,O
-Sentence: 437,家屬,_,O
+Sentence: 414,家屬,_,O
 ,：,_,O
 ,喔,_,O
 ,。,_,O
-Sentence: 438,醫師,_,O
+Sentence: 415,醫師,_,O
 ,：,_,O
 ,因為,_,O
 ,這,_,O
@@ -4171,12 +3931,12 @@ Sentence: 438,醫師,_,O
 ,沒有,_,O
 ,誒,_,O
 ,。,_,O
-Sentence: 439,家屬,_,O
+Sentence: 416,家屬,_,O
 ,：,_,O
 ,沒有,_,O
 ,喔,_,O
 ,？,_,O
-Sentence: 440,護理師,_,O
+Sentence: 417,護理師,_,O
 ,：,_,O
 ,因為,_,O
 ,它,_,O
@@ -4192,7 +3952,7 @@ Sentence: 440,護理師,_,O
 ,05,_,O
 ,的,_,O
 ,。,_,O
-Sentence: 441,家屬,_,O
+Sentence: 418,家屬,_,O
 ,：,_,O
 ,誒,_,O
 ,，,_,O
@@ -4200,20 +3960,20 @@ Sentence: 441,家屬,_,O
 ,問,_,O
 ,一下,_,O
 ,。,_,O
-Sentence: 442,護理師,_,O
+Sentence: 419,護理師,_,O
 ,：,_,O
 ,沒有,_,O
 ,08,_,O
 ,的,_,O
 ,誒,_,O
 ,。,_,O
-Sentence: 443,醫師,_,O
+Sentence: 420,醫師,_,O
 ,：,_,O
 ,還是,_,O
 ,什麼,_,O
 ,名字,_,O
 ,？,_,O
-Sentence: 444,護理師,_,O
+Sentence: 421,護理師,_,O
 ,：,_,O
 ,因為,_,O
 ,他,_,O
@@ -4234,7 +3994,7 @@ Sentence: 444,護理師,_,O
 ,是,_,O
 ,這樣子,_,O
 ,。,_,O
-Sentence: 445,家屬,_,O
+Sentence: 422,家屬,_,O
 ,：,_,O
 ,我,_,O
 ,印象,_,O
@@ -4260,33 +4020,7 @@ Sentence: 445,家屬,_,O
 ,google,_,O
 ,有,_,O
 ,。,_,O
-Sentence: 446,家屬,_,O
-,：,_,O
-,我,_,O
-,印象,_,O
-,很,_,O
-,清楚,_,O
-,…,_,O
-,…,_,O
-,恩,_,O
-,…,_,O
-,…,_,O
-,紐約,_,B-loc
-,學院,_,I-loc
-,，,_,O
-,阿他,_,O
-,說,_,O
-,打,_,O
-,，,_,O
-,google,_,O
-,有,_,O
-,，,_,O
-,他,_,O
-,說,_,O
-,google,_,O
-,有,_,O
-,。,_,O
-Sentence: 447,醫師,_,O
+Sentence: 423,醫師,_,O
 ,：,_,O
 ,不過,_,O
 ,她,_,O
@@ -4305,13 +4039,13 @@ Sentence: 447,醫師,_,O
 ,自費,_,O
 ,的,_,O
 ,？,_,O
-Sentence: 448,家屬,_,O
+Sentence: 424,家屬,_,O
 ,：,_,O
 ,對,_,O
 ,對,_,O
 ,對,_,O
 ,。,_,O
-Sentence: 449,醫師,_,O
+Sentence: 425,醫師,_,O
 ,：,_,O
 ,喔,_,O
 ,，,_,O
@@ -4321,7 +4055,7 @@ Sentence: 449,醫師,_,O
 ,加入,_,O
 ,健保,_,O
 ,？,_,O
-Sentence: 450,護理師,_,O
+Sentence: 426,護理師,_,O
 ,：,_,O
 ,她,_,O
 ,沒有,_,O
@@ -4334,11 +4068,11 @@ Sentence: 450,護理師,_,O
 ,是,_,O
 ,要,_,O
 ,。,_,O
-Sentence: 451,醫師,_,O
+Sentence: 427,醫師,_,O
 ,：,_,O
 ,喔,_,O
 ,。,_,O
-Sentence: 452,家屬,_,O
+Sentence: 428,家屬,_,O
 ,：,_,O
 ,阿,_,O
 ,問,_,O
@@ -4355,7 +4089,7 @@ Sentence: 452,家屬,_,O
 ,對,_,O
 ,對,_,O
 ,。,_,O
-Sentence: 453,護理師,_,O
+Sentence: 429,護理師,_,O
 ,：,_,O
 ,阿那,_,O
 ,個,_,O
@@ -4372,7 +4106,7 @@ Sentence: 453,護理師,_,O
 ,不,_,O
 ,到,_,O
 ,。,_,O
-Sentence: 454,醫師,_,O
+Sentence: 430,醫師,_,O
 ,：,_,O
 ,阿不,_,O
 ,要緊,_,O
@@ -4398,7 +4132,7 @@ Sentence: 454,醫師,_,O
 ,：,_,O
 ,喔,_,O
 ,。,_,O
-Sentence: 455,醫師,_,O
+Sentence: 431,醫師,_,O
 ,：,_,O
 ,病歷,_,O
 ,，,_,O
@@ -4410,53 +4144,41 @@ Sentence: 455,醫師,_,O
 ,：,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 456,家屬,_,O
+Sentence: 432,家屬,_,O
 ,：,_,O
 ,他,_,O
 ,那,_,O
 ,在,_,O
 ,羅斯福路,_,B-loc
 ,。,_,O
-Sentence: 457,家屬,_,O
-,：,_,O
-,他,_,O
-,那,_,O
-,在,_,O
-,紐約,_,B-loc
-,。,_,O
-Sentence: 458,民眾,_,O
+Sentence: 433,民眾,_,O
 ,：,_,O
 ,google,_,O
 ,也,_,O
 ,沒有,_,O
 ,喔,_,O
 ,？,_,O
-Sentence: 459,護理師,_,O
+Sentence: 434,護理師,_,O
 ,：,_,O
 ,他,_,O
 ,沒有,_,O
 ,醫療院所,_,O
 ,。,_,O
-Sentence: 460,家屬,_,O
+Sentence: 435,家屬,_,O
 ,：,_,O
 ,他,_,O
 ,有,_,O
 ,。,_,O
-Sentence: 461,醫師,_,O
+Sentence: 436,醫師,_,O
 ,：,_,O
 ,學院,_,B-loc
 ,這樣子,_,O
 ,？,_,O
-Sentence: 462,醫師,_,O
-,：,_,O
-,學院,_,B-loc
-,這樣子,_,O
-,？,_,O
-Sentence: 463,家屬,_,O
+Sentence: 437,家屬,_,O
 ,：,_,O
 ,恩,_,O
 ,。,_,O
-Sentence: 464,醫師,_,O
+Sentence: 438,醫師,_,O
 ,：,_,O
 ,沒關係,_,O
 ,啦,_,O
@@ -4473,7 +4195,7 @@ Sentence: 464,醫師,_,O
 ,印出來,_,O
 ,這樣子,_,O
 ,。,_,O
-Sentence: 465,家屬,_,O
+Sentence: 439,家屬,_,O
 ,：,_,O
 ,喔,_,O
 ,好,_,O
@@ -4519,7 +4241,7 @@ Sentence: 465,家屬,_,O
 ,：,_,O
 ,恩,_,O
 ,。,_,O
-Sentence: 466,醫師,_,O
+Sentence: 440,醫師,_,O
 ,：,_,O
 ,等,_,O
 ,她,_,O
@@ -4542,11 +4264,11 @@ Sentence: 466,醫師,_,O
 ,開始,_,O
 ,吃,_,O
 ,。,_,O
-Sentence: 467,家屬,_,O
+Sentence: 441,家屬,_,O
 ,：,_,O
 ,好好,_,O
 ,。,_,O
-Sentence: 468,醫師,_,O
+Sentence: 442,醫師,_,O
 ,：,_,O
 ,她,_,O
 ,這,_,O
@@ -4565,11 +4287,11 @@ Sentence: 468,醫師,_,O
 ,沒有,_,O
 ,錯,_,O
 ,。,_,O
-Sentence: 469,家屬,_,O
+Sentence: 443,家屬,_,O
 ,：,_,O
 ,恩哼,_,O
 ,。,_,O
-Sentence: 470,醫師,_,O
+Sentence: 444,醫師,_,O
 ,：,_,O
 ,阿開刀,_,O
 ,開下來,_,O
@@ -4579,11 +4301,11 @@ Sentence: 470,醫師,_,O
 ,有,_,O
 ,長,_,O
 ,。,_,O
-Sentence: 471,家屬,_,O
+Sentence: 445,家屬,_,O
 ,：,_,O
 ,恩恩恩,_,O
 ,。,_,O
-Sentence: 472,醫師,_,O
+Sentence: 446,醫師,_,O
 ,：,_,O
 ,阿她,_,O
 ,的,_,O
@@ -4600,14 +4322,14 @@ Sentence: 472,醫師,_,O
 ,比較,_,O
 ,好了,_,O
 ,。,_,O
-Sentence: 473,醫師,_,O
+Sentence: 447,醫師,_,O
 ,：,_,O
 ,結核菌,_,O
 ,辛苦,_,O
 ,就是,_,O
 ,這樣,_,O
 ,。,_,O
-Sentence: 474,家屬,_,O
+Sentence: 448,家屬,_,O
 ,：,_,O
 ,對,_,O
 ,阿。,_,O
@@ -4634,7 +4356,7 @@ Sentence: 474,家屬,_,O
 ,沒,_,O
 ,藥,_,O
 ,。,_,O
-Sentence: 475,醫師,_,O
+Sentence: 449,醫師,_,O
 ,：,_,O
 ,沒,_,O
 ,藥,_,O
@@ -4645,7 +4367,7 @@ Sentence: 475,醫師,_,O
 ,對,_,O
 ,阿恩恩,_,O
 ,。,_,O
-Sentence: 476,家屬,_,O
+Sentence: 450,家屬,_,O
 ,：,_,O
 ,阿她,_,O
 ,現在,_,O
@@ -4663,7 +4385,7 @@ Sentence: 476,家屬,_,O
 ,是,_,O
 ,這樣,_,O
 ,。,_,O
-Sentence: 477,家屬,_,O
+Sentence: 451,家屬,_,O
 ,：,_,O
 ,有,_,O
 ,被,_,O
@@ -4685,7 +4407,7 @@ Sentence: 477,家屬,_,O
 ,有,_,O
 ,問題,_,O
 ,。,_,O
-Sentence: 478,醫師,_,O
+Sentence: 452,醫師,_,O
 ,：,_,O
 ,不過,_,O
 ,她,_,O
@@ -4704,13 +4426,13 @@ Sentence: 478,醫師,_,O
 ,叫,_,O
 ,她,_,O
 ,。,_,O
-Sentence: 479,家屬,_,O
+Sentence: 453,家屬,_,O
 ,：,_,O
 ,她,_,O
 ,不,_,O
 ,要,_,O
 ,。,_,O
-Sentence: 480,醫師,_,O
+Sentence: 454,醫師,_,O
 ,：,_,O
 ,不要,_,O
 ,嘛,_,O
@@ -4720,7 +4442,7 @@ Sentence: 480,醫師,_,O
 ,：,_,O
 ,是是,_,O
 ,。,_,O
-Sentence: 481,醫師,_,O
+Sentence: 455,醫師,_,O
 ,：,_,O
 ,阿這,_,O
 ,個,_,O
@@ -4755,11 +4477,11 @@ Sentence: 481,醫師,_,O
 ,不,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 482,家屬,_,O
+Sentence: 456,家屬,_,O
 ,：,_,O
 ,恩哼哼,_,O
 ,。,_,O
-Sentence: 483,醫師,_,O
+Sentence: 457,醫師,_,O
 ,：,_,O
 ,我,_,O
 ,會,_,O
@@ -4768,7 +4490,7 @@ Sentence: 483,醫師,_,O
 ,調,_,O
 ,一下,_,O
 ,。,_,O
-Sentence: 484,我們,_,O
+Sentence: 458,我們,_,O
 ,會,_,O
 ,開,_,O
 ,六,_,O
@@ -4790,11 +4512,11 @@ Sentence: 484,我們,_,O
 ,食鹽水,_,O
 ,這樣子,_,O
 ,。,_,O
-Sentence: 485,家屬,_,O
+Sentence: 459,家屬,_,O
 ,：,_,O
 ,恩,_,O
 ,。,_,O
-Sentence: 486,醫師,_,O
+Sentence: 460,醫師,_,O
 ,：,_,O
 ,好齁,_,O
 ,，,_,O
@@ -4826,11 +4548,11 @@ Sentence: 486,醫師,_,O
 ,小時,_,O
 ,啦,_,O
 ,。,_,O
-Sentence: 487,家屬,_,O
+Sentence: 461,家屬,_,O
 ,：,_,O
 ,恩,_,O
 ,。,_,O
-Sentence: 488,醫師,_,O
+Sentence: 462,醫師,_,O
 ,：,_,O
 ,阿然,_,O
 ,後,_,O
@@ -4855,7 +4577,7 @@ Sentence: 488,醫師,_,O
 ,不,_,O
 ,安全,_,O
 ,。,_,O
-Sentence: 489,醫師,_,O
+Sentence: 463,醫師,_,O
 ,：,_,O
 ,阿怕,_,O
 ,埋針,_,O
@@ -4863,7 +4585,7 @@ Sentence: 489,醫師,_,O
 ,不,_,O
 ,是,_,O
 ,？,_,O
-Sentence: 490,民眾,_,O
+Sentence: 464,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,我,_,O
@@ -4882,26 +4604,7 @@ Sentence: 490,民眾,_,O
 ,沒,_,O
 ,開,_,O
 ,。,_,O
-Sentence: 491,民眾,_,O
-,：,_,O
-,對,_,O
-,我,_,O
-,想,_,O
-,叫,_,O
-,他,_,O
-,埋,_,O
-,，,_,O
-,因,_,O
-,…,_,O
-,…,_,O
-,因為,_,O
-,他,_,O
-,三月,_,B-tim
-,禮拜二,_,I-tim
-,沒,_,O
-,開,_,O
-,。,_,O
-Sentence: 492,醫師,_,O
+Sentence: 465,醫師,_,O
 ,：,_,O
 ,喔,_,O
 ,，,_,O
@@ -4922,18 +4625,18 @@ Sentence: 492,醫師,_,O
 ,念,_,O
 ,護理,_,O
 ,？,_,O
-Sentence: 493,家屬,_,O
+Sentence: 466,家屬,_,O
 ,：,_,O
 ,他,_,O
 ,會,_,O
 ,教,_,O
 ,。,_,O
-Sentence: 494,醫師,_,O
+Sentence: 467,醫師,_,O
 ,：,_,O
 ,喔,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 495,家屬,_,O
+Sentence: 468,家屬,_,O
 ,：,_,O
 ,因為,_,O
 ,她,_,O
@@ -4943,7 +4646,7 @@ Sentence: 495,家屬,_,O
 ,打,_,O
 ,營養針,_,O
 ,。,_,O
-Sentence: 496,醫師,_,O
+Sentence: 469,醫師,_,O
 ,：,_,O
 ,喔,_,O
 ,，,_,O
@@ -4964,7 +4667,7 @@ Sentence: 496,醫師,_,O
 ,住,_,O
 ,哪裡,_,O
 ,？,_,O
-Sentence: 497,家屬,_,O
+Sentence: 470,家屬,_,O
 ,：,_,O
 ,你,_,O
 ,說,_,O
@@ -4972,35 +4675,23 @@ Sentence: 497,家屬,_,O
 ,個,_,O
 ,什麼,_,O
 ,？,_,O
-Sentence: 498,醫師,_,O
+Sentence: 471,醫師,_,O
 ,：,_,O
 ,大安區,_,B-loc
 ,那邊,_,O
 ,？,_,O
-Sentence: 499,醫師,_,O
-,：,_,O
-,學院,_,B-loc
-,那邊,_,O
-,？,_,O
-Sentence: 500,家屬,_,O
+Sentence: 472,家屬,_,O
 ,：,_,O
 ,我們,_,O
 ,那邊,_,O
 ,泰山區,_,B-loc
 ,喔,_,O
 ,。,_,O
-Sentence: 501,家屬,_,O
-,：,_,O
-,我們,_,O
-,那邊,_,O
-,慶鴻,_,B-loc
-,喔,_,O
-,。,_,O
-Sentence: 502,醫師,_,O
+Sentence: 473,醫師,_,O
 ,：,_,O
 ,泰山區,_,B-loc
 ,。,_,O
-Sentence: 503,家屬,_,O
+Sentence: 474,家屬,_,O
 ,：,_,O
 ,羅斯福路,_,B-loc
 ,那邊,_,O
@@ -5015,22 +4706,7 @@ Sentence: 503,家屬,_,O
 ,，,_,O
 ,阿你都,_,O
 ,。,_,O
-Sentence: 504,家屬,_,O
-,：,_,O
-,大安區,_,B-loc
-,那邊,_,O
-,是,_,O
-,什麼,_,O
-,區呵,_,O
-,呵呵,_,O
-,～,_,O
-,護理師,_,O
-,：,_,O
-,泰山區,_,B-loc
-,，,_,O
-,阿你都,_,O
-,。,_,O
-Sentence: 505,醫師,_,O
+Sentence: 475,醫師,_,O
 ,：,_,O
 ,好,_,O
 ,沒關係,_,O
@@ -5047,24 +4723,24 @@ Sentence: 505,醫師,_,O
 ,就,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 506,家屬,_,O
+Sentence: 476,家屬,_,O
 ,：,_,O
 ,好,_,O
 ,阿,_,O
 ,。,_,O
-Sentence: 507,醫師,_,O
+Sentence: 477,醫師,_,O
 ,：,_,O
 ,你,_,O
 ,就,_,O
 ,印,_,O
 ,這樣子,_,O
 ,。,_,O
-Sentence: 508,護理師,_,O
+Sentence: 478,護理師,_,O
 ,：,_,O
 ,好,_,O
 ,印好,_,O
 ,。,_,O
-Sentence: 509,醫師,_,O
+Sentence: 479,醫師,_,O
 ,：,_,O
 ,好,_,O
 ,，,_,O
@@ -5076,19 +4752,7 @@ Sentence: 509,醫師,_,O
 ,24號,_,I-tim
 ,回診,_,O
 ,。,_,O
-Sentence: 510,醫師,_,O
-,：,_,O
-,好,_,O
-,，,_,O
-,好,_,O
-,，,_,O
-,那,_,O
-,我們,_,O
-,前天,_,B-tim
-,24號,_,I-tim
-,回診,_,O
-,。,_,O
-Sentence: 511,醫師,_,O
+Sentence: 480,醫師,_,O
 ,：,_,O
 ,我,_,O
 ,有,_,O
@@ -5097,7 +4761,7 @@ Sentence: 511,醫師,_,O
 ,管師,_,O
 ,報備,_,O
 ,。,_,O
-Sentence: 512,家屬,_,O
+Sentence: 481,家屬,_,O
 ,：,_,O
 ,喔,_,O
 ,，,_,O
@@ -5107,7 +4771,7 @@ Sentence: 512,家屬,_,O
 ,久,_,O
 ,喔,_,O
 ,。,_,O
-Sentence: 513,醫師,_,O
+Sentence: 482,醫師,_,O
 ,：,_,O
 ,是,_,O
 ,，,_,O
@@ -5123,7 +4787,7 @@ Sentence: 513,醫師,_,O
 ,這樣,_,O
 ,啊,_,O
 ,。,_,O
-Sentence: 514,家屬,_,O
+Sentence: 483,家屬,_,O
 ,：,_,O
 ,喔喔,_,O
 ,，,_,O
@@ -5139,7 +4803,7 @@ Sentence: 514,家屬,_,O
 ,久,_,O
 ,沒關係,_,O
 ,？,_,O
-Sentence: 515,醫師,_,O
+Sentence: 484,醫師,_,O
 ,：,_,O
 ,沒有,_,O
 ,啦,_,O
@@ -5160,13 +4824,13 @@ Sentence: 515,醫師,_,O
 ,，,_,O
 ,還可以,_,O
 ,。,_,O
-Sentence: 516,家屬,_,O
+Sentence: 485,家屬,_,O
 ,：,_,O
 ,好,_,O
 ,，,_,O
 ,好好,_,O
 ,。,_,O
-Sentence: 517,醫師,_,O
+Sentence: 486,醫師,_,O
 ,：,_,O
 ,重,_,O
 ,…,_,O
@@ -5187,11 +4851,11 @@ Sentence: 517,醫師,_,O
 ,舒服,_,O
 ,喔,_,O
 ,。,_,O
-Sentence: 518,家屬,_,O
+Sentence: 487,家屬,_,O
 ,：,_,O
 ,恩,_,O
 ,。,_,O
-Sentence: 519,醫師,_,O
+Sentence: 488,醫師,_,O
 ,：,_,O
 ,到底,_,O
 ,是,_,O
@@ -5207,28 +4871,28 @@ Sentence: 519,醫師,_,O
 ,分,_,O
 ,這樣子,_,O
 ,。,_,O
-Sentence: 520,家屬,_,O
+Sentence: 489,家屬,_,O
 ,：,_,O
 ,對,_,O
 ,對,_,O
 ,，,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 521,醫師,_,O
+Sentence: 490,醫師,_,O
 ,：,_,O
 ,好,_,O
 ,，,_,O
 ,ok,_,O
 ,。,_,O
-Sentence: 522,家屬,_,O
+Sentence: 491,家屬,_,O
 ,：,_,O
 ,謝謝,_,O
 ,。,_,O
-Sentence: 523,醫師,_,O
+Sentence: 492,醫師,_,O
 ,：,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 524,民眾,_,O
+Sentence: 493,民眾,_,O
 ,：,_,O
 ,也,_,O
 ,有點,_,O
@@ -5252,14 +4916,14 @@ Sentence: 524,民眾,_,O
 ,…,_,O
 ,…,_,O
 ,。,_,O
-Sentence: 525,醫師,_,O
+Sentence: 494,醫師,_,O
 ,：,_,O
 ,來,_,O
 ,我,_,O
 ,看,_,O
 ,一下,_,O
 ,。,_,O
-Sentence: 526,民眾,_,O
+Sentence: 495,民眾,_,O
 ,：,_,O
 ,看,_,O
 ,這樣,_,O
@@ -5267,7 +4931,7 @@ Sentence: 526,民眾,_,O
 ,…,_,O
 ,…,_,O
 ,。,_,O
-Sentence: 527,醫師,_,O
+Sentence: 496,醫師,_,O
 ,：,_,O
 ,阿,_,O
 ,你,_,O
@@ -5276,7 +4940,7 @@ Sentence: 527,醫師,_,O
 ,來,_,O
 ,嗎,_,O
 ,？,_,O
-Sentence: 528,民眾,_,O
+Sentence: 497,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,，,_,O
@@ -5304,21 +4968,21 @@ Sentence: 528,民眾,_,O
 ,的,_,O
 ,嗎,_,O
 ,？,_,O
-Sentence: 529,膨膨,_,O
+Sentence: 498,膨膨,_,O
 ,的,_,O
 ,。,_,O
-Sentence: 530,醫師,_,O
+Sentence: 499,醫師,_,O
 ,：,_,O
 ,這,_,O
 ,正常,_,O
 ,喔,_,O
 ,。,_,O
-Sentence: 531,民眾,_,O
+Sentence: 500,民眾,_,O
 ,：,_,O
 ,正常,_,O
 ,喔,_,O
 ,？,_,O
-Sentence: 532,醫師,_,O
+Sentence: 501,醫師,_,O
 ,：,_,O
 ,你人,_,O
 ,瘦下去,_,O
@@ -5328,13 +4992,13 @@ Sentence: 532,醫師,_,O
 ,沒有,_,O
 ,肉,_,O
 ,。,_,O
-Sentence: 533,民眾,_,O
+Sentence: 502,民眾,_,O
 ,：,_,O
 ,喔,_,O
 ,～,_,O
 ,這樣,_,O
 ,。,_,O
-Sentence: 534,醫師,_,O
+Sentence: 503,醫師,_,O
 ,：,_,O
 ,這裡,_,O
 ,是,_,O
@@ -5346,18 +5010,18 @@ Sentence: 534,醫師,_,O
 ,痛,_,O
 ,嗎,_,O
 ,？,_,O
-Sentence: 535,民眾,_,O
+Sentence: 504,民眾,_,O
 ,：,_,O
 ,這樣,_,O
 ,不會,_,O
 ,。,_,O
-Sentence: 536,醫師,_,O
+Sentence: 505,醫師,_,O
 ,：,_,O
 ,這樣,_,O
 ,不會,_,O
 ,齁,_,O
 ,？,_,O
-Sentence: 537,民眾,_,O
+Sentence: 506,民眾,_,O
 ,：,_,O
 ,只有,_,O
 ,在,_,O
@@ -5370,7 +5034,7 @@ Sentence: 537,民眾,_,O
 ,一點點,_,O
 ,痛,_,O
 ,。,_,O
-Sentence: 538,那,_,O
+Sentence: 507,那,_,O
 ,現在,_,O
 ,問題,_,O
 ,就,_,O
@@ -5382,13 +5046,13 @@ Sentence: 538,那,_,O
 ,太,_,O
 ,久,_,O
 ,。,_,O
-Sentence: 539,醫師,_,O
+Sentence: 508,醫師,_,O
 ,：,_,O
 ,會,_,O
 ,麻,_,O
 ,嗎,_,O
 ,？,_,O
-Sentence: 540,民眾,_,O
+Sentence: 509,民眾,_,O
 ,：,_,O
 ,我,_,O
 ,會,_,O
@@ -5397,7 +5061,7 @@ Sentence: 540,民眾,_,O
 ,會,_,O
 ,發抖,_,O
 ,。,_,O
-Sentence: 541,醫師,_,O
+Sentence: 510,醫師,_,O
 ,：,_,O
 ,我,_,O
 ,看,_,O
@@ -5409,7 +5073,7 @@ Sentence: 541,醫師,_,O
 ,萎縮掉,_,O
 ,了,_,O
 ,。,_,O
-Sentence: 542,民眾,_,O
+Sentence: 511,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,阿。,_,O
@@ -5419,7 +5083,7 @@ Sentence: 542,民眾,_,O
 ,看,_,O
 ,一下,_,O
 ,。,_,O
-Sentence: 543,民眾,_,O
+Sentence: 512,民眾,_,O
 ,：,_,O
 ,需要,_,O
 ,脫,_,O
@@ -5427,14 +5091,14 @@ Sentence: 543,民眾,_,O
 ,起來,_,O
 ,嗎,_,O
 ,？,_,O
-Sentence: 544,醫師,_,O
+Sentence: 513,醫師,_,O
 ,：,_,O
 ,方便,_,O
 ,脫,_,O
 ,一下,_,O
 ,這樣子,_,O
 ,。,_,O
-Sentence: 545,民眾,_,O
+Sentence: 514,民眾,_,O
 ,：,_,O
 ,右邊,_,O
 ,大腿,_,O
@@ -5471,7 +5135,7 @@ Sentence: 545,民眾,_,O
 ,甚麼,_,O
 ,事,_,O
 ,？,_,O
-Sentence: 546,醫師,_,O
+Sentence: 515,醫師,_,O
 ,：,_,O
 ,我,_,O
 ,開,_,O
@@ -5566,7 +5230,7 @@ Sentence: 546,醫師,_,O
 ,對稱,_,O
 ,嗎,_,O
 ,？,_,O
-Sentence: 547,要不然,_,O
+Sentence: 516,要不然,_,O
 ,應該,_,O
 ,是,_,O
 ,左右,_,O
@@ -5576,7 +5240,7 @@ Sentence: 547,要不然,_,O
 ,：,_,O
 ,對,_,O
 ,。,_,O
-Sentence: 548,醫師,_,O
+Sentence: 517,醫師,_,O
 ,：,_,O
 ,這裡,_,O
 ,就是,_,O
@@ -5585,7 +5249,7 @@ Sentence: 548,醫師,_,O
 ,在,_,O
 ,裡面,_,O
 ,。,_,O
-Sentence: 549,民眾,_,O
+Sentence: 518,民眾,_,O
 ,：,_,O
 ,就是,_,O
 ,開刀,_,O
@@ -5596,7 +5260,7 @@ Sentence: 549,民眾,_,O
 ,後側,_,O
 ,吧,_,O
 ,？,_,O
-Sentence: 550,醫師,_,O
+Sentence: 519,醫師,_,O
 ,：,_,O
 ,對,_,O
 ,，,_,O
@@ -5613,11 +5277,11 @@ Sentence: 550,醫師,_,O
 ,可以,_,O
 ,嗎,_,O
 ,？,_,O
-Sentence: 551,民眾,_,O
+Sentence: 520,民眾,_,O
 ,：,_,O
 ,可以,_,O
 ,。,_,O
-Sentence: 552,醫師,_,O
+Sentence: 521,醫師,_,O
 ,：,_,O
 ,可以,_,O
 ,啦齁,_,O
@@ -5632,12 +5296,12 @@ Sentence: 552,醫師,_,O
 ,是,_,O
 ,還可以,_,O
 ,？,_,O
-Sentence: 553,民眾,_,O
+Sentence: 522,民眾,_,O
 ,：,_,O
 ,可以,_,O
 ,的,_,O
 ,。,_,O
-Sentence: 554,醫師,_,O
+Sentence: 523,醫師,_,O
 ,：,_,O
 ,那,_,O
 ,是,_,O
@@ -5655,7 +5319,7 @@ Sentence: 554,醫師,_,O
 ,正常,_,O
 ,的,_,O
 ,。,_,O
-Sentence: 555,民眾,_,O
+Sentence: 524,民眾,_,O
 ,：,_,O
 ,正常,_,O
 ,齁,_,O
@@ -5673,23 +5337,23 @@ Sentence: 555,民眾,_,O
 ,難,_,O
 ,入眠,_,O
 ,。,_,O
-Sentence: 556,醫師,_,O
+Sentence: 525,醫師,_,O
 ,：,_,O
 ,比較,_,O
 ,難,_,O
 ,入眠,_,O
 ,嗎,_,O
 ,？,_,O
-Sentence: 557,民眾,_,O
+Sentence: 526,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,。,_,O
-Sentence: 558,醫師,_,O
+Sentence: 527,醫師,_,O
 ,：,_,O
 ,是,_,O
 ,因為,_,O
 ,？,_,O
-Sentence: 559,你,_,O
+Sentence: 528,你,_,O
 ,在,_,O
 ,住院,_,O
 ,的,_,O
@@ -5729,47 +5393,7 @@ Sentence: 559,你,_,O
 ,不,_,O
 ,著,_,O
 ,。,_,O
-Sentence: 560,你,_,O
-,在,_,O
-,住院,_,O
-,的,_,O
-,時候,_,O
-,很,_,O
-,好,_,O
-,入眠,_,O
-,阿～,_,O
-,民眾,_,O
-,：,_,O
-,對,_,O
-,阿,_,O
-,，,_,O
-,但是,_,O
-,我,_,O
-,有時候,_,O
-,看,_,O
-,電視,_,O
-,看到,_,O
-,前年,_,B-tim
-,點,_,I-tim
-,想,_,O
-,說,_,O
-,藥,_,O
-,吃,_,O
-,了,_,O
-,，,_,O
-,睡,_,O
-,前,_,O
-,的,_,O
-,藥,_,O
-,吃,_,O
-,了,_,O
-,也,_,O
-,是,_,O
-,睡,_,O
-,不,_,O
-,著,_,O
-,。,_,O
-Sentence: 561,醫師,_,O
+Sentence: 529,醫師,_,O
 ,：,_,O
 ,還是,_,O
 ,我,_,O
@@ -5779,12 +5403,12 @@ Sentence: 561,醫師,_,O
 ,開強,_,O
 ,一點,_,O
 ,？,_,O
-Sentence: 562,民眾,_,O
+Sentence: 530,民眾,_,O
 ,：,_,O
 ,好,_,O
 ,啊,_,O
 ,。,_,O
-Sentence: 563,醫師,_,O
+Sentence: 531,醫師,_,O
 ,：,_,O
 ,那,_,O
 ,我,_,O
@@ -5792,10 +5416,10 @@ Sentence: 563,醫師,_,O
 ,你,_,O
 ,換起來,_,O
 ,。,_,O
-Sentence: 564,民眾,_,O
+Sentence: 532,民眾,_,O
 ,：ＯＫＯＫ,_,O
 ,。,_,O
-Sentence: 565,醫師,_,O
+Sentence: 533,醫師,_,O
 ,：,_,O
 ,你,_,O
 ,以前,_,O
@@ -5804,11 +5428,11 @@ Sentence: 565,醫師,_,O
 ,酒,_,O
 ,嗎,_,O
 ,？,_,O
-Sentence: 566,民眾,_,O
+Sentence: 534,民眾,_,O
 ,：,_,O
 ,沒有,_,O
 ,。,_,O
-Sentence: 567,醫師,_,O
+Sentence: 535,醫師,_,O
 ,：,_,O
 ,沒有,_,O
 ,齁,_,O
@@ -5824,7 +5448,7 @@ Sentence: 567,醫師,_,O
 ,檳榔,_,O
 ,而已,_,O
 ,。,_,O
-Sentence: 568,醫師,_,O
+Sentence: 536,醫師,_,O
 ,：,_,O
 ,那,_,O
 ,現在,_,O
@@ -5833,12 +5457,12 @@ Sentence: 568,醫師,_,O
 ,了,_,O
 ,吧,_,O
 ,？,_,O
-Sentence: 569,民眾,_,O
+Sentence: 537,民眾,_,O
 ,：,_,O
 ,沒有,_,O
 ,了,_,O
 ,。,_,O
-Sentence: 570,醫師,_,O
+Sentence: 538,醫師,_,O
 ,：,_,O
 ,菸,_,O
 ,不能,_,O
@@ -5851,7 +5475,7 @@ Sentence: 570,醫師,_,O
 ,：,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 571,醫師,_,O
+Sentence: 539,醫師,_,O
 ,：,_,O
 ,那,_,O
 ,原則上,_,O
@@ -5863,23 +5487,11 @@ Sentence: 571,醫師,_,O
 ,一,_,O
 ,次,_,O
 ,。,_,O
-Sentence: 572,醫師,_,O
-,：,_,O
-,那,_,O
-,原則上,_,O
-,我們,_,O
-,下下,_,B-tim
-,個,_,I-tim
-,禮拜,_,I-tim
-,回診,_,O
-,一,_,O
-,次,_,O
-,。,_,O
-Sentence: 573,民眾,_,O
+Sentence: 540,民眾,_,O
 ,：,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 574,醫師,_,O
+Sentence: 541,醫師,_,O
 ,：,_,O
 ,那,_,O
 ,你,_,O
@@ -5891,7 +5503,7 @@ Sentence: 574,醫師,_,O
 ,好,_,O
 ,一點,_,O
 ,？,_,O
-Sentence: 575,民眾,_,O
+Sentence: 542,民眾,_,O
 ,：,_,O
 ,有,_,O
 ,，,_,O
@@ -5902,7 +5514,7 @@ Sentence: 575,民眾,_,O
 ,開,_,O
 ,了,_,O
 ,。,_,O
-Sentence: 576,醫師,_,O
+Sentence: 543,醫師,_,O
 ,：,_,O
 ,那,_,O
 ,就,_,O
@@ -5913,7 +5525,7 @@ Sentence: 576,醫師,_,O
 ,藥,_,O
 ,了,_,O
 ,。,_,O
-Sentence: 577,民眾,_,O
+Sentence: 544,民眾,_,O
 ,：,_,O
 ,因為,_,O
 ,我,_,O
@@ -5925,7 +5537,7 @@ Sentence: 577,民眾,_,O
 ,很,_,O
 ,正常,_,O
 ,。,_,O
-Sentence: 578,醫師,_,O
+Sentence: 545,醫師,_,O
 ,：,_,O
 ,很,_,O
 ,正常,_,O
@@ -5943,22 +5555,22 @@ Sentence: 578,醫師,_,O
 ,了,_,O
 ,吧,_,O
 ,？,_,O
-Sentence: 579,民眾,_,O
+Sentence: 546,民眾,_,O
 ,：,_,O
 ,對,_,O
 ,。,_,O
-Sentence: 580,那,_,O
+Sentence: 547,那,_,O
 ,補充劑,_,O
 ,就,_,O
 ,不用,_,O
 ,了,_,O
 ,。,_,O
-Sentence: 581,民眾,_,O
+Sentence: 548,民眾,_,O
 ,：,_,O
 ,好,_,O
 ,的,_,O
 ,。,_,O
-Sentence: 582,醫師,_,O
+Sentence: 549,醫師,_,O
 ,：,_,O
 ,這,_,O
 ,個,_,O
@@ -5979,13 +5591,13 @@ Sentence: 582,醫師,_,O
 ,的,_,O
 ,藥物,_,O
 ,。,_,O
-Sentence: 583,民眾,_,O
+Sentence: 550,民眾,_,O
 ,：,_,O
 ,神經痛,_,O
 ,的,_,O
 ,是,_,O
 ,？,_,O
-Sentence: 584,醫師,_,O
+Sentence: 551,醫師,_,O
 ,：,_,O
 ,紅色,_,O
 ,的,_,O
@@ -5994,7 +5606,7 @@ Sentence: 584,醫師,_,O
 ,、,_,O
 ,白色,_,O
 ,。,_,O
-Sentence: 585,民眾,_,O
+Sentence: 552,民眾,_,O
 ,：,_,O
 ,類似,_,O
 ,愛心,_,O
@@ -6004,21 +5616,21 @@ Sentence: 585,民眾,_,O
 ,藥物,_,O
 ,嗎,_,O
 ,？,_,O
-Sentence: 586,醫師,_,O
+Sentence: 553,醫師,_,O
 ,：,_,O
 ,那,_,O
 ,顆,_,O
 ,沒,_,O
 ,吃,_,O
 ,。,_,O
-Sentence: 587,民眾,_,O
+Sentence: 554,民眾,_,O
 ,：,_,O
 ,喔,_,O
 ,～,_,O
 ,這,_,O
 ,顆,_,O
 ,。,_,O
-Sentence: 588,醫師,_,O
+Sentence: 555,醫師,_,O
 ,：,_,O
 ,這,_,O
 ,顆,_,O
@@ -6035,11 +5647,11 @@ Sentence: 588,醫師,_,O
 ,麻,_,O
 ,嗎,_,O
 ,？,_,O
-Sentence: 589,民眾,_,O
+Sentence: 556,民眾,_,O
 ,：,_,O
 ,不會,_,O
 ,。,_,O
-Sentence: 590,醫師,_,O
+Sentence: 557,醫師,_,O
 ,：,_,O
 ,那,_,O
 ,我們,_,O
@@ -6051,7 +5663,7 @@ Sentence: 590,醫師,_,O
 ,不,_,O
 ,好,_,O
 ,？,_,O
-Sentence: 591,民眾,_,O
+Sentence: 558,民眾,_,O
 ,：,_,O
 ,好,_,O
 ,，,_,O
@@ -6067,7 +5679,7 @@ Sentence: 591,民眾,_,O
 ,你,_,O
 ,講,_,O
 ,。,_,O
-Sentence: 592,醫師,_,O
+Sentence: 559,醫師,_,O
 ,：,_,O
 ,好,_,O
 ,，,_,O
@@ -6078,11 +5690,11 @@ Sentence: 592,醫師,_,O
 ,留,_,O
 ,著,_,O
 ,。,_,O
-Sentence: 593,民眾,_,O
+Sentence: 560,民眾,_,O
 ,：,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 594,醫師,_,O
+Sentence: 561,醫師,_,O
 ,：,_,O
 ,留,_,O
 ,抗生素,_,O
@@ -6090,11 +5702,11 @@ Sentence: 594,醫師,_,O
 ,止痛藥,_,O
 ,這樣子,_,O
 ,。,_,O
-Sentence: 595,民眾,_,O
+Sentence: 562,民眾,_,O
 ,：,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 596,醫師,_,O
+Sentence: 563,醫師,_,O
 ,：,_,O
 ,那,_,O
 ,我們,_,O
@@ -6110,27 +5722,11 @@ Sentence: 596,醫師,_,O
 ,6月,_,B-tim
 ,4號,_,I-tim
 ,。,_,O
-Sentence: 597,醫師,_,O
-,：,_,O
-,那,_,O
-,我們,_,O
-,原則上,_,O
-,也,_,O
-,是,_,O
-,後天,_,B-tim
-,個,_,I-tim
-,禮拜,_,I-tim
-,後,_,O
-,回診,_,O
-,，,_,O
-,9月,_,B-tim
-,4號,_,I-tim
-,。,_,O
-Sentence: 598,民眾,_,O
+Sentence: 564,民眾,_,O
 ,：,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 599,醫師,_,O
+Sentence: 565,醫師,_,O
 ,：,_,O
 ,也,_,O
 ,是,_,O
@@ -6143,7 +5739,7 @@ Sentence: 599,醫師,_,O
 ,抽血,_,O
 ,好不好,_,O
 ,？,_,O
-Sentence: 600,民眾,_,O
+Sentence: 566,民眾,_,O
 ,：ＯＫＯＫ,_,O
 ,，,_,O
 ,我,_,O
@@ -6161,7 +5757,7 @@ Sentence: 600,民眾,_,O
 ,如何,_,O
 ,解決,_,O
 ,。,_,O
-Sentence: 601,醫師,_,O
+Sentence: 567,醫師,_,O
 ,：,_,O
 ,這,_,O
 ,個,_,O
@@ -6175,7 +5771,7 @@ Sentence: 601,醫師,_,O
 ,會,_,O
 ,改善,_,O
 ,。,_,O
-Sentence: 602,民眾,_,O
+Sentence: 568,民眾,_,O
 ,：,_,O
 ,嘿,_,O
 ,～,_,O
@@ -6200,7 +5796,7 @@ Sentence: 602,民眾,_,O
 ,的,_,O
 ,力量,_,O
 ,。,_,O
-Sentence: 603,民眾,_,O
+Sentence: 569,民眾,_,O
 ,：,_,O
 ,好,_,O
 ,如果,_,O
@@ -6222,7 +5818,7 @@ Sentence: 603,民眾,_,O
 ,會,_,O
 ,發抖,_,O
 ,。,_,O
-Sentence: 604,醫師,_,O
+Sentence: 570,醫師,_,O
 ,：,_,O
 ,還是,_,O
 ,我們,_,O
@@ -6231,12 +5827,12 @@ Sentence: 604,醫師,_,O
 ,復健,_,O
 ,一下,_,O
 ,？,_,O
-Sentence: 605,民眾,_,O
+Sentence: 571,民眾,_,O
 ,：,_,O
 ,復健,_,O
 ,要,_,O
 ,？,_,O
-Sentence: 606,醫師,_,O
+Sentence: 572,醫師,_,O
 ,：,_,O
 ,你,_,O
 ,要,_,O
@@ -6245,24 +5841,18 @@ Sentence: 606,醫師,_,O
 ,好,_,O
 ,還是,_,O
 ,？,_,O
-Sentence: 607,你,_,O
+Sentence: 573,你,_,O
 ,住在,_,O
 ,哪裡,_,O
 ,附近,_,O
 ,？,_,O
-Sentence: 608,民眾,_,O
+Sentence: 574,民眾,_,O
 ,：,_,O
 ,我,_,O
 ,住在,_,O
 ,士林,_,B-loc
 ,。,_,O
-Sentence: 609,民眾,_,O
-,：,_,O
-,我,_,O
-,住在,_,O
-,泰山區,_,B-loc
-,。,_,O
-Sentence: 610,醫師,_,O
+Sentence: 575,醫師,_,O
 ,：,_,O
 ,士林,_,B-loc
 ,那邊,_,O
@@ -6272,17 +5862,7 @@ Sentence: 610,醫師,_,O
 ,診所,_,O
 ,嗎,_,O
 ,？,_,O
-Sentence: 611,醫師,_,O
-,：,_,O
-,學院,_,B-loc
-,那邊,_,O
-,附近,_,O
-,有,_,O
-,復健,_,O
-,診所,_,O
-,嗎,_,O
-,？,_,O
-Sentence: 612,民眾,_,O
+Sentence: 576,民眾,_,O
 ,：,_,O
 ,那裏,_,O
 ,有,_,O
@@ -6298,23 +5878,7 @@ Sentence: 612,民眾,_,O
 ,復健,_,I-loc
 ,診所,_,I-loc
 ,。,_,O
-Sentence: 613,民眾,_,O
-,：,_,O
-,那裏,_,O
-,有,_,O
-,一,_,O
-,間,_,O
-,比較,_,O
-,大,_,O
-,間,_,O
-,的,_,O
-,就,_,O
-,是,_,O
-,小明,_,B-loc
-,復健,_,I-loc
-,診所,_,I-loc
-,。,_,O
-Sentence: 614,醫師,_,O
+Sentence: 577,醫師,_,O
 ,：,_,O
 ,啊,_,O
 ,～,_,O
@@ -6327,20 +5891,7 @@ Sentence: 614,醫師,_,O
 ,的,_,O
 ,吧,_,O
 ,？,_,O
-Sentence: 615,醫師,_,O
-,：,_,O
-,啊,_,O
-,～,_,O
-,泰山區,_,B-loc
-,，,_,O
-,但是,_,O
-,那邊,_,O
-,是,_,O
-,洗腎,_,O
-,的,_,O
-,吧,_,O
-,？,_,O
-Sentence: 616,民眾,_,O
+Sentence: 578,民眾,_,O
 ,：,_,O
 ,我,_,O
 ,不,_,O
@@ -6352,13 +5903,13 @@ Sentence: 616,民眾,_,O
 ,問,_,O
 ,一下,_,O
 ,？,_,O
-Sentence: 617,醫師,_,O
+Sentence: 579,醫師,_,O
 ,：,_,O
 ,好,_,O
 ,問,_,O
 ,一下,_,O
 ,。,_,O
-Sentence: 618,民眾,_,O
+Sentence: 580,民眾,_,O
 ,：,_,O
 ,下,_,O
 ,次,_,O
@@ -6369,7 +5920,7 @@ Sentence: 618,民眾,_,O
 ,你,_,O
 ,講,_,O
 ,。,_,O
-Sentence: 619,醫師,_,O
+Sentence: 581,醫師,_,O
 ,：,_,O
 ,我,_,O
 ,就,_,O
@@ -6398,11 +5949,11 @@ Sentence: 619,醫師,_,O
 ,啦,_,O
 ,～,_,O
 ,。,_,O
-Sentence: 620,民眾,_,O
+Sentence: 582,民眾,_,O
 ,：,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 621,醫師,_,O
+Sentence: 583,醫師,_,O
 ,：,_,O
 ,這,_,O
 ,次,_,O
@@ -6430,7 +5981,7 @@ Sentence: 621,醫師,_,O
 ,痠痛,_,O
 ,嗎,_,O
 ,？,_,O
-Sentence: 622,民眾,_,O
+Sentence: 584,民眾,_,O
 ,：,_,O
 ,後背,_,O
 ,是,_,O
@@ -6447,7 +5998,7 @@ Sentence: 622,民眾,_,O
 ,會,_,O
 ,麻,_,O
 ,。,_,O
-Sentence: 623,醫師,_,O
+Sentence: 585,醫師,_,O
 ,：,_,O
 ,會,_,O
 ,麻齁,_,O
@@ -6462,11 +6013,11 @@ Sentence: 623,醫師,_,O
 ,太,_,O
 ,下去,_,O
 ,。,_,O
-Sentence: 624,醫師,_,O
+Sentence: 586,醫師,_,O
 ,：,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 625,那,_,O
+Sentence: 587,那,_,O
 ,我們,_,O
 ,都,_,O
 ,會,_,O
@@ -6486,7 +6037,7 @@ Sentence: 625,那,_,O
 ,民眾,_,O
 ,：OK,_,O
 ,。,_,O
-Sentence: 626,醫師,_,O
+Sentence: 588,醫師,_,O
 ,：,_,O
 ,因為,_,O
 ,你,_,O
@@ -6500,25 +6051,11 @@ Sentence: 626,醫師,_,O
 ,的,_,O
 ,藥物,_,O
 ,。,_,O
-Sentence: 627,醫師,_,O
-,：,_,O
-,因為,_,O
-,你,_,O
-,可能,_,O
-,還,_,O
-,需要,_,O
-,吃,_,O
-,下下,_,B-tim
-,個,_,I-tim
-,月,_,I-tim
-,的,_,O
-,藥物,_,O
-,。,_,O
-Sentence: 628,民眾,_,O
+Sentence: 589,民眾,_,O
 ,：,_,O
 ,好,_,O
 ,。,_,O
-Sentence: 629,醫師,_,O
+Sentence: 590,醫師,_,O
 ,：,_,O
 ,好,_,O
 ,，,_,O
@@ -6528,11 +6065,11 @@ Sentence: 629,醫師,_,O
 ,稍,_,O
 ,等一下,_,O
 ,。,_,O
-Sentence: 630,民眾,_,O
+Sentence: 591,民眾,_,O
 ,：,_,O
 ,謝謝,_,O
 ,。,_,O
-Sentence: 631,護理師,_,O
+Sentence: 592,護理師,_,O
 ,：,_,O
 ,那樣,_,O
 ,這邊,_,O
@@ -6540,10 +6077,4930 @@ Sentence: 631,護理師,_,O
 ,可以,_,O
 ,了,_,O
 ,。,_,O
-Sentence: 632,醫師,_,O
+Sentence: 593,醫師,_,O
 ,：,_,O
 ,那,_,O
 ,個,_,O
 ,是,_,O
 ,回診單,_,O
+,。,_,O
+Sentence: 594,民眾,_,O
+,：,_,O
+,阿,_,O
+,只是,_,O
+,四月,_,B-tim
+,好,_,O
+,很多,_,O
+,。,_,O
+Sentence: 595,三,_,B-tim
+,就算,_,O
+,沒,_,O
+,盜,_,O
+,，,_,O
+,可是,_,O
+,一,_,O
+,覺到,_,O
+,天明,_,O
+,這樣,_,O
+,。,_,O
+Sentence: 596,然後,_,O
+,肝,_,O
+,功能,_,O
+,比較,_,O
+,異常,_,O
+,，,_,O
+,85,_,B-med
+,，,_,O
+,102,_,B-med
+,。,_,O
+Sentence: 597,你,_,O
+,說,_,O
+,假如,_,O
+,是,_,O
+,前天,_,B-tim
+,，,_,O
+,那,_,O
+,有,_,O
+,可能,_,O
+,，,_,O
+,但是,_,O
+,兩,_,B-tim
+,可能,_,O
+,。,_,O
+Sentence: 598,民眾,_,O
+,：,_,O
+,對,_,O
+,阿。,_,O
+,因為,_,O
+,老實,_,O
+,講,_,O
+,，,_,O
+,我,_,O
+,前年,_,B-tim
+,都,_,O
+,在,_,O
+,對岸,_,O
+,比較,_,O
+,多,_,O
+,。,_,O
+Sentence: 599,醫師,_,O
+,：,_,O
+,喔,_,O
+,，,_,O
+,下下,_,B-tim
+,。,_,O
+Sentence: 600,醫師,_,O
+,：,_,O
+,它,_,O
+,，,_,O
+,Google,_,B-pro
+,有,_,O
+,設廠,_,O
+,喔,_,O
+,？,_,O
+Sentence: 601,醫師,_,O
+,：,_,O
+,Google,_,B-pro
+,不,_,O
+,是,_,O
+,，,_,O
+,那,_,O
+,做,_,O
+,什麼,_,O
+,，,_,O
+,ABS,_,O
+,？,_,O
+Sentence: 602,這,_,O
+,是,_,O
+,，,_,O
+,你,_,O
+,去年,_,B-tim
+,號,_,I-tim
+,住院,_,O
+,的,_,O
+,時候,_,O
+,。,_,O
+Sentence: 603,醫師,_,O
+,：,_,O
+,五,_,B-tim
+,二十一,_,I-tim
+,禮拜,_,I-tim
+,之後,_,O
+,再,_,O
+,追蹤,_,O
+,看看,_,O
+,，,_,O
+,沒有,_,O
+,問題,_,O
+,。,_,O
+Sentence: 604,民眾,_,O
+,：,_,O
+,賈伯斯,_,B-nam
+,的,_,O
+,。,_,O
+Sentence: 605,民眾,_,O
+,：,_,O
+,門診,_,O
+,還,_,O
+,沒有,_,O
+,，,_,O
+,他,_,O
+,是,_,O
+,三,_,B-tim
+,個,_,I-tim
+,。,_,O
+Sentence: 606,醫師,_,O
+,：,_,O
+,喔,_,O
+,，,_,O
+,他,_,O
+,是,_,O
+,6月,_,B-tim
+,4號,_,I-tim
+,。,_,O
+Sentence: 607,醫師,_,O
+,：,_,O
+,你,_,O
+,住院,_,O
+,兩,_,B-tim
+,十八,_,I-tim
+,到,_,O
+,現在,_,O
+,，,_,O
+,那,_,O
+,我們,_,O
+,再,_,O
+,6月,_,B-tim
+,個,_,I-tim
+,個,_,I-tim
+,。,_,O
+Sentence: 608,醫師,_,O
+,：,_,O
+,再,_,O
+,吃,_,O
+,下下,_,B-tim
+,禮拜,_,I-tim
+,二十一,_,I-tim
+,。,_,O
+Sentence: 609,我,_,O
+,三月,_,B-tim
+,上班,_,O
+,。,_,O
+Sentence: 610,醫師,_,O
+,：,_,O
+,阿你,_,O
+,定居,_,O
+,大安區,_,B-loc
+,這樣,_,O
+,？,_,O
+Sentence: 611,民眾,_,O
+,：,_,O
+,住,_,O
+,小明,_,B-loc
+,那邊,_,O
+,。,_,O
+Sentence: 612,醫師,_,O
+,：,_,O
+,喔,_,O
+,，,_,O
+,紐約,_,B-loc
+,。,_,O
+Sentence: 613,醫師,_,O
+,：,_,O
+,然後,_,O
+,，,_,O
+,抽血,_,O
+,，,_,O
+,賈伯斯,_,B-nam
+,二十號,_,B-tim
+,禮拜,_,I-tim
+,有,_,O
+,抽血,_,O
+,。,_,O
+Sentence: 614,醫師,_,O
+,：,_,O
+,那,_,O
+,我,_,O
+,就,_,O
+,約,_,O
+,，,_,O
+,也,_,O
+,是,_,O
+,約下,_,O
+,下,_,I-tim
+,個,_,I-tim
+,個,_,I-tim
+,。,_,O
+Sentence: 615,民眾,_,O
+,：,_,O
+,下下,_,B-tim
+,個,_,I-tim
+,。,_,O
+Sentence: 616,因為,_,O
+,你,_,O
+,本來,_,O
+,就,_,O
+,賈伯斯,_,B-nam
+,。,_,O
+Sentence: 617,民眾,_,O
+,：,_,O
+,賈伯斯,_,B-nam
+,是,_,O
+,四月,_,B-tim
+,。,_,O
+Sentence: 618,醫師,_,O
+,：,_,O
+,兩,_,B-tim
+,，,_,O
+,今天,_,O
+,。,_,O
+Sentence: 619,民眾,_,O
+,：,_,O
+,今天,_,O
+,去年,_,B-tim
+,，,_,O
+,剛好,_,O
+,是,_,O
+,到,_,O
+,四月,_,B-tim
+,個,_,I-tim
+,天,_,I-tim
+,。,_,O
+Sentence: 620,醫師,_,O
+,：,_,O
+,到,_,O
+,去年,_,B-tim
+,禮拜九,_,I-tim
+,月,_,I-tim
+,。,_,O
+Sentence: 621,民眾,_,O
+,：,_,O
+,對,_,O
+,，,_,O
+,前天,_,B-tim
+,禮拜,_,I-tim
+,。,_,O
+Sentence: 622,民眾,_,O
+,：,_,O
+,可以,_,O
+,啊,_,O
+,，,_,O
+,等於,_,O
+,說,_,O
+,一,_,O
+,次,_,O
+,來,_,O
+,看,_,O
+,兩,_,B-tim
+,禮拜,_,I-tim
+,。,_,O
+Sentence: 623,民眾,_,O
+,：,_,O
+,對,_,O
+,阿。,_,O
+,啊,_,O
+,像,_,O
+,我,_,O
+,兩,_,B-tim
+,個,_,I-tim
+,。,_,O
+Sentence: 624,醫師,_,O
+,：,_,O
+,阿阿嬤,_,O
+,她,_,O
+,好像,_,O
+,說,_,O
+,有,_,O
+,，,_,O
+,四月,_,B-tim
+,又,_,O
+,有,_,O
+,在,_,O
+,發燒,_,O
+,喔,_,O
+,。,_,O
+Sentence: 625,家屬,_,O
+,：,_,O
+,對,_,O
+,阿都,_,O
+,，,_,O
+,有時候,_,O
+,都,_,O
+,會,_,O
+,一,_,O
+,天,_,O
+,她,_,O
+,會,_,O
+,燒,_,O
+,，,_,O
+,誒,_,O
+,，,_,O
+,可是,_,O
+,她,_,O
+,這樣,_,O
+,五,_,B-tim
+,就,_,O
+,燒,_,O
+,兩,_,O
+,次,_,O
+,了,_,O
+,。,_,O
+Sentence: 626,家屬,_,O
+,：,_,O
+,下午,_,O
+,誒,_,O
+,，,_,O
+,昨天,_,O
+,兩,_,B-tim
+,禮拜,_,I-tim
+,一,_,O
+,次,_,O
+,，,_,O
+,然後,_,O
+,半夜,_,O
+,後天,_,B-tim
+,禮拜二,_,I-tim
+,那邊,_,O
+,又,_,O
+,燒到,_,O
+,85,_,B-med
+,。,_,O
+Sentence: 627,醫師,_,O
+,：,_,O
+,我,_,O
+,開,_,O
+,前天,_,B-tim
+,天,_,I-tim
+,，,_,O
+,因為,_,O
+,我,_,O
+,三,_,B-tim
+,有診,_,O
+,，,_,O
+,就,_,O
+,看,_,O
+,一下,_,O
+,狀況,_,O
+,怎麼樣,_,O
+,這樣子,_,O
+,。,_,O
+Sentence: 628,家屬,_,O
+,：,_,O
+,我,_,O
+,印象,_,O
+,很,_,O
+,清楚,_,O
+,…,_,O
+,…,_,O
+,恩,_,O
+,…,_,O
+,…,_,O
+,紐約,_,B-loc
+,學院,_,I-loc
+,，,_,O
+,阿他,_,O
+,說,_,O
+,打,_,O
+,，,_,O
+,google,_,O
+,有,_,O
+,，,_,O
+,他,_,O
+,說,_,O
+,google,_,O
+,有,_,O
+,。,_,O
+Sentence: 629,家屬,_,O
+,：,_,O
+,他,_,O
+,那,_,O
+,在,_,O
+,士林,_,B-loc
+,。,_,O
+Sentence: 630,醫師,_,O
+,：,_,O
+,小明,_,B-loc
+,這樣子,_,O
+,？,_,O
+Sentence: 631,民眾,_,O
+,：,_,O
+,對,_,O
+,我,_,O
+,想,_,O
+,叫,_,O
+,他,_,O
+,埋,_,O
+,，,_,O
+,因,_,O
+,…,_,O
+,…,_,O
+,因為,_,O
+,他,_,O
+,四月,_,B-tim
+,十八,_,I-tim
+,沒,_,O
+,開,_,O
+,。,_,O
+Sentence: 632,醫師,_,O
+,：,_,O
+,慶鴻,_,B-loc
+,那邊,_,O
+,？,_,O
+Sentence: 633,家屬,_,O
+,：,_,O
+,我們,_,O
+,那邊,_,O
+,美國,_,B-loc
+,喔,_,O
+,。,_,O
+Sentence: 634,醫師,_,O
+,：,_,O
+,泰山區,_,B-loc
+,。,_,O
+Sentence: 635,家屬,_,O
+,：,_,O
+,士林,_,B-loc
+,那邊,_,O
+,是,_,O
+,什麼,_,O
+,區呵,_,O
+,呵呵,_,O
+,～,_,O
+,護理師,_,O
+,：,_,O
+,小明,_,B-loc
+,，,_,O
+,阿你都,_,O
+,。,_,O
+Sentence: 636,醫師,_,O
+,：,_,O
+,好,_,O
+,，,_,O
+,好,_,O
+,，,_,O
+,那,_,O
+,我們,_,O
+,三,_,B-tim
+,禮拜,_,I-tim
+,回診,_,O
+,。,_,O
+Sentence: 637,民眾,_,O
+,：,_,O
+,對,_,O
+,，,_,O
+,我,_,O
+,哥哥,_,B-fam
+,帶,_,O
+,我,_,O
+,來,_,O
+,的,_,O
+,他,_,O
+,就,_,O
+,回去,_,O
+,了,_,O
+,，,_,O
+,我,_,O
+,等一下,_,O
+,我,_,O
+,自己,_,O
+,坐車,_,O
+,回去,_,O
+,，,_,O
+,這樣,_,O
+,是,_,O
+,正常,_,O
+,的,_,O
+,嗎,_,O
+,？,_,O
+Sentence: 638,你,_,O
+,在,_,O
+,住院,_,O
+,的,_,O
+,時候,_,O
+,很,_,O
+,好,_,O
+,入眠,_,O
+,阿～,_,O
+,民眾,_,O
+,：,_,O
+,對,_,O
+,阿,_,O
+,，,_,O
+,但是,_,O
+,我,_,O
+,有時候,_,O
+,看,_,O
+,電視,_,O
+,看到,_,O
+,前年,_,B-tim
+,四點,_,I-tim
+,想,_,O
+,說,_,O
+,藥,_,O
+,吃,_,O
+,了,_,O
+,，,_,O
+,睡,_,O
+,前,_,O
+,的,_,O
+,藥,_,O
+,吃,_,O
+,了,_,O
+,也,_,O
+,是,_,O
+,睡,_,O
+,不,_,O
+,著,_,O
+,。,_,O
+Sentence: 639,醫師,_,O
+,：,_,O
+,那,_,O
+,原則上,_,O
+,我們,_,O
+,下下,_,B-tim
+,禮拜,_,I-tim
+,個,_,I-tim
+,回診,_,O
+,一,_,O
+,次,_,O
+,。,_,O
+Sentence: 640,醫師,_,O
+,：,_,O
+,那,_,O
+,我們,_,O
+,原則上,_,O
+,也,_,O
+,是,_,O
+,前天,_,B-tim
+,禮拜,_,I-tim
+,點,_,I-tim
+,後,_,O
+,回診,_,O
+,，,_,O
+,前天,_,B-tim
+,兩點,_,I-tim
+,。,_,O
+Sentence: 641,民眾,_,O
+,：,_,O
+,我,_,O
+,住在,_,O
+,泰山區,_,B-loc
+,。,_,O
+Sentence: 642,醫師,_,O
+,：,_,O
+,慶鴻,_,B-loc
+,那邊,_,O
+,附近,_,O
+,有,_,O
+,復健,_,O
+,診所,_,O
+,嗎,_,O
+,？,_,O
+Sentence: 643,民眾,_,O
+,：,_,O
+,那裏,_,O
+,有,_,O
+,一,_,O
+,間,_,O
+,比較,_,O
+,大,_,O
+,間,_,O
+,的,_,O
+,就,_,O
+,是,_,O
+,羅斯福路,_,B-loc
+,學院,_,I-loc
+,學院,_,I-loc
+,。,_,O
+Sentence: 644,醫師,_,O
+,：,_,O
+,啊,_,O
+,～,_,O
+,學院,_,B-loc
+,，,_,O
+,但是,_,O
+,那邊,_,O
+,是,_,O
+,洗腎,_,O
+,的,_,O
+,吧,_,O
+,？,_,O
+Sentence: 645,醫師,_,O
+,：,_,O
+,因為,_,O
+,你,_,O
+,可能,_,O
+,還,_,O
+,需要,_,O
+,吃,_,O
+,兩,_,B-tim
+,禮拜,_,I-tim
+,個,_,I-tim
+,的,_,O
+,藥物,_,O
+,。,_,O
+Sentence: 646,民眾,_,O
+,：,_,O
+,阿,_,O
+,只是,_,O
+,前年,_,B-tim
+,好,_,O
+,很多,_,O
+,。,_,O
+Sentence: 647,一點半,_,B-tim
+,就算,_,O
+,沒,_,O
+,盜,_,O
+,，,_,O
+,可是,_,O
+,一,_,O
+,覺到,_,O
+,天明,_,O
+,這樣,_,O
+,。,_,O
+Sentence: 648,然後,_,O
+,肝,_,O
+,功能,_,O
+,比較,_,O
+,異常,_,O
+,，,_,O
+,102,_,B-med
+,，,_,O
+,85,_,B-med
+,。,_,O
+Sentence: 649,你,_,O
+,說,_,O
+,假如,_,O
+,是,_,O
+,下午,_,B-tim
+,，,_,O
+,那,_,O
+,有,_,O
+,可能,_,O
+,，,_,O
+,但是,_,O
+,五,_,B-tim
+,可能,_,O
+,。,_,O
+Sentence: 650,民眾,_,O
+,：,_,O
+,對,_,O
+,阿。,_,O
+,因為,_,O
+,老實,_,O
+,講,_,O
+,，,_,O
+,我,_,O
+,三,_,B-tim
+,都,_,O
+,在,_,O
+,對岸,_,O
+,比較,_,O
+,多,_,O
+,。,_,O
+Sentence: 651,醫師,_,O
+,：,_,O
+,喔,_,O
+,，,_,O
+,兩,_,B-tim
+,。,_,O
+Sentence: 652,醫師,_,O
+,：,_,O
+,它,_,O
+,，,_,O
+,Google,_,B-pro
+,有,_,O
+,設廠,_,O
+,喔,_,O
+,？,_,O
+Sentence: 653,醫師,_,O
+,：,_,O
+,Google,_,B-pro
+,不,_,O
+,是,_,O
+,，,_,O
+,那,_,O
+,做,_,O
+,什麼,_,O
+,，,_,O
+,ABS,_,O
+,？,_,O
+Sentence: 654,這,_,O
+,是,_,O
+,，,_,O
+,你,_,O
+,兩,_,B-tim
+,四號,_,I-tim
+,住院,_,O
+,的,_,O
+,時候,_,O
+,。,_,O
+Sentence: 655,醫師,_,O
+,：,_,O
+,前天,_,B-tim
+,禮拜,_,I-tim
+,禮拜,_,I-tim
+,之後,_,O
+,再,_,O
+,追蹤,_,O
+,看看,_,O
+,，,_,O
+,沒有,_,O
+,問題,_,O
+,。,_,O
+Sentence: 656,民眾,_,O
+,：,_,O
+,賈伯斯,_,B-nam
+,的,_,O
+,。,_,O
+Sentence: 657,民眾,_,O
+,：,_,O
+,門診,_,O
+,還,_,O
+,沒有,_,O
+,，,_,O
+,他,_,O
+,是,_,O
+,前年,_,B-tim
+,禮拜,_,I-tim
+,。,_,O
+Sentence: 658,醫師,_,O
+,：,_,O
+,喔,_,O
+,，,_,O
+,他,_,O
+,是,_,O
+,禮拜一,_,B-tim
+,月,_,I-tim
+,。,_,O
+Sentence: 659,醫師,_,O
+,：,_,O
+,你,_,O
+,住院,_,O
+,五,_,B-tim
+,號,_,I-tim
+,到,_,O
+,現在,_,O
+,，,_,O
+,那,_,O
+,我們,_,O
+,再,_,O
+,三,_,B-tim
+,天,_,I-tim
+,個,_,I-tim
+,。,_,O
+Sentence: 660,醫師,_,O
+,：,_,O
+,再,_,O
+,吃,_,O
+,後天,_,B-tim
+,禮拜,_,I-tim
+,個,_,I-tim
+,。,_,O
+Sentence: 661,我,_,O
+,三,_,B-tim
+,上班,_,O
+,。,_,O
+Sentence: 662,醫師,_,O
+,：,_,O
+,阿你,_,O
+,定居,_,O
+,士林,_,B-loc
+,這樣,_,O
+,？,_,O
+Sentence: 663,民眾,_,O
+,：,_,O
+,住,_,O
+,泰山區,_,B-loc
+,那邊,_,O
+,。,_,O
+Sentence: 664,醫師,_,O
+,：,_,O
+,喔,_,O
+,，,_,O
+,泰山區,_,B-loc
+,。,_,O
+Sentence: 665,醫師,_,O
+,：,_,O
+,然後,_,O
+,，,_,O
+,抽血,_,O
+,，,_,O
+,賈伯斯,_,B-nam
+,兩,_,B-tim
+,個,_,I-tim
+,有,_,O
+,抽血,_,O
+,。,_,O
+Sentence: 666,醫師,_,O
+,：,_,O
+,那,_,O
+,我,_,O
+,就,_,O
+,約,_,O
+,，,_,O
+,也,_,O
+,是,_,O
+,約下,_,O
+,禮拜,_,I-tim
+,個,_,I-tim
+,禮拜,_,I-tim
+,。,_,O
+Sentence: 667,民眾,_,O
+,：,_,O
+,三,_,B-tim
+,禮拜,_,I-tim
+,。,_,O
+Sentence: 668,因為,_,O
+,你,_,O
+,本來,_,O
+,就,_,O
+,賈伯斯,_,B-nam
+,。,_,O
+Sentence: 669,民眾,_,O
+,：,_,O
+,賈伯斯,_,B-nam
+,是,_,O
+,下下,_,B-tim
+,。,_,O
+Sentence: 670,醫師,_,O
+,：,_,O
+,6月,_,B-tim
+,，,_,O
+,今天,_,O
+,。,_,O
+Sentence: 671,民眾,_,O
+,：,_,O
+,今天,_,O
+,去年,_,B-tim
+,，,_,O
+,剛好,_,O
+,是,_,O
+,到,_,O
+,二十號,_,B-tim
+,禮拜九,_,I-tim
+,禮拜二,_,I-tim
+,。,_,O
+Sentence: 672,醫師,_,O
+,：,_,O
+,到,_,O
+,兩,_,B-tim
+,禮拜,_,I-tim
+,禮拜七,_,I-tim
+,。,_,O
+Sentence: 673,民眾,_,O
+,：,_,O
+,對,_,O
+,，,_,O
+,三,_,B-tim
+,24號,_,I-tim
+,。,_,O
+Sentence: 674,民眾,_,O
+,：,_,O
+,可以,_,O
+,啊,_,O
+,，,_,O
+,等於,_,O
+,說,_,O
+,一,_,O
+,次,_,O
+,來,_,O
+,看,_,O
+,禮拜一,_,B-tim
+,禮拜,_,I-tim
+,。,_,O
+Sentence: 675,民眾,_,O
+,：,_,O
+,對,_,O
+,阿。,_,O
+,啊,_,O
+,像,_,O
+,我,_,O
+,下下,_,B-tim
+,禮拜,_,I-tim
+,。,_,O
+Sentence: 676,醫師,_,O
+,：,_,O
+,阿阿嬤,_,O
+,她,_,O
+,好像,_,O
+,說,_,O
+,有,_,O
+,，,_,O
+,三,_,B-tim
+,又,_,O
+,有,_,O
+,在,_,O
+,發燒,_,O
+,喔,_,O
+,。,_,O
+Sentence: 677,家屬,_,O
+,：,_,O
+,對,_,O
+,阿都,_,O
+,，,_,O
+,有時候,_,O
+,都,_,O
+,會,_,O
+,一,_,O
+,天,_,O
+,她,_,O
+,會,_,O
+,燒,_,O
+,，,_,O
+,誒,_,O
+,，,_,O
+,可是,_,O
+,她,_,O
+,這樣,_,O
+,下下,_,B-tim
+,就,_,O
+,燒,_,O
+,兩,_,O
+,次,_,O
+,了,_,O
+,。,_,O
+Sentence: 678,家屬,_,O
+,：,_,O
+,下午,_,O
+,誒,_,O
+,，,_,O
+,昨天,_,O
+,三,_,B-tim
+,禮拜,_,I-tim
+,一,_,O
+,次,_,O
+,，,_,O
+,然後,_,O
+,半夜,_,O
+,七號,_,B-tim
+,個,_,I-tim
+,那邊,_,O
+,又,_,O
+,燒到,_,O
+,102,_,B-med
+,。,_,O
+Sentence: 679,醫師,_,O
+,：,_,O
+,我,_,O
+,開,_,O
+,禮拜三,_,B-tim
+,禮拜,_,I-tim
+,，,_,O
+,因為,_,O
+,我,_,O
+,前天,_,B-tim
+,有診,_,O
+,，,_,O
+,就,_,O
+,看,_,O
+,一下,_,O
+,狀況,_,O
+,怎麼樣,_,O
+,這樣子,_,O
+,。,_,O
+Sentence: 680,家屬,_,O
+,：,_,O
+,我,_,O
+,印象,_,O
+,很,_,O
+,清楚,_,O
+,…,_,O
+,…,_,O
+,恩,_,O
+,…,_,O
+,…,_,O
+,美國,_,B-loc
+,診所,_,I-loc
+,，,_,O
+,阿他,_,O
+,說,_,O
+,打,_,O
+,，,_,O
+,google,_,O
+,有,_,O
+,，,_,O
+,他,_,O
+,說,_,O
+,google,_,O
+,有,_,O
+,。,_,O
+Sentence: 681,家屬,_,O
+,：,_,O
+,他,_,O
+,那,_,O
+,在,_,O
+,小明,_,B-loc
+,。,_,O
+Sentence: 682,醫師,_,O
+,：,_,O
+,小明,_,B-loc
+,這樣子,_,O
+,？,_,O
+Sentence: 683,民眾,_,O
+,：,_,O
+,對,_,O
+,我,_,O
+,想,_,O
+,叫,_,O
+,他,_,O
+,埋,_,O
+,，,_,O
+,因,_,O
+,…,_,O
+,…,_,O
+,因為,_,O
+,他,_,O
+,三,_,B-tim
+,個,_,I-tim
+,沒,_,O
+,開,_,O
+,。,_,O
+Sentence: 684,醫師,_,O
+,：,_,O
+,士林,_,B-loc
+,那邊,_,O
+,？,_,O
+Sentence: 685,家屬,_,O
+,：,_,O
+,我們,_,O
+,那邊,_,O
+,羅斯福路,_,B-loc
+,喔,_,O
+,。,_,O
+Sentence: 686,醫師,_,O
+,：,_,O
+,泰山區,_,B-loc
+,。,_,O
+Sentence: 687,家屬,_,O
+,：,_,O
+,泰山區,_,B-loc
+,那邊,_,O
+,是,_,O
+,什麼,_,O
+,區呵,_,O
+,呵呵,_,O
+,～,_,O
+,護理師,_,O
+,：,_,O
+,美國,_,B-loc
+,，,_,O
+,阿你都,_,O
+,。,_,O
+Sentence: 688,醫師,_,O
+,：,_,O
+,好,_,O
+,，,_,O
+,好,_,O
+,，,_,O
+,那,_,O
+,我們,_,O
+,前天,_,B-tim
+,個,_,I-tim
+,回診,_,O
+,。,_,O
+Sentence: 689,民眾,_,O
+,：,_,O
+,對,_,O
+,，,_,O
+,我,_,O
+,哥哥,_,B-fam
+,帶,_,O
+,我,_,O
+,來,_,O
+,的,_,O
+,他,_,O
+,就,_,O
+,回去,_,O
+,了,_,O
+,，,_,O
+,我,_,O
+,等一下,_,O
+,我,_,O
+,自己,_,O
+,坐車,_,O
+,回去,_,O
+,，,_,O
+,這樣,_,O
+,是,_,O
+,正常,_,O
+,的,_,O
+,嗎,_,O
+,？,_,O
+Sentence: 690,你,_,O
+,在,_,O
+,住院,_,O
+,的,_,O
+,時候,_,O
+,很,_,O
+,好,_,O
+,入眠,_,O
+,阿～,_,O
+,民眾,_,O
+,：,_,O
+,對,_,O
+,阿,_,O
+,，,_,O
+,但是,_,O
+,我,_,O
+,有時候,_,O
+,看,_,O
+,電視,_,O
+,看到,_,O
+,下下,_,B-tim
+,禮拜,_,I-tim
+,想,_,O
+,說,_,O
+,藥,_,O
+,吃,_,O
+,了,_,O
+,，,_,O
+,睡,_,O
+,前,_,O
+,的,_,O
+,藥,_,O
+,吃,_,O
+,了,_,O
+,也,_,O
+,是,_,O
+,睡,_,O
+,不,_,O
+,著,_,O
+,。,_,O
+Sentence: 691,醫師,_,O
+,：,_,O
+,那,_,O
+,原則上,_,O
+,我們,_,O
+,兩,_,B-tim
+,禮拜七,_,I-tim
+,24號,_,I-tim
+,回診,_,O
+,一,_,O
+,次,_,O
+,。,_,O
+Sentence: 692,醫師,_,O
+,：,_,O
+,那,_,O
+,我們,_,O
+,原則上,_,O
+,也,_,O
+,是,_,O
+,前天,_,B-tim
+,個,_,I-tim
+,個,_,I-tim
+,後,_,O
+,回診,_,O
+,，,_,O
+,兩,_,B-tim
+,下,_,I-tim
+,。,_,O
+Sentence: 693,民眾,_,O
+,：,_,O
+,我,_,O
+,住在,_,O
+,羅斯福路,_,B-loc
+,。,_,O
+Sentence: 694,醫師,_,O
+,：,_,O
+,慶鴻,_,B-loc
+,那邊,_,O
+,附近,_,O
+,有,_,O
+,復健,_,O
+,診所,_,O
+,嗎,_,O
+,？,_,O
+Sentence: 695,民眾,_,O
+,：,_,O
+,那裏,_,O
+,有,_,O
+,一,_,O
+,間,_,O
+,比較,_,O
+,大,_,O
+,間,_,O
+,的,_,O
+,就,_,O
+,是,_,O
+,美國,_,B-loc
+,學院,_,I-loc
+,復健,_,I-loc
+,。,_,O
+Sentence: 696,醫師,_,O
+,：,_,O
+,啊,_,O
+,～,_,O
+,泰山區,_,B-loc
+,，,_,O
+,但是,_,O
+,那邊,_,O
+,是,_,O
+,洗腎,_,O
+,的,_,O
+,吧,_,O
+,？,_,O
+Sentence: 697,醫師,_,O
+,：,_,O
+,因為,_,O
+,你,_,O
+,可能,_,O
+,還,_,O
+,需要,_,O
+,吃,_,O
+,下下,_,B-tim
+,月,_,I-tim
+,月,_,I-tim
+,的,_,O
+,藥物,_,O
+,。,_,O
+Sentence: 698,民眾,_,O
+,：,_,O
+,阿,_,O
+,只是,_,O
+,下下,_,B-tim
+,好,_,O
+,很多,_,O
+,。,_,O
+Sentence: 699,禮拜一,_,B-tim
+,就算,_,O
+,沒,_,O
+,盜,_,O
+,，,_,O
+,可是,_,O
+,一,_,O
+,覺到,_,O
+,天明,_,O
+,這樣,_,O
+,。,_,O
+Sentence: 700,然後,_,O
+,肝,_,O
+,功能,_,O
+,比較,_,O
+,異常,_,O
+,，,_,O
+,38.2,_,B-med
+,，,_,O
+,102,_,B-med
+,。,_,O
+Sentence: 701,你,_,O
+,說,_,O
+,假如,_,O
+,是,_,O
+,兩,_,B-tim
+,，,_,O
+,那,_,O
+,有,_,O
+,可能,_,O
+,，,_,O
+,但是,_,O
+,前天,_,B-tim
+,可能,_,O
+,。,_,O
+Sentence: 702,民眾,_,O
+,：,_,O
+,對,_,O
+,阿。,_,O
+,因為,_,O
+,老實,_,O
+,講,_,O
+,，,_,O
+,我,_,O
+,四月,_,B-tim
+,都,_,O
+,在,_,O
+,對岸,_,O
+,比較,_,O
+,多,_,O
+,。,_,O
+Sentence: 703,醫師,_,O
+,：,_,O
+,喔,_,O
+,，,_,O
+,下午,_,B-tim
+,。,_,O
+Sentence: 704,醫師,_,O
+,：,_,O
+,它,_,O
+,，,_,O
+,Google,_,B-pro
+,有,_,O
+,設廠,_,O
+,喔,_,O
+,？,_,O
+Sentence: 705,醫師,_,O
+,：,_,O
+,Google,_,B-pro
+,不,_,O
+,是,_,O
+,，,_,O
+,那,_,O
+,做,_,O
+,什麼,_,O
+,，,_,O
+,ABS,_,O
+,？,_,O
+Sentence: 706,這,_,O
+,是,_,O
+,，,_,O
+,你,_,O
+,前年,_,B-tim
+,禮拜,_,I-tim
+,住院,_,O
+,的,_,O
+,時候,_,O
+,。,_,O
+Sentence: 707,醫師,_,O
+,：,_,O
+,9月,_,B-tim
+,下,_,I-tim
+,禮拜,_,I-tim
+,之後,_,O
+,再,_,O
+,追蹤,_,O
+,看看,_,O
+,，,_,O
+,沒有,_,O
+,問題,_,O
+,。,_,O
+Sentence: 708,民眾,_,O
+,：,_,O
+,賈伯斯,_,B-nam
+,的,_,O
+,。,_,O
+Sentence: 709,民眾,_,O
+,：,_,O
+,門診,_,O
+,還,_,O
+,沒有,_,O
+,，,_,O
+,他,_,O
+,是,_,O
+,三,_,B-tim
+,禮拜,_,I-tim
+,。,_,O
+Sentence: 710,醫師,_,O
+,：,_,O
+,喔,_,O
+,，,_,O
+,他,_,O
+,是,_,O
+,下下,_,B-tim
+,禮拜,_,I-tim
+,。,_,O
+Sentence: 711,醫師,_,O
+,：,_,O
+,你,_,O
+,住院,_,O
+,三,_,B-tim
+,號,_,I-tim
+,到,_,O
+,現在,_,O
+,，,_,O
+,那,_,O
+,我們,_,O
+,再,_,O
+,三,_,B-tim
+,禮拜,_,I-tim
+,十八,_,I-tim
+,。,_,O
+Sentence: 712,醫師,_,O
+,：,_,O
+,再,_,O
+,吃,_,O
+,9月,_,B-tim
+,個,_,I-tim
+,禮拜,_,I-tim
+,。,_,O
+Sentence: 713,我,_,O
+,下下,_,B-tim
+,上班,_,O
+,。,_,O
+Sentence: 714,醫師,_,O
+,：,_,O
+,阿你,_,O
+,定居,_,O
+,泰山區,_,B-loc
+,這樣,_,O
+,？,_,O
+Sentence: 715,民眾,_,O
+,：,_,O
+,住,_,O
+,紐約,_,B-loc
+,那邊,_,O
+,。,_,O
+Sentence: 716,醫師,_,O
+,：,_,O
+,喔,_,O
+,，,_,O
+,大安區,_,B-loc
+,。,_,O
+Sentence: 717,醫師,_,O
+,：,_,O
+,然後,_,O
+,，,_,O
+,抽血,_,O
+,，,_,O
+,賈伯斯,_,B-nam
+,下下,_,B-tim
+,禮拜,_,I-tim
+,有,_,O
+,抽血,_,O
+,。,_,O
+Sentence: 718,醫師,_,O
+,：,_,O
+,那,_,O
+,我,_,O
+,就,_,O
+,約,_,O
+,，,_,O
+,也,_,O
+,是,_,O
+,約下,_,O
+,四點,_,I-tim
+,個,_,I-tim
+,個,_,I-tim
+,。,_,O
+Sentence: 719,民眾,_,O
+,：,_,O
+,三,_,B-tim
+,號,_,I-tim
+,。,_,O
+Sentence: 720,因為,_,O
+,你,_,O
+,本來,_,O
+,就,_,O
+,賈伯斯,_,B-nam
+,。,_,O
+Sentence: 721,民眾,_,O
+,：,_,O
+,賈伯斯,_,B-nam
+,是,_,O
+,三月,_,B-tim
+,。,_,O
+Sentence: 722,醫師,_,O
+,：,_,O
+,禮拜一,_,B-tim
+,，,_,O
+,今天,_,O
+,。,_,O
+Sentence: 723,民眾,_,O
+,：,_,O
+,今天,_,O
+,前年,_,B-tim
+,，,_,O
+,剛好,_,O
+,是,_,O
+,到,_,O
+,前天,_,B-tim
+,天,_,I-tim
+,下,_,I-tim
+,。,_,O
+Sentence: 724,醫師,_,O
+,：,_,O
+,到,_,O
+,前天,_,B-tim
+,4號,_,I-tim
+,個,_,I-tim
+,。,_,O
+Sentence: 725,民眾,_,O
+,：,_,O
+,對,_,O
+,，,_,O
+,兩,_,B-tim
+,禮拜,_,I-tim
+,。,_,O
+Sentence: 726,民眾,_,O
+,：,_,O
+,可以,_,O
+,啊,_,O
+,，,_,O
+,等於,_,O
+,說,_,O
+,一,_,O
+,次,_,O
+,來,_,O
+,看,_,O
+,一點半,_,B-tim
+,個,_,I-tim
+,。,_,O
+Sentence: 727,民眾,_,O
+,：,_,O
+,對,_,O
+,阿。,_,O
+,啊,_,O
+,像,_,O
+,我,_,O
+,三,_,B-tim
+,十八,_,I-tim
+,。,_,O
+Sentence: 728,醫師,_,O
+,：,_,O
+,阿阿嬤,_,O
+,她,_,O
+,好像,_,O
+,說,_,O
+,有,_,O
+,，,_,O
+,四月,_,B-tim
+,又,_,O
+,有,_,O
+,在,_,O
+,發燒,_,O
+,喔,_,O
+,。,_,O
+Sentence: 729,家屬,_,O
+,：,_,O
+,對,_,O
+,阿都,_,O
+,，,_,O
+,有時候,_,O
+,都,_,O
+,會,_,O
+,一,_,O
+,天,_,O
+,她,_,O
+,會,_,O
+,燒,_,O
+,，,_,O
+,誒,_,O
+,，,_,O
+,可是,_,O
+,她,_,O
+,這樣,_,O
+,下下,_,B-tim
+,就,_,O
+,燒,_,O
+,兩,_,O
+,次,_,O
+,了,_,O
+,。,_,O
+Sentence: 730,家屬,_,O
+,：,_,O
+,下午,_,O
+,誒,_,O
+,，,_,O
+,昨天,_,O
+,四月,_,B-tim
+,個,_,I-tim
+,一,_,O
+,次,_,O
+,，,_,O
+,然後,_,O
+,半夜,_,O
+,下下,_,B-tim
+,天,_,I-tim
+,那邊,_,O
+,又,_,O
+,燒到,_,O
+,85,_,B-med
+,。,_,O
+Sentence: 731,醫師,_,O
+,：,_,O
+,我,_,O
+,開,_,O
+,6月,_,B-tim
+,禮拜,_,I-tim
+,，,_,O
+,因為,_,O
+,我,_,O
+,六,_,B-tim
+,有診,_,O
+,，,_,O
+,就,_,O
+,看,_,O
+,一下,_,O
+,狀況,_,O
+,怎麼樣,_,O
+,這樣子,_,O
+,。,_,O
+Sentence: 732,家屬,_,O
+,：,_,O
+,我,_,O
+,印象,_,O
+,很,_,O
+,清楚,_,O
+,…,_,O
+,…,_,O
+,恩,_,O
+,…,_,O
+,…,_,O
+,紐約,_,B-loc
+,學院,_,I-loc
+,，,_,O
+,阿他,_,O
+,說,_,O
+,打,_,O
+,，,_,O
+,google,_,O
+,有,_,O
+,，,_,O
+,他,_,O
+,說,_,O
+,google,_,O
+,有,_,O
+,。,_,O
+Sentence: 733,家屬,_,O
+,：,_,O
+,他,_,O
+,那,_,O
+,在,_,O
+,羅斯福路,_,B-loc
+,。,_,O
+Sentence: 734,醫師,_,O
+,：,_,O
+,泰山區,_,B-loc
+,這樣子,_,O
+,？,_,O
+Sentence: 735,民眾,_,O
+,：,_,O
+,對,_,O
+,我,_,O
+,想,_,O
+,叫,_,O
+,他,_,O
+,埋,_,O
+,，,_,O
+,因,_,O
+,…,_,O
+,…,_,O
+,因為,_,O
+,他,_,O
+,前天,_,B-tim
+,四點,_,I-tim
+,沒,_,O
+,開,_,O
+,。,_,O
+Sentence: 736,醫師,_,O
+,：,_,O
+,羅斯福路,_,B-loc
+,那邊,_,O
+,？,_,O
+Sentence: 737,家屬,_,O
+,：,_,O
+,我們,_,O
+,那邊,_,O
+,士林,_,B-loc
+,喔,_,O
+,。,_,O
+Sentence: 738,醫師,_,O
+,：,_,O
+,紐約,_,B-loc
+,。,_,O
+Sentence: 739,家屬,_,O
+,：,_,O
+,羅斯福路,_,B-loc
+,那邊,_,O
+,是,_,O
+,什麼,_,O
+,區呵,_,O
+,呵呵,_,O
+,～,_,O
+,護理師,_,O
+,：,_,O
+,泰山區,_,B-loc
+,，,_,O
+,阿你都,_,O
+,。,_,O
+Sentence: 740,醫師,_,O
+,：,_,O
+,好,_,O
+,，,_,O
+,好,_,O
+,，,_,O
+,那,_,O
+,我們,_,O
+,後天,_,B-tim
+,禮拜七,_,I-tim
+,回診,_,O
+,。,_,O
+Sentence: 741,民眾,_,O
+,：,_,O
+,對,_,O
+,，,_,O
+,我,_,O
+,哥哥,_,B-fam
+,帶,_,O
+,我,_,O
+,來,_,O
+,的,_,O
+,他,_,O
+,就,_,O
+,回去,_,O
+,了,_,O
+,，,_,O
+,我,_,O
+,等一下,_,O
+,我,_,O
+,自己,_,O
+,坐車,_,O
+,回去,_,O
+,，,_,O
+,這樣,_,O
+,是,_,O
+,正常,_,O
+,的,_,O
+,嗎,_,O
+,？,_,O
+Sentence: 742,你,_,O
+,在,_,O
+,住院,_,O
+,的,_,O
+,時候,_,O
+,很,_,O
+,好,_,O
+,入眠,_,O
+,阿～,_,O
+,民眾,_,O
+,：,_,O
+,對,_,O
+,阿,_,O
+,，,_,O
+,但是,_,O
+,我,_,O
+,有時候,_,O
+,看,_,O
+,電視,_,O
+,看到,_,O
+,兩,_,B-tim
+,四號,_,I-tim
+,想,_,O
+,說,_,O
+,藥,_,O
+,吃,_,O
+,了,_,O
+,，,_,O
+,睡,_,O
+,前,_,O
+,的,_,O
+,藥,_,O
+,吃,_,O
+,了,_,O
+,也,_,O
+,是,_,O
+,睡,_,O
+,不,_,O
+,著,_,O
+,。,_,O
+Sentence: 743,醫師,_,O
+,：,_,O
+,那,_,O
+,原則上,_,O
+,我們,_,O
+,三月,_,B-tim
+,個,_,I-tim
+,禮拜,_,I-tim
+,回診,_,O
+,一,_,O
+,次,_,O
+,。,_,O
+Sentence: 744,醫師,_,O
+,：,_,O
+,那,_,O
+,我們,_,O
+,原則上,_,O
+,也,_,O
+,是,_,O
+,下下,_,B-tim
+,月,_,I-tim
+,四號,_,I-tim
+,後,_,O
+,回診,_,O
+,，,_,O
+,三,_,B-tim
+,兩點,_,I-tim
+,。,_,O
+Sentence: 745,民眾,_,O
+,：,_,O
+,我,_,O
+,住在,_,O
+,慶鴻,_,B-loc
+,。,_,O
+Sentence: 746,醫師,_,O
+,：,_,O
+,士林,_,B-loc
+,那邊,_,O
+,附近,_,O
+,有,_,O
+,復健,_,O
+,診所,_,O
+,嗎,_,O
+,？,_,O
+Sentence: 747,民眾,_,O
+,：,_,O
+,那裏,_,O
+,有,_,O
+,一,_,O
+,間,_,O
+,比較,_,O
+,大,_,O
+,間,_,O
+,的,_,O
+,就,_,O
+,是,_,O
+,泰山區,_,B-loc
+,診所,_,I-loc
+,學院,_,I-loc
+,。,_,O
+Sentence: 748,醫師,_,O
+,：,_,O
+,啊,_,O
+,～,_,O
+,大安區,_,B-loc
+,，,_,O
+,但是,_,O
+,那邊,_,O
+,是,_,O
+,洗腎,_,O
+,的,_,O
+,吧,_,O
+,？,_,O
+Sentence: 749,醫師,_,O
+,：,_,O
+,因為,_,O
+,你,_,O
+,可能,_,O
+,還,_,O
+,需要,_,O
+,吃,_,O
+,去年,_,B-tim
+,禮拜,_,I-tim
+,禮拜,_,I-tim
+,的,_,O
+,藥物,_,O
+,。,_,O
+Sentence: 750,民眾,_,O
+,：,_,O
+,阿,_,O
+,只是,_,O
+,下下,_,B-tim
+,好,_,O
+,很多,_,O
+,。,_,O
+Sentence: 751,前天,_,B-tim
+,就算,_,O
+,沒,_,O
+,盜,_,O
+,，,_,O
+,可是,_,O
+,一,_,O
+,覺到,_,O
+,天明,_,O
+,這樣,_,O
+,。,_,O
+Sentence: 752,然後,_,O
+,肝,_,O
+,功能,_,O
+,比較,_,O
+,異常,_,O
+,，,_,O
+,85,_,B-med
+,，,_,O
+,85,_,B-med
+,。,_,O
+Sentence: 753,你,_,O
+,說,_,O
+,假如,_,O
+,是,_,O
+,兩,_,B-tim
+,，,_,O
+,那,_,O
+,有,_,O
+,可能,_,O
+,，,_,O
+,但是,_,O
+,前年,_,B-tim
+,可能,_,O
+,。,_,O
+Sentence: 754,民眾,_,O
+,：,_,O
+,對,_,O
+,阿。,_,O
+,因為,_,O
+,老實,_,O
+,講,_,O
+,，,_,O
+,我,_,O
+,前年,_,B-tim
+,都,_,O
+,在,_,O
+,對岸,_,O
+,比較,_,O
+,多,_,O
+,。,_,O
+Sentence: 755,醫師,_,O
+,：,_,O
+,喔,_,O
+,，,_,O
+,禮拜一,_,B-tim
+,。,_,O
+Sentence: 756,醫師,_,O
+,：,_,O
+,它,_,O
+,，,_,O
+,Google,_,B-pro
+,有,_,O
+,設廠,_,O
+,喔,_,O
+,？,_,O
+Sentence: 757,醫師,_,O
+,：,_,O
+,Google,_,B-pro
+,不,_,O
+,是,_,O
+,，,_,O
+,那,_,O
+,做,_,O
+,什麼,_,O
+,，,_,O
+,ABS,_,O
+,？,_,O
+Sentence: 758,這,_,O
+,是,_,O
+,，,_,O
+,你,_,O
+,後天,_,B-tim
+,禮拜,_,I-tim
+,住院,_,O
+,的,_,O
+,時候,_,O
+,。,_,O
+Sentence: 759,醫師,_,O
+,：,_,O
+,禮拜三,_,B-tim
+,個,_,I-tim
+,禮拜,_,I-tim
+,之後,_,O
+,再,_,O
+,追蹤,_,O
+,看看,_,O
+,，,_,O
+,沒有,_,O
+,問題,_,O
+,。,_,O
+Sentence: 760,民眾,_,O
+,：,_,O
+,賈伯斯,_,B-nam
+,的,_,O
+,。,_,O
+Sentence: 761,民眾,_,O
+,：,_,O
+,門診,_,O
+,還,_,O
+,沒有,_,O
+,，,_,O
+,他,_,O
+,是,_,O
+,下下,_,B-tim
+,天,_,I-tim
+,。,_,O
+Sentence: 762,醫師,_,O
+,：,_,O
+,喔,_,O
+,，,_,O
+,他,_,O
+,是,_,O
+,禮拜一,_,B-tim
+,個,_,I-tim
+,。,_,O
+Sentence: 763,醫師,_,O
+,：,_,O
+,你,_,O
+,住院,_,O
+,禮拜三,_,B-tim
+,禮拜九,_,I-tim
+,到,_,O
+,現在,_,O
+,，,_,O
+,那,_,O
+,我們,_,O
+,再,_,O
+,三,_,B-tim
+,禮拜,_,I-tim
+,月,_,I-tim
+,。,_,O
+Sentence: 764,醫師,_,O
+,：,_,O
+,再,_,O
+,吃,_,O
+,兩,_,B-tim
+,禮拜九,_,I-tim
+,禮拜,_,I-tim
+,。,_,O
+Sentence: 765,我,_,O
+,四月,_,B-tim
+,上班,_,O
+,。,_,O
+Sentence: 766,醫師,_,O
+,：,_,O
+,阿你,_,O
+,定居,_,O
+,美國,_,B-loc
+,這樣,_,O
+,？,_,O
+Sentence: 767,民眾,_,O
+,：,_,O
+,住,_,O
+,小明,_,B-loc
+,那邊,_,O
+,。,_,O
+Sentence: 768,醫師,_,O
+,：,_,O
+,喔,_,O
+,，,_,O
+,泰山區,_,B-loc
+,。,_,O
+Sentence: 769,醫師,_,O
+,：,_,O
+,然後,_,O
+,，,_,O
+,抽血,_,O
+,，,_,O
+,賈伯斯,_,B-nam
+,六,_,B-tim
+,個,_,I-tim
+,有,_,O
+,抽血,_,O
+,。,_,O
+Sentence: 770,醫師,_,O
+,：,_,O
+,那,_,O
+,我,_,O
+,就,_,O
+,約,_,O
+,，,_,O
+,也,_,O
+,是,_,O
+,約下,_,O
+,月,_,I-tim
+,禮拜,_,I-tim
+,禮拜,_,I-tim
+,。,_,O
+Sentence: 771,民眾,_,O
+,：,_,O
+,下下,_,B-tim
+,禮拜九,_,I-tim
+,。,_,O
+Sentence: 772,因為,_,O
+,你,_,O
+,本來,_,O
+,就,_,O
+,賈伯斯,_,B-nam
+,。,_,O
+Sentence: 773,民眾,_,O
+,：,_,O
+,賈伯斯,_,B-nam
+,是,_,O
+,三,_,B-tim
+,。,_,O
+Sentence: 774,醫師,_,O
+,：,_,O
+,後天,_,B-tim
+,，,_,O
+,今天,_,O
+,。,_,O
+Sentence: 775,民眾,_,O
+,：,_,O
+,今天,_,O
+,去年,_,B-tim
+,，,_,O
+,剛好,_,O
+,是,_,O
+,到,_,O
+,下下,_,B-tim
+,禮拜九,_,I-tim
+,禮拜,_,I-tim
+,。,_,O
+Sentence: 776,醫師,_,O
+,：,_,O
+,到,_,O
+,去年,_,B-tim
+,個,_,I-tim
+,個,_,I-tim
+,。,_,O
+Sentence: 777,民眾,_,O
+,：,_,O
+,對,_,O
+,，,_,O
+,兩,_,B-tim
+,個,_,I-tim
+,。,_,O
+Sentence: 778,民眾,_,O
+,：,_,O
+,可以,_,O
+,啊,_,O
+,，,_,O
+,等於,_,O
+,說,_,O
+,一,_,O
+,次,_,O
+,來,_,O
+,看,_,O
+,後天,_,B-tim
+,個,_,I-tim
+,。,_,O
+Sentence: 779,民眾,_,O
+,：,_,O
+,對,_,O
+,阿。,_,O
+,啊,_,O
+,像,_,O
+,我,_,O
+,前年,_,B-tim
+,禮拜七,_,I-tim
+,。,_,O
+Sentence: 780,醫師,_,O
+,：,_,O
+,阿阿嬤,_,O
+,她,_,O
+,好像,_,O
+,說,_,O
+,有,_,O
+,，,_,O
+,前天,_,B-tim
+,又,_,O
+,有,_,O
+,在,_,O
+,發燒,_,O
+,喔,_,O
+,。,_,O
+Sentence: 781,家屬,_,O
+,：,_,O
+,對,_,O
+,阿都,_,O
+,，,_,O
+,有時候,_,O
+,都,_,O
+,會,_,O
+,一,_,O
+,天,_,O
+,她,_,O
+,會,_,O
+,燒,_,O
+,，,_,O
+,誒,_,O
+,，,_,O
+,可是,_,O
+,她,_,O
+,這樣,_,O
+,前天,_,B-tim
+,就,_,O
+,燒,_,O
+,兩,_,O
+,次,_,O
+,了,_,O
+,。,_,O
+Sentence: 782,家屬,_,O
+,：,_,O
+,下午,_,O
+,誒,_,O
+,，,_,O
+,昨天,_,O
+,兩,_,B-tim
+,個,_,I-tim
+,一,_,O
+,次,_,O
+,，,_,O
+,然後,_,O
+,半夜,_,O
+,三月,_,B-tim
+,十八,_,I-tim
+,那邊,_,O
+,又,_,O
+,燒到,_,O
+,38.2,_,B-med
+,。,_,O
+Sentence: 783,醫師,_,O
+,：,_,O
+,我,_,O
+,開,_,O
+,兩,_,B-tim
+,號,_,I-tim
+,，,_,O
+,因為,_,O
+,我,_,O
+,三,_,B-tim
+,有診,_,O
+,，,_,O
+,就,_,O
+,看,_,O
+,一下,_,O
+,狀況,_,O
+,怎麼樣,_,O
+,這樣子,_,O
+,。,_,O
+Sentence: 784,家屬,_,O
+,：,_,O
+,我,_,O
+,印象,_,O
+,很,_,O
+,清楚,_,O
+,…,_,O
+,…,_,O
+,恩,_,O
+,…,_,O
+,…,_,O
+,羅斯福路,_,B-loc
+,復健,_,I-loc
+,，,_,O
+,阿他,_,O
+,說,_,O
+,打,_,O
+,，,_,O
+,google,_,O
+,有,_,O
+,，,_,O
+,他,_,O
+,說,_,O
+,google,_,O
+,有,_,O
+,。,_,O
+Sentence: 785,家屬,_,O
+,：,_,O
+,他,_,O
+,那,_,O
+,在,_,O
+,慶鴻,_,B-loc
+,。,_,O
+Sentence: 786,醫師,_,O
+,：,_,O
+,紐約,_,B-loc
+,這樣子,_,O
+,？,_,O
+Sentence: 787,民眾,_,O
+,：,_,O
+,對,_,O
+,我,_,O
+,想,_,O
+,叫,_,O
+,他,_,O
+,埋,_,O
+,，,_,O
+,因,_,O
+,…,_,O
+,…,_,O
+,因為,_,O
+,他,_,O
+,三,_,B-tim
+,個,_,I-tim
+,沒,_,O
+,開,_,O
+,。,_,O
+Sentence: 788,醫師,_,O
+,：,_,O
+,泰山區,_,B-loc
+,那邊,_,O
+,？,_,O
+Sentence: 789,家屬,_,O
+,：,_,O
+,我們,_,O
+,那邊,_,O
+,學院,_,B-loc
+,喔,_,O
+,。,_,O
+Sentence: 790,醫師,_,O
+,：,_,O
+,紐約,_,B-loc
+,。,_,O
+Sentence: 791,家屬,_,O
+,：,_,O
+,慶鴻,_,B-loc
+,那邊,_,O
+,是,_,O
+,什麼,_,O
+,區呵,_,O
+,呵呵,_,O
+,～,_,O
+,護理師,_,O
+,：,_,O
+,大安區,_,B-loc
+,，,_,O
+,阿你都,_,O
+,。,_,O
+Sentence: 792,醫師,_,O
+,：,_,O
+,好,_,O
+,，,_,O
+,好,_,O
+,，,_,O
+,那,_,O
+,我們,_,O
+,前年,_,B-tim
+,4號,_,I-tim
+,回診,_,O
+,。,_,O
+Sentence: 793,民眾,_,O
+,：,_,O
+,對,_,O
+,，,_,O
+,我,_,O
+,哥哥,_,B-fam
+,帶,_,O
+,我,_,O
+,來,_,O
+,的,_,O
+,他,_,O
+,就,_,O
+,回去,_,O
+,了,_,O
+,，,_,O
+,我,_,O
+,等一下,_,O
+,我,_,O
+,自己,_,O
+,坐車,_,O
+,回去,_,O
+,，,_,O
+,這樣,_,O
+,是,_,O
+,正常,_,O
+,的,_,O
+,嗎,_,O
+,？,_,O
+Sentence: 794,你,_,O
+,在,_,O
+,住院,_,O
+,的,_,O
+,時候,_,O
+,很,_,O
+,好,_,O
+,入眠,_,O
+,阿～,_,O
+,民眾,_,O
+,：,_,O
+,對,_,O
+,阿,_,O
+,，,_,O
+,但是,_,O
+,我,_,O
+,有時候,_,O
+,看,_,O
+,電視,_,O
+,看到,_,O
+,五,_,B-tim
+,禮拜七,_,I-tim
+,想,_,O
+,說,_,O
+,藥,_,O
+,吃,_,O
+,了,_,O
+,，,_,O
+,睡,_,O
+,前,_,O
+,的,_,O
+,藥,_,O
+,吃,_,O
+,了,_,O
+,也,_,O
+,是,_,O
+,睡,_,O
+,不,_,O
+,著,_,O
+,。,_,O
+Sentence: 795,醫師,_,O
+,：,_,O
+,那,_,O
+,原則上,_,O
+,我們,_,O
+,四月,_,B-tim
+,個,_,I-tim
+,個,_,I-tim
+,回診,_,O
+,一,_,O
+,次,_,O
+,。,_,O
+Sentence: 796,醫師,_,O
+,：,_,O
+,那,_,O
+,我們,_,O
+,原則上,_,O
+,也,_,O
+,是,_,O
+,七號,_,B-tim
+,兩點,_,I-tim
+,禮拜七,_,I-tim
+,後,_,O
+,回診,_,O
+,，,_,O
+,五,_,B-tim
+,禮拜七,_,I-tim
+,。,_,O
+Sentence: 797,民眾,_,O
+,：,_,O
+,我,_,O
+,住在,_,O
+,泰山區,_,B-loc
+,。,_,O
+Sentence: 798,醫師,_,O
+,：,_,O
+,慶鴻,_,B-loc
+,那邊,_,O
+,附近,_,O
+,有,_,O
+,復健,_,O
+,診所,_,O
+,嗎,_,O
+,？,_,O
+Sentence: 799,民眾,_,O
+,：,_,O
+,那裏,_,O
+,有,_,O
+,一,_,O
+,間,_,O
+,比較,_,O
+,大,_,O
+,間,_,O
+,的,_,O
+,就,_,O
+,是,_,O
+,小明,_,B-loc
+,復健,_,I-loc
+,復健,_,I-loc
+,。,_,O
+Sentence: 800,醫師,_,O
+,：,_,O
+,啊,_,O
+,～,_,O
+,美國,_,B-loc
+,，,_,O
+,但是,_,O
+,那邊,_,O
+,是,_,O
+,洗腎,_,O
+,的,_,O
+,吧,_,O
+,？,_,O
+Sentence: 801,醫師,_,O
+,：,_,O
+,因為,_,O
+,你,_,O
+,可能,_,O
+,還,_,O
+,需要,_,O
+,吃,_,O
+,前天,_,B-tim
+,號,_,I-tim
+,禮拜,_,I-tim
+,的,_,O
+,藥物,_,O
+,。,_,O
+Sentence: 802,民眾,_,O
+,：,_,O
+,阿,_,O
+,只是,_,O
+,前天,_,B-tim
+,好,_,O
+,很多,_,O
+,。,_,O
+Sentence: 803,六,_,B-tim
+,就算,_,O
+,沒,_,O
+,盜,_,O
+,，,_,O
+,可是,_,O
+,一,_,O
+,覺到,_,O
+,天明,_,O
+,這樣,_,O
+,。,_,O
+Sentence: 804,然後,_,O
+,肝,_,O
+,功能,_,O
+,比較,_,O
+,異常,_,O
+,，,_,O
+,102,_,B-med
+,，,_,O
+,102,_,B-med
+,。,_,O
+Sentence: 805,你,_,O
+,說,_,O
+,假如,_,O
+,是,_,O
+,前年,_,B-tim
+,，,_,O
+,那,_,O
+,有,_,O
+,可能,_,O
+,，,_,O
+,但是,_,O
+,下下,_,B-tim
+,可能,_,O
+,。,_,O
+Sentence: 806,民眾,_,O
+,：,_,O
+,對,_,O
+,阿。,_,O
+,因為,_,O
+,老實,_,O
+,講,_,O
+,，,_,O
+,我,_,O
+,七號,_,B-tim
+,都,_,O
+,在,_,O
+,對岸,_,O
+,比較,_,O
+,多,_,O
+,。,_,O
+Sentence: 807,醫師,_,O
+,：,_,O
+,喔,_,O
+,，,_,O
+,二十號,_,B-tim
+,。,_,O
+Sentence: 808,醫師,_,O
+,：,_,O
+,它,_,O
+,，,_,O
+,Google,_,B-pro
+,有,_,O
+,設廠,_,O
+,喔,_,O
+,？,_,O
+Sentence: 809,醫師,_,O
+,：,_,O
+,Google,_,B-pro
+,不,_,O
+,是,_,O
+,，,_,O
+,那,_,O
+,做,_,O
+,什麼,_,O
+,，,_,O
+,ABS,_,O
+,？,_,O
+Sentence: 810,這,_,O
+,是,_,O
+,，,_,O
+,你,_,O
+,兩,_,B-tim
+,天,_,I-tim
+,住院,_,O
+,的,_,O
+,時候,_,O
+,。,_,O
+Sentence: 811,醫師,_,O
+,：,_,O
+,三,_,B-tim
+,4號,_,I-tim
+,個,_,I-tim
+,之後,_,O
+,再,_,O
+,追蹤,_,O
+,看看,_,O
+,，,_,O
+,沒有,_,O
+,問題,_,O
+,。,_,O
+Sentence: 812,民眾,_,O
+,：,_,O
+,賈伯斯,_,B-nam
+,的,_,O
+,。,_,O
+Sentence: 813,民眾,_,O
+,：,_,O
+,門診,_,O
+,還,_,O
+,沒有,_,O
+,，,_,O
+,他,_,O
+,是,_,O
+,禮拜一,_,B-tim
+,兩點,_,I-tim
+,。,_,O
+Sentence: 814,醫師,_,O
+,：,_,O
+,喔,_,O
+,，,_,O
+,他,_,O
+,是,_,O
+,9月,_,B-tim
+,號,_,I-tim
+,。,_,O
+Sentence: 815,醫師,_,O
+,：,_,O
+,你,_,O
+,住院,_,O
+,下下,_,B-tim
+,禮拜,_,I-tim
+,到,_,O
+,現在,_,O
+,，,_,O
+,那,_,O
+,我們,_,O
+,再,_,O
+,一點半,_,B-tim
+,禮拜,_,I-tim
+,月,_,I-tim
+,。,_,O
+Sentence: 816,醫師,_,O
+,：,_,O
+,再,_,O
+,吃,_,O
+,前天,_,B-tim
+,禮拜,_,I-tim
+,天,_,I-tim
+,。,_,O
+Sentence: 817,我,_,O
+,6月,_,B-tim
+,上班,_,O
+,。,_,O
+Sentence: 818,醫師,_,O
+,：,_,O
+,阿你,_,O
+,定居,_,O
+,小明,_,B-loc
+,這樣,_,O
+,？,_,O
+Sentence: 819,民眾,_,O
+,：,_,O
+,住,_,O
+,泰山區,_,B-loc
+,那邊,_,O
+,。,_,O
+Sentence: 820,醫師,_,O
+,：,_,O
+,喔,_,O
+,，,_,O
+,士林,_,B-loc
+,。,_,O
+Sentence: 821,醫師,_,O
+,：,_,O
+,然後,_,O
+,，,_,O
+,抽血,_,O
+,，,_,O
+,賈伯斯,_,B-nam
+,前年,_,B-tim
+,個,_,I-tim
+,有,_,O
+,抽血,_,O
+,。,_,O
+Sentence: 822,醫師,_,O
+,：,_,O
+,那,_,O
+,我,_,O
+,就,_,O
+,約,_,O
+,，,_,O
+,也,_,O
+,是,_,O
+,約下,_,O
+,禮拜,_,I-tim
+,天,_,I-tim
+,禮拜,_,I-tim
+,。,_,O
+Sentence: 823,民眾,_,O
+,：,_,O
+,三,_,B-tim
+,個,_,I-tim
+,。,_,O
+Sentence: 824,因為,_,O
+,你,_,O
+,本來,_,O
+,就,_,O
+,賈伯斯,_,B-nam
+,。,_,O
+Sentence: 825,民眾,_,O
+,：,_,O
+,賈伯斯,_,B-nam
+,是,_,O
+,四月,_,B-tim
+,。,_,O
+Sentence: 826,醫師,_,O
+,：,_,O
+,四月,_,B-tim
+,，,_,O
+,今天,_,O
+,。,_,O
+Sentence: 827,民眾,_,O
+,：,_,O
+,今天,_,O
+,下下,_,B-tim
+,，,_,O
+,剛好,_,O
+,是,_,O
+,到,_,O
+,兩,_,B-tim
+,個,_,I-tim
+,禮拜九,_,I-tim
+,。,_,O
+Sentence: 828,醫師,_,O
+,：,_,O
+,到,_,O
+,下下,_,B-tim
+,月,_,I-tim
+,禮拜,_,I-tim
+,。,_,O
+Sentence: 829,民眾,_,O
+,：,_,O
+,對,_,O
+,，,_,O
+,一點半,_,B-tim
+,禮拜,_,I-tim
+,。,_,O
+Sentence: 830,民眾,_,O
+,：,_,O
+,可以,_,O
+,啊,_,O
+,，,_,O
+,等於,_,O
+,說,_,O
+,一,_,O
+,次,_,O
+,來,_,O
+,看,_,O
+,禮拜三,_,B-tim
+,個,_,I-tim
+,。,_,O
+Sentence: 831,民眾,_,O
+,：,_,O
+,對,_,O
+,阿。,_,O
+,啊,_,O
+,像,_,O
+,我,_,O
+,前天,_,B-tim
+,兩點,_,I-tim
+,。,_,O
+Sentence: 832,醫師,_,O
+,：,_,O
+,阿阿嬤,_,O
+,她,_,O
+,好像,_,O
+,說,_,O
+,有,_,O
+,，,_,O
+,下下,_,B-tim
+,又,_,O
+,有,_,O
+,在,_,O
+,發燒,_,O
+,喔,_,O
+,。,_,O
+Sentence: 833,家屬,_,O
+,：,_,O
+,對,_,O
+,阿都,_,O
+,，,_,O
+,有時候,_,O
+,都,_,O
+,會,_,O
+,一,_,O
+,天,_,O
+,她,_,O
+,會,_,O
+,燒,_,O
+,，,_,O
+,誒,_,O
+,，,_,O
+,可是,_,O
+,她,_,O
+,這樣,_,O
+,六,_,B-tim
+,就,_,O
+,燒,_,O
+,兩,_,O
+,次,_,O
+,了,_,O
+,。,_,O
+Sentence: 834,家屬,_,O
+,：,_,O
+,下午,_,O
+,誒,_,O
+,，,_,O
+,昨天,_,O
+,四月,_,B-tim
+,禮拜,_,I-tim
+,一,_,O
+,次,_,O
+,，,_,O
+,然後,_,O
+,半夜,_,O
+,兩,_,B-tim
+,二十一,_,I-tim
+,那邊,_,O
+,又,_,O
+,燒到,_,O
+,102,_,B-med
+,。,_,O
+Sentence: 835,醫師,_,O
+,：,_,O
+,我,_,O
+,開,_,O
+,二十號,_,B-tim
+,個,_,I-tim
+,，,_,O
+,因為,_,O
+,我,_,O
+,前天,_,B-tim
+,有診,_,O
+,，,_,O
+,就,_,O
+,看,_,O
+,一下,_,O
+,狀況,_,O
+,怎麼樣,_,O
+,這樣子,_,O
+,。,_,O
+Sentence: 836,家屬,_,O
+,：,_,O
+,我,_,O
+,印象,_,O
+,很,_,O
+,清楚,_,O
+,…,_,O
+,…,_,O
+,恩,_,O
+,…,_,O
+,…,_,O
+,慶鴻,_,B-loc
+,復健,_,I-loc
+,，,_,O
+,阿他,_,O
+,說,_,O
+,打,_,O
+,，,_,O
+,google,_,O
+,有,_,O
+,，,_,O
+,他,_,O
+,說,_,O
+,google,_,O
+,有,_,O
+,。,_,O
+Sentence: 837,家屬,_,O
+,：,_,O
+,他,_,O
+,那,_,O
+,在,_,O
+,士林,_,B-loc
+,。,_,O
+Sentence: 838,醫師,_,O
+,：,_,O
+,紐約,_,B-loc
+,這樣子,_,O
+,？,_,O
+Sentence: 839,民眾,_,O
+,：,_,O
+,對,_,O
+,我,_,O
+,想,_,O
+,叫,_,O
+,他,_,O
+,埋,_,O
+,，,_,O
+,因,_,O
+,…,_,O
+,…,_,O
+,因為,_,O
+,他,_,O
+,下下,_,B-tim
+,月,_,I-tim
+,沒,_,O
+,開,_,O
+,。,_,O
+Sentence: 840,醫師,_,O
+,：,_,O
+,小明,_,B-loc
+,那邊,_,O
+,？,_,O
+Sentence: 841,家屬,_,O
+,：,_,O
+,我們,_,O
+,那邊,_,O
+,羅斯福路,_,B-loc
+,喔,_,O
+,。,_,O
+Sentence: 842,醫師,_,O
+,：,_,O
+,泰山區,_,B-loc
+,。,_,O
+Sentence: 843,家屬,_,O
+,：,_,O
+,紐約,_,B-loc
+,那邊,_,O
+,是,_,O
+,什麼,_,O
+,區呵,_,O
+,呵呵,_,O
+,～,_,O
+,護理師,_,O
+,：,_,O
+,羅斯福路,_,B-loc
+,，,_,O
+,阿你都,_,O
+,。,_,O
+Sentence: 844,醫師,_,O
+,：,_,O
+,好,_,O
+,，,_,O
+,好,_,O
+,，,_,O
+,那,_,O
+,我們,_,O
+,兩,_,B-tim
+,個,_,I-tim
+,回診,_,O
+,。,_,O
+Sentence: 845,民眾,_,O
+,：,_,O
+,對,_,O
+,，,_,O
+,我,_,O
+,哥哥,_,B-fam
+,帶,_,O
+,我,_,O
+,來,_,O
+,的,_,O
+,他,_,O
+,就,_,O
+,回去,_,O
+,了,_,O
+,，,_,O
+,我,_,O
+,等一下,_,O
+,我,_,O
+,自己,_,O
+,坐車,_,O
+,回去,_,O
+,，,_,O
+,這樣,_,O
+,是,_,O
+,正常,_,O
+,的,_,O
+,嗎,_,O
+,？,_,O
+Sentence: 846,你,_,O
+,在,_,O
+,住院,_,O
+,的,_,O
+,時候,_,O
+,很,_,O
+,好,_,O
+,入眠,_,O
+,阿～,_,O
+,民眾,_,O
+,：,_,O
+,對,_,O
+,阿,_,O
+,，,_,O
+,但是,_,O
+,我,_,O
+,有時候,_,O
+,看,_,O
+,電視,_,O
+,看到,_,O
+,前天,_,B-tim
+,天,_,I-tim
+,想,_,O
+,說,_,O
+,藥,_,O
+,吃,_,O
+,了,_,O
+,，,_,O
+,睡,_,O
+,前,_,O
+,的,_,O
+,藥,_,O
+,吃,_,O
+,了,_,O
+,也,_,O
+,是,_,O
+,睡,_,O
+,不,_,O
+,著,_,O
+,。,_,O
+Sentence: 847,醫師,_,O
+,：,_,O
+,那,_,O
+,原則上,_,O
+,我們,_,O
+,前天,_,B-tim
+,個,_,I-tim
+,下,_,I-tim
+,回診,_,O
+,一,_,O
+,次,_,O
+,。,_,O
+Sentence: 848,醫師,_,O
+,：,_,O
+,那,_,O
+,我們,_,O
+,原則上,_,O
+,也,_,O
+,是,_,O
+,禮拜一,_,B-tim
+,十八,_,I-tim
+,禮拜,_,I-tim
+,後,_,O
+,回診,_,O
+,，,_,O
+,前年,_,B-tim
+,個,_,I-tim
+,。,_,O
+Sentence: 849,民眾,_,O
+,：,_,O
+,我,_,O
+,住在,_,O
+,小明,_,B-loc
+,。,_,O
+Sentence: 850,醫師,_,O
+,：,_,O
+,紐約,_,B-loc
+,那邊,_,O
+,附近,_,O
+,有,_,O
+,復健,_,O
+,診所,_,O
+,嗎,_,O
+,？,_,O
+Sentence: 851,民眾,_,O
+,：,_,O
+,那裏,_,O
+,有,_,O
+,一,_,O
+,間,_,O
+,比較,_,O
+,大,_,O
+,間,_,O
+,的,_,O
+,就,_,O
+,是,_,O
+,羅斯福路,_,B-loc
+,診所,_,I-loc
+,復健,_,I-loc
+,。,_,O
+Sentence: 852,醫師,_,O
+,：,_,O
+,啊,_,O
+,～,_,O
+,羅斯福路,_,B-loc
+,，,_,O
+,但是,_,O
+,那邊,_,O
+,是,_,O
+,洗腎,_,O
+,的,_,O
+,吧,_,O
+,？,_,O
+Sentence: 853,醫師,_,O
+,：,_,O
+,因為,_,O
+,你,_,O
+,可能,_,O
+,還,_,O
+,需要,_,O
+,吃,_,O
+,前年,_,B-tim
+,二十一,_,I-tim
+,兩點,_,I-tim
+,的,_,O
+,藥物,_,O
+,。,_,O
+Sentence: 854,民眾,_,O
+,：,_,O
+,阿,_,O
+,只是,_,O
+,兩,_,B-tim
+,好,_,O
+,很多,_,O
+,。,_,O
+Sentence: 855,下下,_,B-tim
+,就算,_,O
+,沒,_,O
+,盜,_,O
+,，,_,O
+,可是,_,O
+,一,_,O
+,覺到,_,O
+,天明,_,O
+,這樣,_,O
+,。,_,O
+Sentence: 856,然後,_,O
+,肝,_,O
+,功能,_,O
+,比較,_,O
+,異常,_,O
+,，,_,O
+,85,_,B-med
+,，,_,O
+,102,_,B-med
+,。,_,O
+Sentence: 857,你,_,O
+,說,_,O
+,假如,_,O
+,是,_,O
+,六,_,B-tim
+,，,_,O
+,那,_,O
+,有,_,O
+,可能,_,O
+,，,_,O
+,但是,_,O
+,下下,_,B-tim
+,可能,_,O
+,。,_,O
+Sentence: 858,民眾,_,O
+,：,_,O
+,對,_,O
+,阿。,_,O
+,因為,_,O
+,老實,_,O
+,講,_,O
+,，,_,O
+,我,_,O
+,三,_,B-tim
+,都,_,O
+,在,_,O
+,對岸,_,O
+,比較,_,O
+,多,_,O
+,。,_,O
+Sentence: 859,醫師,_,O
+,：,_,O
+,喔,_,O
+,，,_,O
+,三,_,B-tim
+,。,_,O
+Sentence: 860,醫師,_,O
+,：,_,O
+,它,_,O
+,，,_,O
+,Google,_,B-pro
+,有,_,O
+,設廠,_,O
+,喔,_,O
+,？,_,O
+Sentence: 861,醫師,_,O
+,：,_,O
+,Google,_,B-pro
+,不,_,O
+,是,_,O
+,，,_,O
+,那,_,O
+,做,_,O
+,什麼,_,O
+,，,_,O
+,ABS,_,O
+,？,_,O
+Sentence: 862,這,_,O
+,是,_,O
+,，,_,O
+,你,_,O
+,四月,_,B-tim
+,禮拜,_,I-tim
+,住院,_,O
+,的,_,O
+,時候,_,O
+,。,_,O
+Sentence: 863,醫師,_,O
+,：,_,O
+,四月,_,B-tim
+,個,_,I-tim
+,禮拜,_,I-tim
+,之後,_,O
+,再,_,O
+,追蹤,_,O
+,看看,_,O
+,，,_,O
+,沒有,_,O
+,問題,_,O
+,。,_,O
+Sentence: 864,民眾,_,O
+,：,_,O
+,賈伯斯,_,B-nam
+,的,_,O
+,。,_,O
+Sentence: 865,民眾,_,O
+,：,_,O
+,門診,_,O
+,還,_,O
+,沒有,_,O
+,，,_,O
+,他,_,O
+,是,_,O
+,兩,_,B-tim
+,月,_,I-tim
+,。,_,O
+Sentence: 866,醫師,_,O
+,：,_,O
+,喔,_,O
+,，,_,O
+,他,_,O
+,是,_,O
+,兩,_,B-tim
+,禮拜七,_,I-tim
+,。,_,O
+Sentence: 867,醫師,_,O
+,：,_,O
+,你,_,O
+,住院,_,O
+,六,_,B-tim
+,禮拜七,_,I-tim
+,到,_,O
+,現在,_,O
+,，,_,O
+,那,_,O
+,我們,_,O
+,再,_,O
+,三,_,B-tim
+,月,_,I-tim
+,個,_,I-tim
+,。,_,O
+Sentence: 868,醫師,_,O
+,：,_,O
+,再,_,O
+,吃,_,O
+,6月,_,B-tim
+,禮拜,_,I-tim
+,禮拜,_,I-tim
+,。,_,O
+Sentence: 869,我,_,O
+,下下,_,B-tim
+,上班,_,O
+,。,_,O
+Sentence: 870,醫師,_,O
+,：,_,O
+,阿你,_,O
+,定居,_,O
+,美國,_,B-loc
+,這樣,_,O
+,？,_,O
+Sentence: 871,民眾,_,O
+,：,_,O
+,住,_,O
+,羅斯福路,_,B-loc
+,那邊,_,O
+,。,_,O
+Sentence: 872,醫師,_,O
+,：,_,O
+,喔,_,O
+,，,_,O
+,慶鴻,_,B-loc
+,。,_,O
+Sentence: 873,醫師,_,O
+,：,_,O
+,然後,_,O
+,，,_,O
+,抽血,_,O
+,，,_,O
+,賈伯斯,_,B-nam
+,下下,_,B-tim
+,號,_,I-tim
+,有,_,O
+,抽血,_,O
+,。,_,O
+Sentence: 874,醫師,_,O
+,：,_,O
+,那,_,O
+,我,_,O
+,就,_,O
+,約,_,O
+,，,_,O
+,也,_,O
+,是,_,O
+,約下,_,O
+,個,_,I-tim
+,禮拜,_,I-tim
+,月,_,I-tim
+,。,_,O
+Sentence: 875,民眾,_,O
+,：,_,O
+,四月,_,B-tim
+,號,_,I-tim
+,。,_,O
+Sentence: 876,因為,_,O
+,你,_,O
+,本來,_,O
+,就,_,O
+,賈伯斯,_,B-nam
+,。,_,O
+Sentence: 877,民眾,_,O
+,：,_,O
+,賈伯斯,_,B-nam
+,是,_,O
+,前天,_,B-tim
+,。,_,O
+Sentence: 878,醫師,_,O
+,：,_,O
+,前天,_,B-tim
+,，,_,O
+,今天,_,O
+,。,_,O
+Sentence: 879,民眾,_,O
+,：,_,O
+,今天,_,O
+,兩,_,B-tim
+,，,_,O
+,剛好,_,O
+,是,_,O
+,到,_,O
+,下下,_,B-tim
+,禮拜,_,I-tim
+,24號,_,I-tim
+,。,_,O
+Sentence: 880,醫師,_,O
+,：,_,O
+,到,_,O
+,一點半,_,B-tim
+,四點,_,I-tim
+,禮拜,_,I-tim
+,。,_,O
+Sentence: 881,民眾,_,O
+,：,_,O
+,對,_,O
+,，,_,O
+,三,_,B-tim
+,禮拜,_,I-tim
+,。,_,O
+Sentence: 882,民眾,_,O
+,：,_,O
+,可以,_,O
+,啊,_,O
+,，,_,O
+,等於,_,O
+,說,_,O
+,一,_,O
+,次,_,O
+,來,_,O
+,看,_,O
+,前天,_,B-tim
+,號,_,I-tim
+,。,_,O
+Sentence: 883,民眾,_,O
+,：,_,O
+,對,_,O
+,阿。,_,O
+,啊,_,O
+,像,_,O
+,我,_,O
+,兩,_,B-tim
+,禮拜,_,I-tim
+,。,_,O
+Sentence: 884,醫師,_,O
+,：,_,O
+,阿阿嬤,_,O
+,她,_,O
+,好像,_,O
+,說,_,O
+,有,_,O
+,，,_,O
+,五,_,B-tim
+,又,_,O
+,有,_,O
+,在,_,O
+,發燒,_,O
+,喔,_,O
+,。,_,O
+Sentence: 885,家屬,_,O
+,：,_,O
+,對,_,O
+,阿都,_,O
+,，,_,O
+,有時候,_,O
+,都,_,O
+,會,_,O
+,一,_,O
+,天,_,O
+,她,_,O
+,會,_,O
+,燒,_,O
+,，,_,O
+,誒,_,O
+,，,_,O
+,可是,_,O
+,她,_,O
+,這樣,_,O
+,下午,_,B-tim
+,就,_,O
+,燒,_,O
+,兩,_,O
+,次,_,O
+,了,_,O
+,。,_,O
+Sentence: 886,家屬,_,O
+,：,_,O
+,下午,_,O
+,誒,_,O
+,，,_,O
+,昨天,_,O
+,七號,_,B-tim
+,四點,_,I-tim
+,一,_,O
+,次,_,O
+,，,_,O
+,然後,_,O
+,半夜,_,O
+,七號,_,B-tim
+,下,_,I-tim
+,那邊,_,O
+,又,_,O
+,燒到,_,O
+,85,_,B-med
+,。,_,O
+Sentence: 887,醫師,_,O
+,：,_,O
+,我,_,O
+,開,_,O
+,下下,_,B-tim
+,個,_,I-tim
+,，,_,O
+,因為,_,O
+,我,_,O
+,四月,_,B-tim
+,有診,_,O
+,，,_,O
+,就,_,O
+,看,_,O
+,一下,_,O
+,狀況,_,O
+,怎麼樣,_,O
+,這樣子,_,O
+,。,_,O
+Sentence: 888,家屬,_,O
+,：,_,O
+,我,_,O
+,印象,_,O
+,很,_,O
+,清楚,_,O
+,…,_,O
+,…,_,O
+,恩,_,O
+,…,_,O
+,…,_,O
+,羅斯福路,_,B-loc
+,診所,_,I-loc
+,，,_,O
+,阿他,_,O
+,說,_,O
+,打,_,O
+,，,_,O
+,google,_,O
+,有,_,O
+,，,_,O
+,他,_,O
+,說,_,O
+,google,_,O
+,有,_,O
+,。,_,O
+Sentence: 889,家屬,_,O
+,：,_,O
+,他,_,O
+,那,_,O
+,在,_,O
+,泰山區,_,B-loc
+,。,_,O
+Sentence: 890,醫師,_,O
+,：,_,O
+,士林,_,B-loc
+,這樣子,_,O
+,？,_,O
+Sentence: 891,民眾,_,O
+,：,_,O
+,對,_,O
+,我,_,O
+,想,_,O
+,叫,_,O
+,他,_,O
+,埋,_,O
+,，,_,O
+,因,_,O
+,…,_,O
+,…,_,O
+,因為,_,O
+,他,_,O
+,前天,_,B-tim
+,個,_,I-tim
+,沒,_,O
+,開,_,O
+,。,_,O
+Sentence: 892,醫師,_,O
+,：,_,O
+,士林,_,B-loc
+,那邊,_,O
+,？,_,O
+Sentence: 893,家屬,_,O
+,：,_,O
+,我們,_,O
+,那邊,_,O
+,羅斯福路,_,B-loc
+,喔,_,O
+,。,_,O
+Sentence: 894,醫師,_,O
+,：,_,O
+,泰山區,_,B-loc
+,。,_,O
+Sentence: 895,家屬,_,O
+,：,_,O
+,羅斯福路,_,B-loc
+,那邊,_,O
+,是,_,O
+,什麼,_,O
+,區呵,_,O
+,呵呵,_,O
+,～,_,O
+,護理師,_,O
+,：,_,O
+,紐約,_,B-loc
+,，,_,O
+,阿你都,_,O
+,。,_,O
+Sentence: 896,醫師,_,O
+,：,_,O
+,好,_,O
+,，,_,O
+,好,_,O
+,，,_,O
+,那,_,O
+,我們,_,O
+,前年,_,B-tim
+,點,_,I-tim
+,回診,_,O
+,。,_,O
+Sentence: 897,民眾,_,O
+,：,_,O
+,對,_,O
+,，,_,O
+,我,_,O
+,哥哥,_,B-fam
+,帶,_,O
+,我,_,O
+,來,_,O
+,的,_,O
+,他,_,O
+,就,_,O
+,回去,_,O
+,了,_,O
+,，,_,O
+,我,_,O
+,等一下,_,O
+,我,_,O
+,自己,_,O
+,坐車,_,O
+,回去,_,O
+,，,_,O
+,這樣,_,O
+,是,_,O
+,正常,_,O
+,的,_,O
+,嗎,_,O
+,？,_,O
+Sentence: 898,你,_,O
+,在,_,O
+,住院,_,O
+,的,_,O
+,時候,_,O
+,很,_,O
+,好,_,O
+,入眠,_,O
+,阿～,_,O
+,民眾,_,O
+,：,_,O
+,對,_,O
+,阿,_,O
+,，,_,O
+,但是,_,O
+,我,_,O
+,有時候,_,O
+,看,_,O
+,電視,_,O
+,看到,_,O
+,前年,_,B-tim
+,個,_,I-tim
+,想,_,O
+,說,_,O
+,藥,_,O
+,吃,_,O
+,了,_,O
+,，,_,O
+,睡,_,O
+,前,_,O
+,的,_,O
+,藥,_,O
+,吃,_,O
+,了,_,O
+,也,_,O
+,是,_,O
+,睡,_,O
+,不,_,O
+,著,_,O
+,。,_,O
+Sentence: 899,醫師,_,O
+,：,_,O
+,那,_,O
+,原則上,_,O
+,我們,_,O
+,前天,_,B-tim
+,個,_,I-tim
+,禮拜七,_,I-tim
+,回診,_,O
+,一,_,O
+,次,_,O
+,。,_,O
+Sentence: 900,醫師,_,O
+,：,_,O
+,那,_,O
+,我們,_,O
+,原則上,_,O
+,也,_,O
+,是,_,O
+,前年,_,B-tim
+,天,_,I-tim
+,禮拜,_,I-tim
+,後,_,O
+,回診,_,O
+,，,_,O
+,四月,_,B-tim
+,禮拜,_,I-tim
+,。,_,O
+Sentence: 901,民眾,_,O
+,：,_,O
+,我,_,O
+,住在,_,O
+,泰山區,_,B-loc
+,。,_,O
+Sentence: 902,醫師,_,O
+,：,_,O
+,羅斯福路,_,B-loc
+,那邊,_,O
+,附近,_,O
+,有,_,O
+,復健,_,O
+,診所,_,O
+,嗎,_,O
+,？,_,O
+Sentence: 903,民眾,_,O
+,：,_,O
+,那裏,_,O
+,有,_,O
+,一,_,O
+,間,_,O
+,比較,_,O
+,大,_,O
+,間,_,O
+,的,_,O
+,就,_,O
+,是,_,O
+,大安區,_,B-loc
+,診所,_,I-loc
+,學院,_,I-loc
+,。,_,O
+Sentence: 904,醫師,_,O
+,：,_,O
+,啊,_,O
+,～,_,O
+,美國,_,B-loc
+,，,_,O
+,但是,_,O
+,那邊,_,O
+,是,_,O
+,洗腎,_,O
+,的,_,O
+,吧,_,O
+,？,_,O
+Sentence: 905,醫師,_,O
+,：,_,O
+,因為,_,O
+,你,_,O
+,可能,_,O
+,還,_,O
+,需要,_,O
+,吃,_,O
+,四月,_,B-tim
+,禮拜,_,I-tim
+,兩點,_,I-tim
+,的,_,O
+,藥物,_,O
+,。,_,O
+Sentence: 906,民眾,_,O
+,：,_,O
+,阿,_,O
+,只是,_,O
+,三,_,B-tim
+,好,_,O
+,很多,_,O
+,。,_,O
+Sentence: 907,兩,_,B-tim
+,就算,_,O
+,沒,_,O
+,盜,_,O
+,，,_,O
+,可是,_,O
+,一,_,O
+,覺到,_,O
+,天明,_,O
+,這樣,_,O
+,。,_,O
+Sentence: 908,然後,_,O
+,肝,_,O
+,功能,_,O
+,比較,_,O
+,異常,_,O
+,，,_,O
+,85,_,B-med
+,，,_,O
+,38.2,_,B-med
+,。,_,O
+Sentence: 909,你,_,O
+,說,_,O
+,假如,_,O
+,是,_,O
+,9月,_,B-tim
+,，,_,O
+,那,_,O
+,有,_,O
+,可能,_,O
+,，,_,O
+,但是,_,O
+,兩,_,B-tim
+,可能,_,O
+,。,_,O
+Sentence: 910,民眾,_,O
+,：,_,O
+,對,_,O
+,阿。,_,O
+,因為,_,O
+,老實,_,O
+,講,_,O
+,，,_,O
+,我,_,O
+,二十號,_,B-tim
+,都,_,O
+,在,_,O
+,對岸,_,O
+,比較,_,O
+,多,_,O
+,。,_,O
+Sentence: 911,醫師,_,O
+,：,_,O
+,喔,_,O
+,，,_,O
+,三月,_,B-tim
+,。,_,O
+Sentence: 912,醫師,_,O
+,：,_,O
+,它,_,O
+,，,_,O
+,Google,_,B-pro
+,有,_,O
+,設廠,_,O
+,喔,_,O
+,？,_,O
+Sentence: 913,醫師,_,O
+,：,_,O
+,Google,_,B-pro
+,不,_,O
+,是,_,O
+,，,_,O
+,那,_,O
+,做,_,O
+,什麼,_,O
+,，,_,O
+,ABS,_,O
+,？,_,O
+Sentence: 914,這,_,O
+,是,_,O
+,，,_,O
+,你,_,O
+,三,_,B-tim
+,四號,_,I-tim
+,住院,_,O
+,的,_,O
+,時候,_,O
+,。,_,O
+Sentence: 915,醫師,_,O
+,：,_,O
+,兩,_,B-tim
+,四號,_,I-tim
+,個,_,I-tim
+,之後,_,O
+,再,_,O
+,追蹤,_,O
+,看看,_,O
+,，,_,O
+,沒有,_,O
+,問題,_,O
+,。,_,O
+Sentence: 916,民眾,_,O
+,：,_,O
+,賈伯斯,_,B-nam
+,的,_,O
+,。,_,O
+Sentence: 917,民眾,_,O
+,：,_,O
+,門診,_,O
+,還,_,O
+,沒有,_,O
+,，,_,O
+,他,_,O
+,是,_,O
+,前天,_,B-tim
+,4號,_,I-tim
+,。,_,O
+Sentence: 918,醫師,_,O
+,：,_,O
+,喔,_,O
+,，,_,O
+,他,_,O
+,是,_,O
+,兩,_,B-tim
+,兩點,_,I-tim
+,。,_,O
+Sentence: 919,醫師,_,O
+,：,_,O
+,你,_,O
+,住院,_,O
+,下下,_,B-tim
+,禮拜,_,I-tim
+,到,_,O
+,現在,_,O
+,，,_,O
+,那,_,O
+,我們,_,O
+,再,_,O
+,三月,_,B-tim
+,月,_,I-tim
+,禮拜九,_,I-tim
+,。,_,O
+Sentence: 920,醫師,_,O
+,：,_,O
+,再,_,O
+,吃,_,O
+,兩,_,B-tim
+,月,_,I-tim
+,四點,_,I-tim
+,。,_,O
+Sentence: 921,我,_,O
+,三,_,B-tim
+,上班,_,O
+,。,_,O
+Sentence: 922,醫師,_,O
+,：,_,O
+,阿你,_,O
+,定居,_,O
+,紐約,_,B-loc
+,這樣,_,O
+,？,_,O
+Sentence: 923,民眾,_,O
+,：,_,O
+,住,_,O
+,羅斯福路,_,B-loc
+,那邊,_,O
+,。,_,O
+Sentence: 924,醫師,_,O
+,：,_,O
+,喔,_,O
+,，,_,O
+,羅斯福路,_,B-loc
+,。,_,O
+Sentence: 925,醫師,_,O
+,：,_,O
+,然後,_,O
+,，,_,O
+,抽血,_,O
+,，,_,O
+,賈伯斯,_,B-nam
+,兩,_,B-tim
+,禮拜,_,I-tim
+,有,_,O
+,抽血,_,O
+,。,_,O
+Sentence: 926,醫師,_,O
+,：,_,O
+,那,_,O
+,我,_,O
+,就,_,O
+,約,_,O
+,，,_,O
+,也,_,O
+,是,_,O
+,約下,_,O
+,個,_,I-tim
+,月,_,I-tim
+,四號,_,I-tim
+,。,_,O
+Sentence: 927,民眾,_,O
+,：,_,O
+,禮拜三,_,B-tim
+,24號,_,I-tim
+,。,_,O
+Sentence: 928,因為,_,O
+,你,_,O
+,本來,_,O
+,就,_,O
+,賈伯斯,_,B-nam
+,。,_,O
+Sentence: 929,民眾,_,O
+,：,_,O
+,賈伯斯,_,B-nam
+,是,_,O
+,前天,_,B-tim
+,。,_,O
+Sentence: 930,醫師,_,O
+,：,_,O
+,下下,_,B-tim
+,，,_,O
+,今天,_,O
+,。,_,O
+Sentence: 931,民眾,_,O
+,：,_,O
+,今天,_,O
+,前天,_,B-tim
+,，,_,O
+,剛好,_,O
+,是,_,O
+,到,_,O
+,一點半,_,B-tim
+,個,_,I-tim
+,四號,_,I-tim
+,。,_,O
+Sentence: 932,醫師,_,O
+,：,_,O
+,到,_,O
+,前年,_,B-tim
+,天,_,I-tim
+,月,_,I-tim
+,。,_,O
+Sentence: 933,民眾,_,O
+,：,_,O
+,對,_,O
+,，,_,O
+,三月,_,B-tim
+,下,_,I-tim
+,。,_,O
+Sentence: 934,民眾,_,O
+,：,_,O
+,可以,_,O
+,啊,_,O
+,，,_,O
+,等於,_,O
+,說,_,O
+,一,_,O
+,次,_,O
+,來,_,O
+,看,_,O
+,前天,_,B-tim
+,四號,_,I-tim
+,。,_,O
+Sentence: 935,民眾,_,O
+,：,_,O
+,對,_,O
+,阿。,_,O
+,啊,_,O
+,像,_,O
+,我,_,O
+,四月,_,B-tim
+,四號,_,I-tim
+,。,_,O
+Sentence: 936,醫師,_,O
+,：,_,O
+,阿阿嬤,_,O
+,她,_,O
+,好像,_,O
+,說,_,O
+,有,_,O
+,，,_,O
+,下午,_,B-tim
+,又,_,O
+,有,_,O
+,在,_,O
+,發燒,_,O
+,喔,_,O
+,。,_,O
+Sentence: 937,家屬,_,O
+,：,_,O
+,對,_,O
+,阿都,_,O
+,，,_,O
+,有時候,_,O
+,都,_,O
+,會,_,O
+,一,_,O
+,天,_,O
+,她,_,O
+,會,_,O
+,燒,_,O
+,，,_,O
+,誒,_,O
+,，,_,O
+,可是,_,O
+,她,_,O
+,這樣,_,O
+,下午,_,B-tim
+,就,_,O
+,燒,_,O
+,兩,_,O
+,次,_,O
+,了,_,O
+,。,_,O
+Sentence: 938,家屬,_,O
+,：,_,O
+,下午,_,O
+,誒,_,O
+,，,_,O
+,昨天,_,O
+,下下,_,B-tim
+,個,_,I-tim
+,一,_,O
+,次,_,O
+,，,_,O
+,然後,_,O
+,半夜,_,O
+,三,_,B-tim
+,24號,_,I-tim
+,那邊,_,O
+,又,_,O
+,燒到,_,O
+,102,_,B-med
+,。,_,O
+Sentence: 939,醫師,_,O
+,：,_,O
+,我,_,O
+,開,_,O
+,禮拜一,_,B-tim
+,四點,_,I-tim
+,，,_,O
+,因為,_,O
+,我,_,O
+,七號,_,B-tim
+,有診,_,O
+,，,_,O
+,就,_,O
+,看,_,O
+,一下,_,O
+,狀況,_,O
+,怎麼樣,_,O
+,這樣子,_,O
+,。,_,O
+Sentence: 940,家屬,_,O
+,：,_,O
+,我,_,O
+,印象,_,O
+,很,_,O
+,清楚,_,O
+,…,_,O
+,…,_,O
+,恩,_,O
+,…,_,O
+,…,_,O
+,慶鴻,_,B-loc
+,診所,_,I-loc
+,，,_,O
+,阿他,_,O
+,說,_,O
+,打,_,O
+,，,_,O
+,google,_,O
+,有,_,O
+,，,_,O
+,他,_,O
+,說,_,O
+,google,_,O
+,有,_,O
+,。,_,O
+Sentence: 941,家屬,_,O
+,：,_,O
+,他,_,O
+,那,_,O
+,在,_,O
+,羅斯福路,_,B-loc
+,。,_,O
+Sentence: 942,醫師,_,O
+,：,_,O
+,羅斯福路,_,B-loc
+,這樣子,_,O
+,？,_,O
+Sentence: 943,民眾,_,O
+,：,_,O
+,對,_,O
+,我,_,O
+,想,_,O
+,叫,_,O
+,他,_,O
+,埋,_,O
+,，,_,O
+,因,_,O
+,…,_,O
+,…,_,O
+,因為,_,O
+,他,_,O
+,二十號,_,B-tim
+,4號,_,I-tim
+,沒,_,O
+,開,_,O
+,。,_,O
+Sentence: 944,醫師,_,O
+,：,_,O
+,美國,_,B-loc
+,那邊,_,O
+,？,_,O
+Sentence: 945,家屬,_,O
+,：,_,O
+,我們,_,O
+,那邊,_,O
+,慶鴻,_,B-loc
+,喔,_,O
+,。,_,O
+Sentence: 946,醫師,_,O
+,：,_,O
+,泰山區,_,B-loc
+,。,_,O
+Sentence: 947,家屬,_,O
+,：,_,O
+,士林,_,B-loc
+,那邊,_,O
+,是,_,O
+,什麼,_,O
+,區呵,_,O
+,呵呵,_,O
+,～,_,O
+,護理師,_,O
+,：,_,O
+,泰山區,_,B-loc
+,，,_,O
+,阿你都,_,O
+,。,_,O
+Sentence: 948,醫師,_,O
+,：,_,O
+,好,_,O
+,，,_,O
+,好,_,O
+,，,_,O
+,那,_,O
+,我們,_,O
+,9月,_,B-tim
+,月,_,I-tim
+,回診,_,O
+,。,_,O
+Sentence: 949,民眾,_,O
+,：,_,O
+,對,_,O
+,，,_,O
+,我,_,O
+,哥哥,_,B-fam
+,帶,_,O
+,我,_,O
+,來,_,O
+,的,_,O
+,他,_,O
+,就,_,O
+,回去,_,O
+,了,_,O
+,，,_,O
+,我,_,O
+,等一下,_,O
+,我,_,O
+,自己,_,O
+,坐車,_,O
+,回去,_,O
+,，,_,O
+,這樣,_,O
+,是,_,O
+,正常,_,O
+,的,_,O
+,嗎,_,O
+,？,_,O
+Sentence: 950,你,_,O
+,在,_,O
+,住院,_,O
+,的,_,O
+,時候,_,O
+,很,_,O
+,好,_,O
+,入眠,_,O
+,阿～,_,O
+,民眾,_,O
+,：,_,O
+,對,_,O
+,阿,_,O
+,，,_,O
+,但是,_,O
+,我,_,O
+,有時候,_,O
+,看,_,O
+,電視,_,O
+,看到,_,O
+,三,_,B-tim
+,月,_,I-tim
+,想,_,O
+,說,_,O
+,藥,_,O
+,吃,_,O
+,了,_,O
+,，,_,O
+,睡,_,O
+,前,_,O
+,的,_,O
+,藥,_,O
+,吃,_,O
+,了,_,O
+,也,_,O
+,是,_,O
+,睡,_,O
+,不,_,O
+,著,_,O
+,。,_,O
+Sentence: 951,醫師,_,O
+,：,_,O
+,那,_,O
+,原則上,_,O
+,我們,_,O
+,四月,_,B-tim
+,個,_,I-tim
+,禮拜,_,I-tim
+,回診,_,O
+,一,_,O
+,次,_,O
+,。,_,O
+Sentence: 952,醫師,_,O
+,：,_,O
+,那,_,O
+,我們,_,O
+,原則上,_,O
+,也,_,O
+,是,_,O
+,兩,_,B-tim
+,禮拜,_,I-tim
+,個,_,I-tim
+,後,_,O
+,回診,_,O
+,，,_,O
+,四月,_,B-tim
+,四點,_,I-tim
+,。,_,O
+Sentence: 953,民眾,_,O
+,：,_,O
+,我,_,O
+,住在,_,O
+,紐約,_,B-loc
+,。,_,O
+Sentence: 954,醫師,_,O
+,：,_,O
+,紐約,_,B-loc
+,那邊,_,O
+,附近,_,O
+,有,_,O
+,復健,_,O
+,診所,_,O
+,嗎,_,O
+,？,_,O
+Sentence: 955,民眾,_,O
+,：,_,O
+,那裏,_,O
+,有,_,O
+,一,_,O
+,間,_,O
+,比較,_,O
+,大,_,O
+,間,_,O
+,的,_,O
+,就,_,O
+,是,_,O
+,羅斯福路,_,B-loc
+,學院,_,I-loc
+,復健,_,I-loc
+,。,_,O
+Sentence: 956,醫師,_,O
+,：,_,O
+,啊,_,O
+,～,_,O
+,美國,_,B-loc
+,，,_,O
+,但是,_,O
+,那邊,_,O
+,是,_,O
+,洗腎,_,O
+,的,_,O
+,吧,_,O
+,？,_,O
+Sentence: 957,醫師,_,O
+,：,_,O
+,因為,_,O
+,你,_,O
+,可能,_,O
+,還,_,O
+,需要,_,O
+,吃,_,O
+,三月,_,B-tim
+,禮拜,_,I-tim
+,個,_,I-tim
+,的,_,O
+,藥物,_,O
+,。,_,O
+Sentence: 958,民眾,_,O
+,：,_,O
+,阿,_,O
+,只是,_,O
+,四月,_,B-tim
+,好,_,O
+,很多,_,O
+,。,_,O
+Sentence: 959,兩,_,B-tim
+,就算,_,O
+,沒,_,O
+,盜,_,O
+,，,_,O
+,可是,_,O
+,一,_,O
+,覺到,_,O
+,天明,_,O
+,這樣,_,O
+,。,_,O
+Sentence: 960,然後,_,O
+,肝,_,O
+,功能,_,O
+,比較,_,O
+,異常,_,O
+,，,_,O
+,38.2,_,B-med
+,，,_,O
+,85,_,B-med
+,。,_,O
+Sentence: 961,你,_,O
+,說,_,O
+,假如,_,O
+,是,_,O
+,前天,_,B-tim
+,，,_,O
+,那,_,O
+,有,_,O
+,可能,_,O
+,，,_,O
+,但是,_,O
+,下下,_,B-tim
+,可能,_,O
+,。,_,O
+Sentence: 962,民眾,_,O
+,：,_,O
+,對,_,O
+,阿。,_,O
+,因為,_,O
+,老實,_,O
+,講,_,O
+,，,_,O
+,我,_,O
+,四月,_,B-tim
+,都,_,O
+,在,_,O
+,對岸,_,O
+,比較,_,O
+,多,_,O
+,。,_,O
+Sentence: 963,醫師,_,O
+,：,_,O
+,喔,_,O
+,，,_,O
+,兩,_,B-tim
+,。,_,O
+Sentence: 964,醫師,_,O
+,：,_,O
+,它,_,O
+,，,_,O
+,Google,_,B-pro
+,有,_,O
+,設廠,_,O
+,喔,_,O
+,？,_,O
+Sentence: 965,醫師,_,O
+,：,_,O
+,Google,_,B-pro
+,不,_,O
+,是,_,O
+,，,_,O
+,那,_,O
+,做,_,O
+,什麼,_,O
+,，,_,O
+,ABS,_,O
+,？,_,O
+Sentence: 966,這,_,O
+,是,_,O
+,，,_,O
+,你,_,O
+,三月,_,B-tim
+,禮拜七,_,I-tim
+,住院,_,O
+,的,_,O
+,時候,_,O
+,。,_,O
+Sentence: 967,醫師,_,O
+,：,_,O
+,兩,_,B-tim
+,下,_,I-tim
+,號,_,I-tim
+,之後,_,O
+,再,_,O
+,追蹤,_,O
+,看看,_,O
+,，,_,O
+,沒有,_,O
+,問題,_,O
+,。,_,O
+Sentence: 968,民眾,_,O
+,：,_,O
+,賈伯斯,_,B-nam
+,的,_,O
+,。,_,O
+Sentence: 969,民眾,_,O
+,：,_,O
+,門診,_,O
+,還,_,O
+,沒有,_,O
+,，,_,O
+,他,_,O
+,是,_,O
+,下下,_,B-tim
+,禮拜,_,I-tim
+,。,_,O
+Sentence: 970,醫師,_,O
+,：,_,O
+,喔,_,O
+,，,_,O
+,他,_,O
+,是,_,O
+,二十號,_,B-tim
+,個,_,I-tim
+,。,_,O
+Sentence: 971,醫師,_,O
+,：,_,O
+,你,_,O
+,住院,_,O
+,兩,_,B-tim
+,天,_,I-tim
+,到,_,O
+,現在,_,O
+,，,_,O
+,那,_,O
+,我們,_,O
+,再,_,O
+,前天,_,B-tim
+,個,_,I-tim
+,個,_,I-tim
+,。,_,O
+Sentence: 972,醫師,_,O
+,：,_,O
+,再,_,O
+,吃,_,O
+,四月,_,B-tim
+,禮拜,_,I-tim
+,四點,_,I-tim
+,。,_,O
+Sentence: 973,我,_,O
+,三,_,B-tim
+,上班,_,O
+,。,_,O
+Sentence: 974,醫師,_,O
+,：,_,O
+,阿你,_,O
+,定居,_,O
+,士林,_,B-loc
+,這樣,_,O
+,？,_,O
+Sentence: 975,民眾,_,O
+,：,_,O
+,住,_,O
+,士林,_,B-loc
+,那邊,_,O
+,。,_,O
+Sentence: 976,醫師,_,O
+,：,_,O
+,喔,_,O
+,，,_,O
+,羅斯福路,_,B-loc
+,。,_,O
+Sentence: 977,醫師,_,O
+,：,_,O
+,然後,_,O
+,，,_,O
+,抽血,_,O
+,，,_,O
+,賈伯斯,_,B-nam
+,下下,_,B-tim
+,下,_,I-tim
+,有,_,O
+,抽血,_,O
+,。,_,O
+Sentence: 978,醫師,_,O
+,：,_,O
+,那,_,O
+,我,_,O
+,就,_,O
+,約,_,O
+,，,_,O
+,也,_,O
+,是,_,O
+,約下,_,O
+,個,_,I-tim
+,個,_,I-tim
+,個,_,I-tim
+,。,_,O
+Sentence: 979,民眾,_,O
+,：,_,O
+,9月,_,B-tim
+,禮拜,_,I-tim
+,。,_,O
+Sentence: 980,因為,_,O
+,你,_,O
+,本來,_,O
+,就,_,O
+,賈伯斯,_,B-nam
+,。,_,O
+Sentence: 981,民眾,_,O
+,：,_,O
+,賈伯斯,_,B-nam
+,是,_,O
+,兩,_,B-tim
+,。,_,O
+Sentence: 982,醫師,_,O
+,：,_,O
+,後天,_,B-tim
+,，,_,O
+,今天,_,O
+,。,_,O
+Sentence: 983,民眾,_,O
+,：,_,O
+,今天,_,O
+,兩,_,B-tim
+,，,_,O
+,剛好,_,O
+,是,_,O
+,到,_,O
+,一點半,_,B-tim
+,禮拜二,_,I-tim
+,個,_,I-tim
+,。,_,O
+Sentence: 984,醫師,_,O
+,：,_,O
+,到,_,O
+,五,_,B-tim
+,個,_,I-tim
+,下,_,I-tim
+,。,_,O
+Sentence: 985,民眾,_,O
+,：,_,O
+,對,_,O
+,，,_,O
+,下午,_,B-tim
+,點,_,I-tim
+,。,_,O
+Sentence: 986,民眾,_,O
+,：,_,O
+,可以,_,O
+,啊,_,O
+,，,_,O
+,等於,_,O
+,說,_,O
+,一,_,O
+,次,_,O
+,來,_,O
+,看,_,O
+,下下,_,B-tim
+,禮拜,_,I-tim
+,。,_,O
+Sentence: 987,民眾,_,O
+,：,_,O
+,對,_,O
+,阿。,_,O
+,啊,_,O
+,像,_,O
+,我,_,O
+,下下,_,B-tim
+,個,_,I-tim
+,。,_,O
+Sentence: 988,醫師,_,O
+,：,_,O
+,阿阿嬤,_,O
+,她,_,O
+,好像,_,O
+,說,_,O
+,有,_,O
+,，,_,O
+,前天,_,B-tim
+,又,_,O
+,有,_,O
+,在,_,O
+,發燒,_,O
+,喔,_,O
+,。,_,O
+Sentence: 989,家屬,_,O
+,：,_,O
+,對,_,O
+,阿都,_,O
+,，,_,O
+,有時候,_,O
+,都,_,O
+,會,_,O
+,一,_,O
+,天,_,O
+,她,_,O
+,會,_,O
+,燒,_,O
+,，,_,O
+,誒,_,O
+,，,_,O
+,可是,_,O
+,她,_,O
+,這樣,_,O
+,禮拜三,_,B-tim
+,就,_,O
+,燒,_,O
+,兩,_,O
+,次,_,O
+,了,_,O
+,。,_,O
+Sentence: 990,家屬,_,O
+,：,_,O
+,下午,_,O
+,誒,_,O
+,，,_,O
+,昨天,_,O
+,前天,_,B-tim
+,個,_,I-tim
+,一,_,O
+,次,_,O
+,，,_,O
+,然後,_,O
+,半夜,_,O
+,下下,_,B-tim
+,天,_,I-tim
+,那邊,_,O
+,又,_,O
+,燒到,_,O
+,38.2,_,B-med
+,。,_,O
+Sentence: 991,醫師,_,O
+,：,_,O
+,我,_,O
+,開,_,O
+,前天,_,B-tim
+,十八,_,I-tim
+,，,_,O
+,因為,_,O
+,我,_,O
+,後天,_,B-tim
+,有診,_,O
+,，,_,O
+,就,_,O
+,看,_,O
+,一下,_,O
+,狀況,_,O
+,怎麼樣,_,O
+,這樣子,_,O
+,。,_,O
+Sentence: 992,家屬,_,O
+,：,_,O
+,我,_,O
+,印象,_,O
+,很,_,O
+,清楚,_,O
+,…,_,O
+,…,_,O
+,恩,_,O
+,…,_,O
+,…,_,O
+,學院,_,B-loc
+,學院,_,I-loc
+,，,_,O
+,阿他,_,O
+,說,_,O
+,打,_,O
+,，,_,O
+,google,_,O
+,有,_,O
+,，,_,O
+,他,_,O
+,說,_,O
+,google,_,O
+,有,_,O
+,。,_,O
+Sentence: 993,家屬,_,O
+,：,_,O
+,他,_,O
+,那,_,O
+,在,_,O
+,慶鴻,_,B-loc
+,。,_,O
+Sentence: 994,醫師,_,O
+,：,_,O
+,泰山區,_,B-loc
+,這樣子,_,O
+,？,_,O
+Sentence: 995,民眾,_,O
+,：,_,O
+,對,_,O
+,我,_,O
+,想,_,O
+,叫,_,O
+,他,_,O
+,埋,_,O
+,，,_,O
+,因,_,O
+,…,_,O
+,…,_,O
+,因為,_,O
+,他,_,O
+,兩,_,B-tim
+,四號,_,I-tim
+,沒,_,O
+,開,_,O
+,。,_,O
+Sentence: 996,醫師,_,O
+,：,_,O
+,泰山區,_,B-loc
+,那邊,_,O
+,？,_,O
+Sentence: 997,家屬,_,O
+,：,_,O
+,我們,_,O
+,那邊,_,O
+,慶鴻,_,B-loc
+,喔,_,O
+,。,_,O
+Sentence: 998,醫師,_,O
+,：,_,O
+,學院,_,B-loc
+,。,_,O
+Sentence: 999,家屬,_,O
+,：,_,O
+,慶鴻,_,B-loc
+,那邊,_,O
+,是,_,O
+,什麼,_,O
+,區呵,_,O
+,呵呵,_,O
+,～,_,O
+,護理師,_,O
+,：,_,O
+,大安區,_,B-loc
+,，,_,O
+,阿你都,_,O
+,。,_,O
+Sentence: 1000,醫師,_,O
+,：,_,O
+,好,_,O
+,，,_,O
+,好,_,O
+,，,_,O
+,那,_,O
+,我們,_,O
+,禮拜三,_,B-tim
+,個,_,I-tim
+,回診,_,O
+,。,_,O
+Sentence: 1001,民眾,_,O
+,：,_,O
+,對,_,O
+,，,_,O
+,我,_,O
+,哥哥,_,B-fam
+,帶,_,O
+,我,_,O
+,來,_,O
+,的,_,O
+,他,_,O
+,就,_,O
+,回去,_,O
+,了,_,O
+,，,_,O
+,我,_,O
+,等一下,_,O
+,我,_,O
+,自己,_,O
+,坐車,_,O
+,回去,_,O
+,，,_,O
+,這樣,_,O
+,是,_,O
+,正常,_,O
+,的,_,O
+,嗎,_,O
+,？,_,O
+Sentence: 1002,你,_,O
+,在,_,O
+,住院,_,O
+,的,_,O
+,時候,_,O
+,很,_,O
+,好,_,O
+,入眠,_,O
+,阿～,_,O
+,民眾,_,O
+,：,_,O
+,對,_,O
+,阿,_,O
+,，,_,O
+,但是,_,O
+,我,_,O
+,有時候,_,O
+,看,_,O
+,電視,_,O
+,看到,_,O
+,三月,_,B-tim
+,禮拜,_,I-tim
+,想,_,O
+,說,_,O
+,藥,_,O
+,吃,_,O
+,了,_,O
+,，,_,O
+,睡,_,O
+,前,_,O
+,的,_,O
+,藥,_,O
+,吃,_,O
+,了,_,O
+,也,_,O
+,是,_,O
+,睡,_,O
+,不,_,O
+,著,_,O
+,。,_,O
+Sentence: 1003,醫師,_,O
+,：,_,O
+,那,_,O
+,原則上,_,O
+,我們,_,O
+,前天,_,B-tim
+,點,_,I-tim
+,24號,_,I-tim
+,回診,_,O
+,一,_,O
+,次,_,O
+,。,_,O
+Sentence: 1004,醫師,_,O
+,：,_,O
+,那,_,O
+,我們,_,O
+,原則上,_,O
+,也,_,O
+,是,_,O
+,前天,_,B-tim
+,十八,_,I-tim
+,點,_,I-tim
+,後,_,O
+,回診,_,O
+,，,_,O
+,前天,_,B-tim
+,二十一,_,I-tim
+,。,_,O
+Sentence: 1005,民眾,_,O
+,：,_,O
+,我,_,O
+,住在,_,O
+,學院,_,B-loc
+,。,_,O
+Sentence: 1006,醫師,_,O
+,：,_,O
+,紐約,_,B-loc
+,那邊,_,O
+,附近,_,O
+,有,_,O
+,復健,_,O
+,診所,_,O
+,嗎,_,O
+,？,_,O
+Sentence: 1007,民眾,_,O
+,：,_,O
+,那裏,_,O
+,有,_,O
+,一,_,O
+,間,_,O
+,比較,_,O
+,大,_,O
+,間,_,O
+,的,_,O
+,就,_,O
+,是,_,O
+,羅斯福路,_,B-loc
+,診所,_,I-loc
+,診所,_,I-loc
+,。,_,O
+Sentence: 1008,醫師,_,O
+,：,_,O
+,啊,_,O
+,～,_,O
+,羅斯福路,_,B-loc
+,，,_,O
+,但是,_,O
+,那邊,_,O
+,是,_,O
+,洗腎,_,O
+,的,_,O
+,吧,_,O
+,？,_,O
+Sentence: 1009,醫師,_,O
+,：,_,O
+,因為,_,O
+,你,_,O
+,可能,_,O
+,還,_,O
+,需要,_,O
+,吃,_,O
+,前年,_,B-tim
+,兩點,_,I-tim
+,禮拜,_,I-tim
+,的,_,O
+,藥物,_,O
 ,。,_,O
