@@ -16,7 +16,8 @@ if __name__ == '__main__':
     print("\n\n##### START TRAINING #####")
     print("data_path: " + data_path)
     print("model_path: " + model_path)
+    print("##############################\n")
 
     model = NerModel(data_path, embedding_size=embedding_size)
-    model.fit(epochs=60)
+    model.fit(epochs=epoch)
     model.save(model_path)

@@ -86,7 +86,7 @@ def parse_input(input_path):
     return sentences
 
 
-def alter_sentence(sentences):
+def get_sentences_to_alter(sentences):
     sentences2 = []
 
     def count_O(sen):
@@ -98,12 +98,21 @@ def alter_sentence(sentences):
 
     for i, sen in enumerate(sentences):
         if count_O(sen) < len(sen):
-            sen2 = sen.copy()
-            for j, w in enumerate(sen2):
-                if w[1] != "O":
-                    w2 = random.choice(tags_history[w[1]])
-                    sen2[j] = (w2, w[1])
-            sentences2.append(sen2)
+            sentences2.append(sen)
+
+    return sentences2
+
+
+def alter_sentence(sentences):
+    sentences2 = []
+
+    for i, sen in enumerate(sentences):
+        sen2 = sen.copy()
+        for j, w in enumerate(sen2):
+            if w[1] != "O":
+                w2 = random.choice(tags_history[w[1]])
+                sen2[j] = (w2, w[1])
+        sentences2.append(sen2)
 
     return sentences2
 
@@ -129,14 +138,17 @@ if __name__ == '__main__':
     print("input_path: " + input_path)
     print("output_path: " + output_path)
     print("ALTER_SIZE: " + str(ALTER_SIZE))
+    print("#########################\n")
+
+    sentences = parse_input(input_path)
+    lines = [line + "\n" for line in gen_output_rows(sentences, 1, True)]
+    sentences_to_alter = get_sentences_to_alter(sentences)
 
     with open(output_path, "w") as fp:
-        sentences = parse_input(input_path)
-        lines = [line + "\n" for line in gen_output_rows(sentences, 1, True)]
         fp.writelines(lines)
         start_index = len(sentences) + 1
         for i in range(ALTER_SIZE):
-            sentences2 = alter_sentence(sentences)
+            sentences2 = alter_sentence(sentences_to_alter)
             lines = [line + "\n" for line in gen_output_rows(sentences2, start_index, False)]
             fp.writelines(lines)
             start_index += len(sentences2)
