@@ -122,14 +122,14 @@ def gen_output_rows(sentences, start_id, show_head):
 
 if __name__ == '__main__':
     input_path = "data/train_3.txt"
-    output_path = "data/ner_dataset_3-16d.csv"
+    output_path = "data/ner_dataset_3-32d.csv"
 
     with open(output_path, "w") as fp:
         sentences = parse_input(input_path)
         lines = [line + "\n" for line in gen_output_rows(sentences, 1, True)]
         fp.writelines(lines)
         start_index = len(sentences) + 1
-        for i in range(16):
+        for i in range(32):
             sentences2 = alter_sentence(sentences)
             lines = [line + "\n" for line in gen_output_rows(sentences2, start_index, False)]
             fp.writelines(lines)

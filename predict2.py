@@ -29,7 +29,7 @@ tag2fullname = {
 }
 
 input_path = "data/development_2.txt"
-output_path = "output/aicup-60-160.tsv"
+output_path = "output/aicup-50-320.tsv"
 data_path = train2.data_path
 model_path = train2.model_path
 
