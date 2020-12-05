@@ -4576,7 +4576,7 @@ article_id	start_position	end_position	entity_text	entity_type
 189	876	878	晚上	time
 189	1296	1300	三個禮拜	time
 189	1316	1321	四百二十塊	money
-189	1330	1333	21顆	time
+189	1330	1333	21顆	med_exam
 
 --------------------
 
