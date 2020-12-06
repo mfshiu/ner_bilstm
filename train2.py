@@ -5,9 +5,11 @@ import os
 # cfg = K.tf.ConfigProto(gpu_options={'allow_growth': True})
 # K.set_session(K.tf.Session(config=cfg))
 
+# embedding_size = 20
 embedding_size = 512
 epochs = 20
 data_path = "data/ner_dataset_3-64d.csv"
+# model_path = "trained/train_2-2.pkl"
 model_path = "trained/train_3-20-512.pkl"
 
 if __name__ == '__main__':

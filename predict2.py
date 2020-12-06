@@ -28,6 +28,12 @@ tag2fullname = {
     "med": "med_exam",
 }
 
+taged_words = {
+    "急診": "B-pro",
+    "恩亨": "O",
+    "恩恩": "O",
+}
+
 input_path = "data/development_2.txt"
 output_path = "output/aicup-20-512.tsv"
 data_path = train2.data_path
@@ -125,37 +131,36 @@ for article_id, article in enumerate(articles):
 
     offset = 0
     for i, words in enumerate(wordss):
-        last_word, last_tag = "", ""
+        found_word, found_tag = "", ""
         for j, word in enumerate(words):
-            if j >= len(tagss[i]):
-                print("Warning, article: %d, sentence: %d too long, truncated. len(%d), %s"
-                      % (article_id, i, len(sentences[i]), sentences[i]))
-                break
-            tag = model.idx2tag[tagss[i][j]]
+            if word in taged_words:
+                tag = taged_words[word]
+            else:
+                tag = model.idx2tag[tagss[i][j]]
             tag_head = tag[:2]
             if tag_head == "I-":
-                last_word += word
-                if not last_tag:  # Avoid tag without B-
-                    last_tag = tag[2:]
+                found_word += word
+                if not found_tag:  # Avoid tag without B-
+                    found_tag = tag[2:]
             else:
-                if last_word:
+                if found_word:
                     all_words.append((article_id,
-                                      offset - len(last_word),
+                                      offset - len(found_word),
                                       offset,
-                                      last_word,
-                                      tag2fullname[last_tag]))
-                    last_word, last_tag = "", ""
+                                      found_word,
+                                      tag2fullname[found_tag]))
+                    found_word, found_tag = "", ""
                 if tag_head == "B-":
-                    last_word = word
-                    last_tag = tag[2:]
+                    found_word = word
+                    found_tag = tag[2:]
             offset += len(word)
 
-        if last_word:
+        if found_word:
             all_words.append((article_id,
-                              offset - len(last_word),
+                              offset - len(found_word),
                               offset,
-                              last_word,
-                              tag2fullname[last_tag]))
+                              found_word,
+                              tag2fullname[found_tag]))
 
 print("Output to: " + output_path)
 rows = ["article_id\tstart_position\tend_position\tentity_text\tentity_type\n"]
