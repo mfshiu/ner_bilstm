@@ -6,9 +6,9 @@ import os
 # K.set_session(K.tf.Session(config=cfg))
 
 embedding_size = 512
-epochs = 40
+epochs = 20
 data_path = "data/ner_dataset_3-64d.csv"
-model_path = "trained/train_3-40-512.pkl"
+model_path = "trained/train_3-20-512.pkl"
 
 if __name__ == '__main__':
     os.environ["CUDA_VISIBLE_DEVICES"] = "-1"

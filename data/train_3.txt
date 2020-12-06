@@ -4851,6 +4851,7 @@ article_id	start_position	end_position	entity_text	entity_type
 200	2319	2322	禮拜一	time
 200	2332	2335	禮拜一	time
 200	2372	2375	前幾天	time
+200	2448	2451	這兩天	time
 200	2555	2558	皇后區	location
 200	2624	2628	下下禮拜	time
 200	2735	2740	布魯克林區	location
@@ -5002,7 +5003,6 @@ article_id	start_position	end_position	entity_text	entity_type
 article_id	start_position	end_position	entity_text	entity_type
 205	83	87	今天早上	time
 205	861	866	1．6公分	med_exam
-205	949	952	止痛針	med_exam
 205	968	970	2點	time
 205	1028	1030	今天	time
 205	1047	1049	昨天	time
@@ -5089,6 +5089,7 @@ article_id	start_position	end_position	entity_text	entity_type
 209	94	97	一個月	time
 209	314	316	9月	time
 209	381	383	每年	time
+209	397	399	每年	time
 209	417	419	73	med_exam
 
 --------------------
@@ -5571,9 +5572,8 @@ article_id	start_position	end_position	entity_text	entity_type
 article_id	start_position	end_position	entity_text	entity_type
 231	82	85	這個月	time
 231	278	281	4個月	time
-231	903	907	這個月內	time
-231	911	914	這個月	time
 231	1018	1020	IG	time
+231	1028	1030	IG	contact
 231	1061	1063	IG	contact
 231	1065	1072	TWITTER	contact
 231	1074	1081	TWITTER	contact
@@ -5675,7 +5675,7 @@ article_id	start_position	end_position	entity_text	entity_type
 234	2476	2482	40、50歲	time
 234	2587	2591	414塊	money
 234	2592	2594	台灣	location
-234	2691	2697	每3到6個月	time
+234	2690	2696	每3到6個月	time
 234	2804	2810	1800多塊	money
 234	2830	2832	半年	time
 234	2859	2863	800多	money
@@ -5726,6 +5726,7 @@ article_id	start_position	end_position	entity_text	entity_type
 235	221	224	陳小姐	name
 235	1488	1490	今天	time
 235	1674	1678	1個禮拜	time
+235	1684	1686	今天	time
 235	1839	1842	10點	time
 235	1862	1865	第三天	time
 235	1867	1869	8點	time
@@ -5813,7 +5814,7 @@ article_id	start_position	end_position	entity_text	entity_type
 237	1247	1250	加拿大	location
 237	1270	1272	台灣	location
 237	1321	1324	一個月	time
-237	1326	1330	1500	money
+237	1326	1332	1500左右	money
 237	1383	1385	泰國	location
 
 --------------------
@@ -6261,7 +6262,7 @@ article_id	start_position	end_position	entity_text	entity_type
 250	1201	1205	11.幾	med_exam
 250	1209	1213	11.幾	med_exam
 250	1224	1228	11.幾	med_exam
-250	1290	1292	11	med_exam
+250	1290	1293	11號	time
 250	1320	1322	8號	time
 250	1459	1462	禮拜五	time
 250	1463	1465	早上	time
@@ -6338,6 +6339,7 @@ article_id	start_position	end_position	entity_text	entity_type
 251	4847	4851	66公斤	med_exam
 251	4858	4862	66公斤	med_exam
 251	4880	4882	阿公	family
+251	5265	5267	今天	time
 251	5477	5481	兩個小時	time
 251	5574	5581	2020年5月	time
 251	5852	5854	四天	time
@@ -6350,7 +6352,7 @@ article_id	start_position	end_position	entity_text	entity_type
 252	284	285	8	time
 252	289	290	8	time
 252	332	336	兩個禮拜	time
-252	396	402	這兩個禮拜內	time
+252	397	402	兩個禮拜內	time
 252	526	529	林醫師	name
 252	532	535	780	med_exam
 252	541	544	林醫師	name
@@ -6361,6 +6363,7 @@ article_id	start_position	end_position	entity_text	entity_type
 252	1164	1169	7月15號	time
 252	1221	1226	7月28號	time
 252	1276	1279	陳老師	name
+252	1280	1285	兩個禮拜內	time
 252	1356	1359	健保局	organization
 252	1368	1372	一個禮拜	time
 252	1391	1395	兩個禮拜	time
@@ -6446,7 +6449,7 @@ article_id	start_position	end_position	entity_text	entity_type
 257	340	342	減重	med_exam
 257	416	419	八十五	med_exam
 257	423	426	八十五	med_exam
-257	489	493	這一年內	time
+257	490	493	一年內	time
 257	509	511	一年	time
 257	519	525	三、三、四年	time
 257	529	533	三、四年	time
@@ -6516,7 +6519,7 @@ article_id	start_position	end_position	entity_text	entity_type
 259	1271	1274	下禮拜	time
 259	1302	1303	楊	name
 259	1382	1384	半夜	time
-259	1390	1392	急診	location
+259	1390	1392	急診	profession
 259	1692	1694	急診	profession
 259	1703	1705	急診	profession
 259	1713	1715	急診	profession
@@ -6613,7 +6616,6 @@ article_id	start_position	end_position	entity_text	entity_type
 261	173	176	一個月	time
 261	540	544	第二個月	time
 261	651	655	第一個月	time
-261	688	693	24小時內	time
 261	919	922	下個月	time
 261	978	983	前兩個小時	time
 261	1002	1007	兩個小時前	time
