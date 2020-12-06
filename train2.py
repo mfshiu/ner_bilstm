@@ -18,6 +18,6 @@ if __name__ == '__main__':
     print("model_path: " + model_path)
     print("##############################\n")
 
-    model = NerModel(data_path, embedding_size)
-    model.fit(epochs)
+    model = NerModel(data_path, embedding_size=embedding_size)
+    model.fit(epochs=epochs)
     model.save(model_path)
