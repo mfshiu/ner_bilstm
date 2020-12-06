@@ -5,7 +5,7 @@ import copy
 
 
 MAX_LENS = 70
-ALTER_SIZE = 32
+ALTER_SIZE = 64
 tags_history = dict()
 coerce_words = dict([(k, 1) for k in ["，", "個管師"]])
 
@@ -132,7 +132,7 @@ def gen_output_rows(sentences, start_id, show_head):
 
 if __name__ == '__main__':
     input_path = "data/train_3.txt"
-    output_path = "data/ner_dataset_3-32d.csv"
+    output_path = "data/ner_dataset_3-64d.csv"
 
     print("\n\n##### START CONVERT #####")
     print("input_path: " + input_path)
