@@ -4859,6 +4859,7 @@ article_id	start_position	end_position	entity_text	entity_type
 200	2859	2862	1小時	time
 200	3029	3031	昨天	time
 200	3067	3070	下禮拜	time
+200	3306	3309	3天份	med_exam
 200	3340	3343	下禮拜	time
 
 --------------------
@@ -5030,7 +5031,6 @@ article_id	start_position	end_position	entity_text	entity_type
 206	158	162	今年5月	time
 206	376	380	7月4號	time
 206	706	710	這一兩天	time
-206	782	784	急診	profession
 206	802	805	三四天	time
 206	822	825	三四天	time
 206	829	832	三四天	time
@@ -5322,7 +5322,6 @@ article_id	start_position	end_position	entity_text	entity_type
 219	4140	4145	五、六十歲	time
 219	4543	4546	下禮拜	time
 219	4942	4944	一個	time
-219	4986	4988	急診	profession
 219	5007	5009	昨天	time
 219	5298	5300	叔叔	family
 219	5391	5393	睡前	time
@@ -5338,6 +5337,7 @@ article_id	start_position	end_position	entity_text	entity_type
 article_id	start_position	end_position	entity_text	entity_type
 220	106	108	IG	contact
 220	266	269	這個月	time
+220	315	318	這個月	time
 220	765	767	臺東	location
 220	767	769	花蓮	location
 220	1010	1014	一兩年前	time
@@ -5431,7 +5431,8 @@ article_id	start_position	end_position	entity_text	entity_type
 223	851	854	三溫暖	profession
 223	868	872	每個禮拜	time
 223	954	956	小梅	name
-223	1020	1023	禮拜一	time
+223	1002	1006	一個禮拜	time
+223	1018	1022	一個禮拜	time
 223	1027	1030	一個月	time
 223	1200	1203	一個月	time
 223	1210	1213	一個月	time
@@ -5784,6 +5785,7 @@ article_id	start_position	end_position	entity_text	entity_type
 
 醫師：你多早來啊？民眾：痾。醫師：六點半。民眾：差不多，六點半就到了。醫師：OK，那你七點四十二去抽血。民眾：對，沒有錯。醫師：好。那你可能，後天的下午，再Line我們問一下報告。民眾：好。醫師：好不好，齁？民眾：沒有問題。醫師：阿這個月還好嗎？民眾：正常，都很正常。醫師：天天吃嗎？民眾：對，對。醫師：所以上次吃，吃幾顆？阿中間，有幾次嗎？有幾次性行為？民眾：痾，五六次吧。醫師：OK。醫師：所以大部分都有戴還大部分沒戴？民眾：沒有。醫師：都沒戴？民眾：嗯。醫師：嗯，好。醫師：好啦，反正就是你們兩方就是記得，兩方都要好好的吃藥，就對了。民眾：好。醫師：齁，好不好？好喔，那就是你明天再line我們，看看那個狀況是什麼樣。民眾：好阿好啊好啊，OK。醫師：好。我問一下喔，所以比方說像這樣，像這樣子比起你之前還沒有開始吃藥的時候。民眾：嗯。醫師：那時候也，也不太會戴嗎？民眾：會阿。醫師：那時候比較會戴。民眾：嗯。醫師：所以是，完全是因為吃了藥之後，覺得就，算了？民眾：嗯，對。醫師，OK，OK。所以這應該也是，這樣算是一個好處嗎？你覺得。民眾：也還好啦。醫師：對你們的關係是一個，正面的幫忙嗎？還是沒有差？民眾：嗯，沒有什麼太大的想法。醫師：這件事情。醫師：喔，OK。民眾：對。醫師：好，好，沒關係我們可能再過一陣子再看看好了。民眾：好。醫師：好喔，那我們今天原則上就是第七個月的藥。民眾：嗯。醫師：下半年，也是很快。民眾：對。醫師：呵呵。民眾：很快。醫師：好，下個月理論上是，喔，這張表實在是亂到一整個不行。好，欸，四月二十五。民眾：好。醫師：齁。好，四月二十五。齁，所以，反正就會先幫你再約好門診。民眾：好。醫師：嗯。民眾：四月二十五。醫師：對。民眾：OK。醫師：OK囉。民眾：嗯。醫師：好啦，反正最近這一陣子應該都還是會下雨啦，所以，所以確實是早一點來就會有位子啦。民眾：對阿。醫師：嘿。民眾：早點來就會有位子。醫師：像現在在外面一定是排成，排隊阿，然後又沒位子。民眾：我進來的時候就沒有剩很多了。醫師：嗯哼。民眾：對阿。醫師：OK。好，那就這樣囉。民眾：OK。謝謝醫生。醫師：好，那你外面稍坐。民眾：好。
 article_id	start_position	end_position	entity_text	entity_type
+236	28	31	六點半	time
 236	71	73	後天	time
 236	74	76	下午	time
 236	78	82	Line	contact
@@ -5995,7 +5997,6 @@ article_id	start_position	end_position	entity_text	entity_type
 245	640	643	9月底	time
 245	646	649	兩個月	time
 245	665	668	兩個月	time
-245	675	677	一天	time
 245	678	681	兩個月	time
 245	687	689	當天	time
 245	699	701	當天	time
@@ -6226,8 +6227,6 @@ article_id	start_position	end_position	entity_text	entity_type
 249	2943	2946	禮拜一	time
 249	3037	3045	下……下個禮拜一	time
 249	3049	3053	9月8號	time
-249	3201	3203	急診	profession
-249	3216	3218	急診	profession
 249	3330	3333	許醫師	name
 249	3338	3341	許醫師	name
 249	3570	3572	早晚	time
@@ -6248,7 +6247,6 @@ article_id	start_position	end_position	entity_text	entity_type
 249	4541	4543	台大	location
 249	4547	4549	台大	location
 249	4609	4611	兩天	time
-249	4684	4686	急診	med_exam
 249	4778	4780	小美	name
 
 --------------------
@@ -6292,6 +6290,7 @@ article_id	start_position	end_position	entity_text	entity_type
 250	3201	3205	4個小時	time
 250	3335	3337	榮總	location
 250	3513	3515	台大	organization
+250	3573	3577	下個禮拜	time
 250	3908	3910	早晚	time
 250	3933	3935	早晚	time
 
@@ -6786,6 +6785,7 @@ article_id	start_position	end_position	entity_text	entity_type
 269	1634	1636	7點	time
 269	1639	1641	4點	time
 269	1645	1647	4點	time
+269	1677	1681	兩個小時	time
 269	1800	1803	前一天	time
 269	1834	1836	三天	time
 

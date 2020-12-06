@@ -31,7 +31,10 @@ tag2fullname = {
 taged_words = {
     "恩亨": "O",
     "恩恩": "O",
+    "恩恩恩": "O",
+    "恩恩恩恩恩": "O",
     "齁": "O",
+    "齁阿": "O",
 }
 
 input_path = "data/development_2.txt"
