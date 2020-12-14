@@ -6829,4 +6829,3 @@ article_id	start_position	end_position	entity_text	entity_type
 269	1834	1836	三天	time
 
 --------------------
-
