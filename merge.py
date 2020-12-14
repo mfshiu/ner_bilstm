@@ -29,10 +29,10 @@ def read_articles_predicts(file_path, start_article_id):
 
 
 if __name__ == '__main__':
-    input_path = "data/train_2.txt"
-    development_path = "data/development_2.txt"
-    result_path = "output/aicup-std.tsv"
-    output_path = "data/train_3.txt"
+    input_path = "data/train_3.txt"
+    development_path = "data/test.txt"
+    result_path = "output/aicup-test.tsv"
+    output_path = "data/train_4.txt"
 
     articles = read_articles(development_path)
     articles_predicts = read_articles_predicts(result_path, 200)

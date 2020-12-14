@@ -8,9 +8,8 @@ import os
 # embedding_size = 20
 embedding_size = 512
 epochs = 20
-data_path = "data/ner_dataset_3-64d.csv"
-# model_path = "trained/train_2-2.pkl"
-model_path = "trained/train_3-20-512.pkl"
+data_path = "data/ner_dataset_4-64d.csv"
+model_path = "trained/train_4-20-512.pkl"
 
 if __name__ == '__main__':
     os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
