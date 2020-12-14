@@ -37,8 +37,9 @@ taged_words = {
     "齁阿": "O",
 }
 
-input_path = "data/development_2.txt"
-output_path = "output/aicup-20-512.tsv"
+# input_path = "data/development_2.txt"
+input_path = "data/test.txt"
+output_path = "output/aicup-test.tsv"
 data_path = train2.data_path
 model_path = train2.model_path
 
