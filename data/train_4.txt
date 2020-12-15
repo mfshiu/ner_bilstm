@@ -9833,7 +9833,7 @@ article_id	start_position	end_position	entity_text	entity_type
 343	696	700	八個禮拜	time
 343	710	714	八個禮拜	time
 343	715	719	2月22	time
-343	818	828	0927773645	contact
+343	808	818	0927773645	contact
 
 --------------------
 
