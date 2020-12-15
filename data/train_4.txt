@@ -8114,12 +8114,11 @@ article_id	start_position	end_position	entity_text	entity_type
 263	687	689	早上	time
 263	691	693	晚上	time
 263	1004	1008	1200	med_exam
-263	1012	1016	1200	money
-263	1021	1025	1200	money
-263	1026	1032	1500左右	money
-263	1038	1042	2100	money
-263	1058	1062	2100	money
-263	1269	1273	兩個禮拜	time
+263	1012	1016	1200	med_exam
+263	1021	1025	1200	med_exam
+263	1026	1032	1500左右	med_exam
+263	1038	1042	2100	med_exam
+263	1058	1062	2100	med_exam
 
 --------------------
 
@@ -8127,7 +8126,7 @@ article_id	start_position	end_position	entity_text	entity_type
 article_id	start_position	end_position	entity_text	entity_type
 264	3	5	阿明	name
 264	12	14	今天	time
-264	35	39	900多	money
+264	35	39	900多	med_exam
 264	186	188	今天	time
 264	226	228	今天	time
 264	715	717	今年	time
@@ -9352,7 +9351,7 @@ article_id	start_position	end_position	entity_text	entity_type
 313	893	897	24小時	time
 313	905	906	5	time
 313	1192	1195	前幾天	time
-313	1628	1631	保富邦	organization
+313	1629	1631	富邦	organization
 313	1632	1634	遠雄	organization
 313	1642	1644	富邦	organization
 313	1645	1647	遠雄	organization
@@ -9385,13 +9384,12 @@ article_id	start_position	end_position	entity_text	entity_type
 314	2023	2026	四個月	time
 314	2096	2098	今天	time
 314	2271	2275	六千多塊	money
-314	2288	2289	三	med_exam
-314	2407	2409	65	med_exam
-314	2427	2429	65	med_exam
+314	2407	2409	65	time
 314	2412	2414	60	time
 314	2416	2418	60	time
 314	2427	2429	65	time
 314	2456	2458	60	time
+314	2643	2648	5362	ID
 
 --------------------
 
@@ -9402,11 +9400,14 @@ article_id	start_position	end_position	entity_text	entity_type
 315	59	62	廖醫師	name
 315	400	402	一年	time
 315	1252	1256	LINE	contact
-315	1313	1319	今天晚上十點	time
+315	1313	1315	今天	time
+315	1315	1317	晚上	time
+315	1317	1319	十點	time
 315	1501	1503	當天	time
 315	1585	1587	八點	time
 315	1651	1654	十一點	time
-315	1712	1718	五號的十一點	time
+315	1712	1714	五號	time
+315	1715	1718	十一點	time
 315	1946	1948	十點	time
 315	1979	1982	十一月	time
 315	1994	1996	九號	time
@@ -9508,7 +9509,7 @@ article_id	start_position	end_position	entity_text	entity_type
 320	3061	3063	今天	time
 320	3088	3090	七天	time
 320	3196	3199	禮拜四	time
-320	3432	3437	前兩個小時	time
+320	3433	3437	兩個小時	time
 320	3735	3737	今天	time
 320	3752	3754	今天	time
 320	3799	3802	10點	time
@@ -9697,7 +9698,6 @@ article_id	start_position	end_position	entity_text	entity_type
 332	116	119	兩年多	time
 332	128	131	兩年多	time
 332	274	277	這個月	time
-332	285	287	4組	time
 332	1109	1111	今天	time
 332	1125	1130	9月28號	time
 332	1131	1137	10月12號	time
@@ -9765,7 +9765,7 @@ article_id	start_position	end_position	entity_text	entity_type
 336	29	32	一個月	time
 336	88	90	五點	time
 336	207	210	這個月	time
-336	322	323	劉	name
+336	322	325	劉醫師	name
 336	465	469	LINE	contact
 336	528	532	LINE	contact
 336	595	597	年底	time
@@ -9941,7 +9941,7 @@ article_id	start_position	end_position	entity_text	entity_type
 344	166	168	台中	location
 344	186	188	台中	location
 344	255	257	周末	time
-344	275	279	這個周末	time
+344	277	279	周末	time
 344	325	327	東區	location
 344	328	330	西屯	location
 344	2012	2014	今天	time
@@ -10119,7 +10119,7 @@ article_id	start_position	end_position	entity_text	entity_type
 350	3852	3858	1500左右	money
 350	4571	4574	兩三年	time
 350	4681	4687	1500左右	money
-350	5172	5177	前兩個小時	time
+350	5173	5177	兩個小時	time
 350	5200	5203	一兩天	time
 350	5887	5890	三個月	time
 350	6274	6276	今天	time
