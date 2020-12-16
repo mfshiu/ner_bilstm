@@ -7095,7 +7095,7 @@ article_id	start_position	end_position	entity_text	entity_type
 211	1259	1263	九個小時	time
 211	1318	1322	八個小時	med_exam
 211	1498	1502	上個禮拜	time
-211	1572	1574	今天	name
+211	1572	1574	今天	time
 211	1613	1615	學校	location
 211	1632	1634	爸爸	family
 211	1656	1661	三、四十歲	time
@@ -10524,7 +10524,6 @@ article_id	start_position	end_position	entity_text	entity_type
 article_id	start_position	end_position	entity_text	entity_type
 357	7	11	第一個月	time
 357	93	99	一、兩個小時	time
-357	127	130	整個月	time
 357	292	295	這個月	time
 357	446	448	今天	time
 357	469	473	第二個月	time
