@@ -6850,6 +6850,7 @@ article_id	start_position	end_position	entity_text	entity_type
 201	122	124	60	med_exam
 201	179	181	20	med_exam
 201	182	184	19	med_exam
+201	258	261	2.6	med_exam
 201	360	363	黃醫師	name
 201	366	369	6.6	med_exam
 201	385	388	6.6	med_exam
@@ -7011,6 +7012,7 @@ article_id	start_position	end_position	entity_text	entity_type
 206	1888	1890	今天	time
 206	1971	1973	今年	time
 206	2155	2157	每年	time
+206	2261	2264	三五八	med_exam
 
 --------------------
 
@@ -7226,6 +7228,7 @@ article_id	start_position	end_position	entity_text	entity_type
 216	498	500	年底	time
 216	597	599	年底	time
 216	623	627	2月2號	time
+216	649	652	三個月	time
 216	663	665	一年	time
 216	693	696	疾管局	organization
 216	750	753	三個月	time
@@ -7375,6 +7378,7 @@ article_id	start_position	end_position	entity_text	entity_type
 224	297	301	兩個禮拜	time
 224	325	327	早上	time
 224	328	330	下午	time
+224	339	341	早上	time
 224	372	377	12月15	time
 224	381	384	禮拜一	med_exam
 224	425	429	line	contact
@@ -7390,7 +7394,7 @@ article_id	start_position	end_position	entity_text	entity_type
 225	47	49	兩天	time
 225	194	197	一個月	time
 225	278	281	禮拜四的早上	time
-225	647	651	高雄大學	education
+225	647	651	高雄大學	location
 225	652	655	法律系	education
 225	673	675	今年	location
 225	682	686	成功國小	location
@@ -7443,6 +7447,7 @@ article_id	start_position	end_position	entity_text	entity_type
 228	315	316	八	time
 228	483	485	半年	time
 228	559	562	八十九	med_exam
+228	1024	1026	去年	time
 228	1037	1039	去年	time
 228	1084	1086	每年	time
 228	1096	1098	今年	time
@@ -7558,6 +7563,7 @@ article_id	start_position	end_position	entity_text	entity_type
 233	528	533	2月25號	time
 233	553	558	2月25號	time
 233	630	632	今年	time
+233	680	683	3個月	time
 
 --------------------
 
@@ -7882,6 +7888,7 @@ article_id	start_position	end_position	entity_text	entity_type
 250	828	830	今天	time
 250	832	834	今天	time
 250	837	842	1月20號	time
+250	1045	1047	今天	time
 250	1091	1096	1月26號	time
 250	1969	1973	1月20	time
 250	2410	2414	LINE	contact
@@ -8462,7 +8469,7 @@ article_id	start_position	end_position	entity_text	entity_type
 272	1197	1200	十四天	time
 272	1214	1215	上	time
 272	1217	1219	七天	time
-272	1240	1242	七天	name
+272	1240	1242	七天	time
 272	1298	1303	7月24號	time
 272	1326	1328	今天	med_exam
 
@@ -8773,6 +8780,8 @@ article_id	start_position	end_position	entity_text	entity_type
 283	2954	2956	15	time
 283	2956	2958	早上	time
 283	3159	3164	十二個小時	time
+283	3192	3194	晚上	time
+283	3199	3201	八點	time
 283	3286	3288	今天	time
 283	3306	3310	上禮拜六	time
 283	3328	3333	禮拜六早上	time
@@ -8857,6 +8866,7 @@ article_id	start_position	end_position	entity_text	entity_type
 285	2405	2407	七點	time
 285	2421	2425	早上六點	time
 285	2566	2571	一、兩個月	time
+285	2908	2910	兒子	family
 285	2996	2999	王醫師	name
 285	3083	3087	一個禮拜	time
 285	3088	3092	兩個禮拜	time
@@ -9003,6 +9013,7 @@ article_id	start_position	end_position	entity_text	entity_type
 292	893	896	一百三	med_exam
 292	906	909	一百三	med_exam
 292	913	916	一百三	med_exam
+292	931	933	七十	money
 292	955	958	一百八	med_exam
 292	959	963	兩百左右	money
 292	973	975	七十	money
@@ -9032,6 +9043,7 @@ article_id	start_position	end_position	entity_text	entity_type
 article_id	start_position	end_position	entity_text	entity_type
 293	396	402	五、六個禮拜	time
 293	406	412	五、六個禮拜	time
+293	650	653	四個月	time
 293	741	743	小花	name
 293	746	749	張先生	name
 
@@ -9129,7 +9141,8 @@ article_id	start_position	end_position	entity_text	entity_type
 298	713	716	張醫師	name
 298	722	725	5月	time
 298	747	750	11月	time
-298	760	766	張……張醫師	name
+298	760	763	張……	name
+298	763	766	張醫師	name
 298	830	832	小美	name
 298	850	853	林老師	name
 298	973	976	一個月	time
@@ -9457,6 +9470,7 @@ article_id	start_position	end_position	entity_text	entity_type
 
 個管師：最近還好嗎？民眾：還OK阿。個管師：所以還是固定伴侶？民眾：對，對，對，同樣一個男朋友。個管師：對，然後會有約嗎？民眾：對，會約。個管師：他會約嗎？民眾：他不會。個管師：是不會？有點猶豫？民眾：因為我們幾乎都在一起，所以他，我們什麼動向都在一起。個管師：那你會約嗎？民眾：我會阿。個管師：阿你們都在一起，啊他不會發現？民眾：他知道啊，我們是開放式關係。個管師：喔，所以你們是開放式關係。民眾：嗯。個管師：好，那你跟你固定伴侶在發生行為的時候有戴套嗎？民眾：沒有，有些有，有些沒有。個管師：那跟約的呢？你說你跟你現在的伴侶有時候有，有時候沒有？還是都沒有？民眾：有時候有，有時候沒有。個管師：阿怎麼取決有跟沒有？民眾：看對象。個管師：沒有，我說你現在固定伴侶耶。民眾：我的男朋友是固定的，但是砲友是不只一個。個管師：好，那你跟你男朋友會戴套嗎？民眾：我跟我男朋友現在沒有在發生關係了。個管師：哦，就完全都沒有囉？就是單純生活上面。民眾：對。個管師：所以沒有任何性關係？民眾：嗯。個管師：所以他同意你可以在外面有任何的所謂的打砲對象？民眾：嗯。個管師：好，阿你目前有固定的打砲對象嗎？民眾：嗯，有幾個。個管師：幾個？兩隻手算得出來嗎？民眾：可以啊。個管師：一隻手算得出來嗎？民眾：大致上一直維持在一隻手，五個以內。個管師：嗯亨，你跟他們有的會戴套，有的不會戴套？民眾：對。個管師：好，除了這五個固定之外，有沒有其他不固定的？民眾：如果他們有介紹新的對象的話，就會有新的對象。個管師：你餒？民眾：對，對，就是有時候會有不同的對象。個管師：對，你說你現在固定五個嘛？民眾：對，大致上。個管師：那有沒有其他不固定的，可能今天突然約到？民眾：有，有，有。個管師：也會有。民眾：對。個管師：OK，好，會不會戴套取決於當下的情境，還是對方的要求？民眾：對方的要求，都，都有。個管師：都有喔，就是你可能當下的情境阿，或者是你覺得對方要求，所以你就有可能有機會無套？民眾：對。個管師：那你PrEP現在怎麼吃？民眾：就當天兩顆，前兩個小時兩顆。個管師：對。民眾：然後連兩天同個時間各吃一顆。個管師：就24小時，然後48小時，5這樣各一顆？民眾：對。個管師：吃藥時間？民眾：蛤？個管師：就是第一吃藥時間的24小時吃一顆，48小時再吃第二次的一顆，對嗎？民眾：嗯嗯。個管師：OK，好喔，所以目前現階段吃PrEP會不會讓你覺得比較不會那麼擔心H的問題？民眾：會。個管師：會，所以也因為這樣，有沒有覺得比在沒有吃PrEP之前如果對方要求無套的話你會覺得OK？民眾：會比較覺得OK。個管師：好啦，我可以理解。民眾：我現在比較常想的事情是保險問題。個管師：OK，不會，那完全自費不會有紀錄。民眾：不是，不是，我是說我男朋友的部分，醫療險。個管師：你說他還是你？民眾：他的。個管師：那要看他什麼時候保的。民眾：我前幾天有問一個朋友，他也是患者，他跟我說在發病前……個管師：發病前保的沒有差，發病後保的有差。民眾：通報前保的都沒有差。個管師：嘿，通報後有差？民眾：那個時候的保單可以繼續……個管師：沿用？民眾：追加付約。個管師：可以。民眾：可是付約也要，它有時候條款上面有說如果付約當下的狀況有附加這些條件，追加如果是HIV患者的話，不可以保的話，那就保了也沒有用，是這樣嗎？個管師：對。民眾：所以那如果之後，通報之後任何醫療險都沒有用？個管師：通報之後有一些醫療險不能用，但是意外險可以，意外可以，人壽、醫療是沒有辦法的。民眾：嗯。個管師：但是還是看各家啦，我覺得還是要看各家。民眾：所以還是要看它各個細項？個管師：對，看細項，據我所知目前現階段，意外險可以。民眾：嗯。個管師：因為意外本來就是不知道什麼時候來嘛！我只是保障我的意外，可是人壽、醫療好像目前現階段，它的限制條款裡面好像都是會有這一個，但是還是自己問各家的保險的業務員，去問一下，比如說你保國泰的，你就問一下國泰，你可能保富邦或遠雄，可能就要問一下富邦、遠雄的這個問題。民眾：嗯，OK，反正如果之前保的，就繼續繳錢就沒關係就對了。個管師：對，如果你通報前保的，那來就是你的權益，因為你也不知道嘛！那時候保的所以不會有問題，通報之後要保有一些就會有限制了。民眾：OK，那我了解了。個管師：然後雖然說這個計畫目前是結束了，然後但是我還是真的建議你三個月去匿篩一次。民眾：嗯，我等下會去匿篩反正都來了。個管師：對，對，要匿篩，因為有時候不管梅毒也好，菜花也好等等的，你三個月好追溯是誰傳染給你的，可是如果你時間拉長你會一下子忘記是誰傳染給你的。民眾：OK。
 article_id	start_position	end_position	entity_text	entity_type
+313	858	862	兩個小時	time
 313	905	906	5	time
 313	1192	1195	前幾天	time
 313	1629	1631	富邦	organization
@@ -9563,6 +9577,7 @@ article_id	start_position	end_position	entity_text	entity_type
 317	731	733	幾點	time
 317	738	740	八點	time
 317	744	746	八點	time
+317	751	753	八點	time
 317	770	772	八點	time
 317	795	797	五點	time
 317	856	861	9月19號	time
@@ -9731,8 +9746,7 @@ article_id	start_position	end_position	entity_text	entity_type
 326	224	226	今天	time
 326	234	236	今天	time
 326	251	256	昨天的早上	time
-326	275	276	5	time
-326	277	280	6點多	time
+326	275	280	5、6點多	time
 326	307	309	晚上	time
 326	365	367	早上	time
 326	371	373	晚上	time
@@ -9763,10 +9777,6 @@ article_id	start_position	end_position	entity_text	entity_type
 個管師：所以這三個月，你都怎麼約？軟體，交友軟體？民眾：有時候會是三溫暖。個管師：三溫暖？民眾：對。個管師：那三溫暖的部分是，比如說覺得還不錯兩個人就會去，就去了？還是直接在三溫暖裡面？民眾：裡面有房間。個管師：對對對，所以是在裡面嗎？民眾：對。個管師：OK。阿這時候應該是不會戴套的齁？民眾：會阿。個管師：所以你都會帶著，還是他們那邊會準備？民眾：那邊會有可以拿，跟櫃台拿。個管師：OK所以你都會戴套？民眾：不一定。個管師：那不一定取決點在於？當下的……民眾：感覺。個管師：就跟對方的感覺決定，那甚麼樣的感覺會讓你覺得要戴套還是不要戴套？民眾：很難講，就是看有沒有很喜歡或是……個管師：是天菜。民眾：對，還有就是除了OK以外，就是在幫對方口的時候，有印象比較奇怪的……個管師：喔所以如果你覺得這個人看起來怪怪的，然後你在幫他69的時候也覺得怪怪的時候，這時候你就會戴套？民眾：不是，這時候不會。個管師：就不會。民眾：不會更進一步。個管師：喔所以就只會69，你幫他他幫你就這樣子而已，但就不見得會10。民眾：對。個管師：所以你69不會戴但10一定會戴嗎？民眾：不是，69是不會戴，阿10是看個人。個管師：喔看對方的狀況，OK好喔。所以都是……所以你不會約回家，就都在外面，就是三溫暖或者自己會去找對方家會嗎？民眾：對。個管師：對方家會嗎？也會去對方家嗎？民眾：大部分人就是都不方便阿，就跟家人住阿。個管師：哦，所以你都會去旅館或者三溫暖OK。好喔，那你每一次出去都會吃prep嗎？民眾：對。個管師：所以就是不管這一次去三溫暖會不會有可能有約，反正你都會吃。民眾：對我都會吃。個管師：那反正如果有約的話就持續一顆一顆的吃下去，阿如果沒有的話就吃完前面兩顆後面就不用繼續吃了嗎？民眾：就是有時候去三溫暖我沒有硬，但是我還是會繼續吃。個管師：那你會吃多久？民眾：就是三溫暖那一天再一天一天這樣。個管師：喔！就是等同於這樣4顆這樣吃。民眾：對。個管師：OK，好喔，然後下一次回診是11月2號。所以今天就抽血，11月2號看報告，阿如果那一天OK的話就會直接給你領藥。好那等下你去抽血，然後11月2號回診，這樣OK嗎？民眾：OK。個管師：然後抽血單，然後回診單、病例單7846，然後繳費，今天就五百二十六這樣子。
 article_id	start_position	end_position	entity_text	entity_type
 328	7	10	三個月	time
-328	33	36	三溫暖	profession
-328	41	44	三溫暖	profession
-328	87	90	三溫暖	profession
-328	746	749	三溫暖	profession
 328	836	841	11月2號	time
 328	844	846	今天	time
 328	850	855	11月2號	time
@@ -9879,6 +9889,7 @@ article_id	start_position	end_position	entity_text	entity_type
 article_id	start_position	end_position	entity_text	entity_type
 334	4	7	這個月	time
 334	14	17	這個月	time
+334	224	226	六週	time
 334	313	315	今天	name
 334	340	342	今天	time
 334	397	399	今天	name
@@ -9895,8 +9906,8 @@ article_id	start_position	end_position	entity_text	entity_type
 335	372	374	今天	time
 335	450	452	今天	time
 335	536	539	吳醫師	name
-335	878	880	泰國	location
-335	882	884	印度	location
+335	878	881	泰國廠	location
+335	882	885	印度廠	location
 335	971	976	兩千二左右	money
 335	984	987	一個月	time
 335	991	993	一萬	money
@@ -9952,6 +9963,7 @@ article_id	start_position	end_position	entity_text	entity_type
 337	1544	1546	幾號	time
 337	1556	1558	今天	time
 337	1566	1568	今天	time
+337	1592	1595	這兩天	time
 337	1648	1650	今天	name
 337	1703	1707	二十八天	time
 337	1731	1733	兩天	time
@@ -10197,6 +10209,7 @@ article_id	start_position	end_position	entity_text	entity_type
 347	1631	1633	半年	time
 347	1637	1640	半年後	time
 347	1653	1657	每三個月	time
+347	1662	1664	今天	time
 347	1797	1799	今天	time
 347	1814	1818	三個禮拜	time
 
@@ -10387,6 +10400,7 @@ article_id	start_position	end_position	entity_text	entity_type
 352	2383	2386	下個月	time
 352	2566	2568	今天	time
 352	2630	2632	今天	time
+352	2731	2734	下個月	time
 352	3009	3011	九月	time
 352	3199	3202	三個月	time
 352	3243	3246	兩個月	time
@@ -10412,6 +10426,7 @@ article_id	start_position	end_position	entity_text	entity_type
 353	130	132	今天	time
 353	332	335	半年後	time
 353	387	390	六個月	time
+353	1132	1136	兩個禮拜	time
 353	1181	1185	兩個禮拜	time
 353	1340	1343	三個月	time
 353	1348	1353	三、四個月	time
@@ -10426,6 +10441,7 @@ article_id	start_position	end_position	entity_text	entity_type
 353	1842	1844	台灣	med_exam
 353	2017	2019	泰國	location
 353	2020	2022	印度	location
+353	2321	2323	半年	time
 
 --------------------
 
@@ -10441,6 +10457,7 @@ article_id	start_position	end_position	entity_text	entity_type
 354	1236	1239	兩小時	time
 354	1261	1264	兩小時	time
 354	1386	1389	兩小時	time
+354	1507	1509	後天	time
 354	1574	1576	明天	time
 354	1661	1663	三天	time
 354	1699	1702	這個月	time
@@ -10501,7 +10518,7 @@ article_id	start_position	end_position	entity_text	entity_type
 356	2244	2246	台灣	location
 356	2479	2481	台灣	location
 356	2876	2878	長庚	location
-356	2902	2904	今年	med_exam
+356	2902	2904	今年	time
 356	3013	3015	今年	time
 356	3210	3212	台北	location
 356	3236	3238	今天	time
@@ -10513,6 +10530,7 @@ article_id	start_position	end_position	entity_text	entity_type
 article_id	start_position	end_position	entity_text	entity_type
 357	7	11	第一個月	time
 357	93	99	一、兩個小時	time
+357	165	168	前一天	time
 357	292	295	這個月	time
 357	446	448	今天	time
 357	469	473	第二個月	time
