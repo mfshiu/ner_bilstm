@@ -8133,8 +8133,6 @@ article_id	start_position	end_position	entity_text	entity_type
 261	1416	1419	這禮拜	time
 261	1596	1599	前一年	time
 261	1782	1784	台灣	location
-261	1894	1899	10/15	time
-261	1928	1932	3452	ID
 
 --------------------
 
