@@ -54,7 +54,7 @@ class NerModel:
         model = Embedding(input_dim=self.n_words + 2, output_dim=self.EMBEDDING,  # n_words + 2 (PAD & UNK)
                           input_length=self.MAX_LEN, mask_zero=True)(input)  # default: 20-dim embedding
         model = Bidirectional(LSTM(units=50, return_sequences=True,
-                                   recurrent_dropout=0.1))(model)  # variational biLSTM
+                                   recurrent_dropout=0.2))(model)  # variational biLSTM
         model = TimeDistributed(Dense(50, activation="relu"))(model)  # a dense layer as suggested by neuralNer
         crf = CRF(self.n_tags + 1)  # CRF layer, n_tags+1(PAD)
         out = crf(model)  # output
