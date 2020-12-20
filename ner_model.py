@@ -37,6 +37,7 @@ BATCH_SIZE = 512  # Number of examples used in each iteration
 EPOCHS = 20  # Number of passes through entire dataset
 MAX_LEN = 75  # Max length of review (in words)
 EMBEDDING = 40  # Dimension of word embedding vector
+LSTM_UNITS = 100
 
 class NerModel:
     def __init__(self, dataset_path, embedding_size = EMBEDDING, max_words = MAX_LEN):
@@ -53,9 +54,9 @@ class NerModel:
         input = Input(shape=(self.MAX_LEN,))
         model = Embedding(input_dim=self.n_words + 2, output_dim=self.EMBEDDING,  # n_words + 2 (PAD & UNK)
                           input_length=self.MAX_LEN, mask_zero=True)(input)  # default: 20-dim embedding
-        model = Bidirectional(LSTM(units=50, return_sequences=True,
+        model = Bidirectional(LSTM(units=LSTM_UNITS, return_sequences=True,
                                    recurrent_dropout=0.2))(model)  # variational biLSTM
-        model = TimeDistributed(Dense(50, activation="relu"))(model)  # a dense layer as suggested by neuralNer
+        model = TimeDistributed(Dense(LSTM_UNITS, activation="relu"))(model)  # a dense layer as suggested by neuralNer
         crf = CRF(self.n_tags + 1)  # CRF layer, n_tags+1(PAD)
         out = crf(model)  # output
         model = Model(input, out)
