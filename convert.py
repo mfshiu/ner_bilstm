@@ -132,7 +132,7 @@ def gen_output_rows(sentences, start_id, show_head):
 
 if __name__ == '__main__':
     input_path = "data/train_4.txt"
-    output_path = "data/ner_dataset_4-64d.csv"
+    output_path = "data/ner_dataset_4-128d.csv"
 
     print("\n\n##### START CONVERT #####")
     print("input_path: " + input_path)

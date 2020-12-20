@@ -6901,6 +6901,7 @@ article_id	start_position	end_position	entity_text	entity_type
 203	643	645	昨天	time
 203	673	675	今天	time
 203	678	681	吳醫師	name
+203	748	750	今天	time
 203	817	819	今天	time
 203	867	870	禮拜二	time
 203	871	874	禮拜三	time
@@ -7109,9 +7110,14 @@ article_id	start_position	end_position	entity_text	entity_type
 article_id	start_position	end_position	entity_text	entity_type
 211	4	8	這個禮拜	time
 211	125	127	晚上	time
+211	165	171	Google	profession
+211	872	876	17.1	med_exam
 211	885	888	上禮拜	time
 211	919	922	一百多	med_exam
-211	940	942	29	ID
+211	932	935	121	med_exam
+211	940	942	29	med_exam
+211	951	953	17	med_exam
+211	963	965	17	med_exam
 211	994	996	10	med_exam
 211	1007	1009	10	med_exam
 211	1161	1164	許醫師	name
@@ -7119,17 +7125,24 @@ article_id	start_position	end_position	entity_text	entity_type
 211	1218	1221	120	med_exam
 211	1259	1263	九個小時	time
 211	1318	1322	八個小時	med_exam
+211	1353	1356	120	med_exam
 211	1425	1427	爺爺	family
 211	1498	1502	上個禮拜	time
 211	1572	1574	今天	time
 211	1632	1634	爸爸	family
 211	1656	1661	三、四十歲	time
+211	1675	1671	Google	profession
+211	1755	1759	2540	med_exam
 211	2527	2531	這個禮拜	time
 211	2925	2928	幾年前	time
 211	2936	2939	兩三年	time
 211	3416	3418	半年	time
+211	3434	3438	2540	med_exam
 211	3549	3552	201	med_exam
+211	3579	3584	2013年	time
 211	4438	4440	四年	time
+211	4485	4489	2013	time
+211	4496	4501	2013年	time
 211	4562	4567	許王玉醫師	name
 211	4919	4923	台南國小	location
 211	4924	4926	老師	profession
@@ -7144,8 +7157,7 @@ article_id	start_position	end_position	entity_text	entity_type
 211	5191	5196	11/29	time
 211	5210	5215	11/29	time
 211	5697	5699	75	med_exam
-211	5704	5706	63	med_exam
-211	5707	5709	62	med_exam
+211	5704	5711	63、62左右	med_exam
 211	5727	5730	十公斤	med_exam
 211	5774	5776	63	med_exam
 211	5787	5794	75到63公斤	med_exam
@@ -7167,7 +7179,6 @@ article_id	start_position	end_position	entity_text	entity_type
 213	13	15	舒雅	name
 213	160	162	前年	time
 213	178	180	前年	time
-213	182	185	衛生局	profession
 213	188	190	今年	time
 213	342	344	曉萍	name
 213	366	369	六零九	med_exam
@@ -7288,7 +7299,6 @@ article_id	start_position	end_position	entity_text	entity_type
 article_id	start_position	end_position	entity_text	entity_type
 219	21	24	禮拜五	time
 219	56	58	三天	time
-219	137	139	牙科	time
 219	341	344	這禮拜	time
 219	424	426	今天	time
 219	516	519	禮拜六	time
@@ -7354,6 +7364,7 @@ article_id	start_position	end_position	entity_text	entity_type
 222	172	174	63	med_exam
 222	311	316	前兩個禮拜	time
 222	602	604	半年	time
+222	752	756	7382	ID
 222	756	759	張光良	name
 
 --------------------
@@ -7459,8 +7470,7 @@ article_id	start_position	end_position	entity_text	entity_type
 228	1024	1026	去年	time
 228	1037	1039	去年	time
 228	1084	1086	每年	time
-228	1096	1098	今年	time
-228	1099	1101	今年	time
+228	1096	1101	今年，今年	time
 228	1175	1179	六十五歲	time
 228	1451	1453	一年	time
 228	1577	1579	半年	time
@@ -7718,6 +7728,7 @@ article_id	start_position	end_position	entity_text	entity_type
 241	2088	2090	今天	time
 241	2099	2101	明年	time
 241	2102	2105	二月底	time
+241	2120	2122	半年	time
 241	2593	2595	台東	location
 241	2680	2682	台東	location
 
@@ -8044,7 +8055,7 @@ article_id	start_position	end_position	entity_text	entity_type
 
 民眾：睡覺。醫師：哦。民眾：嗅覺又開始。醫師：所以你很容易受到影響嘞齁？民眾：嗯。醫師：嗯。阿嗅覺是，都完全聞不到還是稍微差一點？民眾：變成，之前有恢復一點點，阿現在好像又開始了。醫師：喔。民眾：沒有完全。醫師：完全齁。阿妳。民眾：除了那個，比較重、刺鼻的味道才聞的到。醫師：比較刺鼻，喔。阿這，不過至少我們上次沒有用抗生素這樣。民眾：亨哼哼，對對對。醫師：好，聽聽看。阿是待會要看那個。民眾：嘿。醫師：腸胃科齁。民眾：哼。醫師：肝膽腸胃科。民眾：嗯嗯。醫師：好，欸，來。好，來。好，來。好。那我們藥要怎麼調整？醫師：有沒有需要，腸胃的那個？民眾：喔，那個。醫師：那個不用嘛齁？民眾：嘿，那個不用。醫師：那個胃痙攣的。民眾：嘿。醫師：那個就不用。民眾：嘿，那個不用。醫師：痾，保肝片我還是繼續。民眾：嗯哼哼。醫師：維他命C那個還是繼續好不好？民眾：嘿，對對對。醫師：OK，然後。民眾：肝藥的話，就。醫師：還是給，給他開好了。民眾：給他開好了。醫師：然後，那個發泡錠我們還是繼續嘛齁？民眾：嘿，對，還是鼻涕還是會倒流。醫師：還是會倒流喔。民眾：嘿嘿嘿。醫師：還是我們就⋯⋯民眾：所以就還是會咳嗽這樣。醫師：還是會咳嗽。醫師：那我們，艾萊那個還是繼續吃嘛齁？民眾：嘿，要。醫師：阿，止咳的應該，咳會咳到很嚴重嗎？民眾：會喔，突然發作起來這樣。醫師：發作起來這樣。民眾：那，那如果不會咳就。醫師：就還好。民眾：就還好，嘿。醫師：還是我們就，你有喝過藥水了嗎？民眾：嘿，有，甘草藥水。醫師：甘草藥水。民眾：之前有。醫師：阿家裡還有嗎？民眾：還有，嘿。醫師：還有，阿不然你假如咳的發作起來。民眾：嗯哼哼。醫師：咳到比較想吐的時候。民眾：嗯哼哼。醫師：你就喝10cc。民眾：喔，好。醫師：再喝這樣子。啊假如沒有的話你就不用這樣子。民眾：嗯哼，好。醫師：嘿，好齁。民眾：嗯。醫師：那我們，我這邊就先約兩個月嗎？還是？民眾：嗯。醫師：還是三個禮拜？民眾：兩個月可以喔。醫師：兩個月試試看啦齁。民眾：嗯，兩個月試試看。醫師：好。民眾：如果早一點休息的話就。醫師：當然囉。民眾：會。嗅覺好像就會。醫師：就會比較，對。民眾：可是也沒辦法恢復之前正常的。醫師：之前正常。民眾：嗯。醫師：阿那個，藥膏不用啦齁。民眾：不用。醫師：藥膏不用。民眾：嘿。醫師：阿你，其他的，合利他命你有吃嗎齁？民眾：嘿，有。醫師：你自己有在吃這樣。民眾：嘿，對。醫師：好。阿不過看肝功能這邊就好好做個檢查，也好啦。民眾：喔。醫師：阿不然你都是稍微偏高。醫師：試看看是因為是因為脂肪肝還是有其他因素。民眾：嗯，還是胃藥把它備著？醫師：胃藥嗎齁？民眾：嘿。醫師：哪一種胃藥？民眾：痾，還是上一次那個？醫師：我看一下。民眾：是有效果的。醫師：你是說？民眾：胃痙攣的那個。醫師：痙攣的齁。民眾：嘿，不用開那麼多藥。醫師：好。就開幾顆備用。民眾：嘿。對對。醫師：所以這個也是，有時候腸躁症的時候。民眾：嗯。醫師：或者是，腸子比較敏感，我們有時候。民眾：嘿。醫師：會開這個。民眾：齁，嗯。醫師：那我們就備著。民眾：有效果？醫師：有效果。民眾：嘿，嗯。醫師：阿吃多這個會便祕阿齁。民眾：喔。醫師：阿不過吃一顆是還好。民眾：是還好。醫師：嘿。就是讓你比較舒服。我給你備二十一天好不好，三個禮拜。民眾：喔，好，好。醫師：可以？十四顆的藥這樣。民眾：好。醫師：可以齁？民眾：可以，可以。醫師：好。那我們下次十一月十九號來回診。民眾：嗯。好，可以。醫師：好，好。好險沒有細菌感染，要不然。民眾：嗯。醫師：好。好。好。民眾：好，謝謝。
 article_id	start_position	end_position	entity_text	entity_type
-256	723	727	10cc	time
+256	723	727	10cc	med_exam
 256	793	796	兩個月	time
 256	811	815	三個禮拜	time
 256	819	822	兩個月	time
@@ -8371,7 +8382,6 @@ article_id	start_position	end_position	entity_text	entity_type
 268	78	80	今天	time
 268	81	83	今天	time
 268	100	102	今天	time
-268	358	360	兩個	time
 268	410	414	一個禮拜	time
 268	422	426	一個禮拜	time
 268	443	447	兩個禮拜	time
@@ -8532,6 +8542,8 @@ article_id	start_position	end_position	entity_text	entity_type
 273	1375	1377	早上	time
 273	1384	1386	早上	time
 273	1390	1392	早上	time
+273	1408	1410	晚上	time
+273	1937	1939	晚上	time
 
 --------------------
 
@@ -9032,7 +9044,6 @@ article_id	start_position	end_position	entity_text	entity_type
 291	520	523	0.5	med_exam
 291	565	567	年底	time
 291	634	637	一兩天	time
-291	683	684	一	med_exam
 291	706	711	兩天、三天	time
 291	718	722	兩天三天	time
 291	750	753	禮拜三	time
@@ -9182,6 +9193,7 @@ article_id	start_position	end_position	entity_text	entity_type
 297	1305	1307	台大	location
 297	1431	1434	林醫師	name
 297	2118	2121	林恆生	name
+297	2595	2600	下下個禮拜	time
 297	2620	2623	林醫師	name
 297	2633	2636	林醫師	name
 
@@ -9191,6 +9203,7 @@ article_id	start_position	end_position	entity_text	entity_type
 article_id	start_position	end_position	entity_text	entity_type
 298	251	254	一個月	time
 298	406	408	四年	time
+298	480	482	高醫	location
 298	573	576	兩個禮	time
 298	579	583	兩個禮拜	time
 298	649	653	6月16	time
@@ -9619,6 +9632,7 @@ article_id	start_position	end_position	entity_text	entity_type
 315	2222	2225	每個月	time
 315	2490	2494	五月三號	time
 315	2511	2515	五月三號	time
+315	2746	2753	PREPEAT	ID
 
 --------------------
 
@@ -9626,6 +9640,7 @@ article_id	start_position	end_position	entity_text	entity_type
 article_id	start_position	end_position	entity_text	entity_type
 316	564	566	今天	time
 316	1301	1305	LINE	contact
+316	1307	1314	PREPEAT	ID
 
 --------------------
 
@@ -9707,6 +9722,7 @@ article_id	start_position	end_position	entity_text	entity_type
 320	1843	1847	第一個月	time
 320	1863	1866	每個月	time
 320	1881	1884	下個月	time
+320	1901	1904	下個月	time
 320	1935	1939	下一個月	time
 320	1994	1997	這個月	time
 320	2197	2200	下個月	time
@@ -9809,6 +9825,7 @@ article_id	start_position	end_position	entity_text	entity_type
 324	327	331	一個禮拜	time
 324	341	344	禮拜一	time
 324	466	470	Line	contact
+324	487	494	GAMEONE	ID
 
 --------------------
 
@@ -9952,7 +9969,8 @@ article_id	start_position	end_position	entity_text	entity_type
 332	1216	1218	8點	time
 332	1234	1236	今天	time
 332	1420	1424	ＬＩＮＥ	contact
-332	1483	1485	兩週	time
+332	1436	1442	ＰＲＥＰＣＵ	ID
+332	1483	1489	兩週到十六週	time
 332	1528	1530	今天	time
 
 --------------------
@@ -10047,6 +10065,7 @@ article_id	start_position	end_position	entity_text	entity_type
 337	1034	1037	一個月	time
 337	1140	1142	今天	time
 337	1399	1403	Line	contact
+337	1411	1419	PREPWANG	ID
 337	1446	1448	明年	time
 337	1544	1546	幾號	time
 337	1556	1558	今天	time
@@ -10081,6 +10100,7 @@ article_id	start_position	end_position	entity_text	entity_type
 338	1444	1448	LINE	contact
 338	1563	1567	LINE	contact
 338	1612	1615	三天後	time
+338	1668	1670	昨天	time
 
 --------------------
 
@@ -10111,8 +10131,7 @@ article_id	start_position	end_position	entity_text	entity_type
 340	465	468	陳小姐	name
 340	538	541	上個月	time
 340	560	563	陳小姐	name
-340	577	578	1	med_exam
-340	579	581	30	med_exam
+340	577	581	1，30	med_exam
 340	902	905	一個月	time
 340	919	923	一個禮拜	time
 340	929	933	一個禮拜	time
@@ -10128,6 +10147,7 @@ article_id	start_position	end_position	entity_text	entity_type
 340	1763	1765	五年	time
 340	1790	1793	17歲	time
 340	1914	1917	王小陸	name
+340	1917	1921	2735	ID
 
 --------------------
 
@@ -10146,7 +10166,6 @@ article_id	start_position	end_position	entity_text	entity_type
 341	1166	1170	6700	money
 341	1171	1175	6500	money
 341	1446	1448	今天	time
-341	1719	1723	耳鼻喉科	profession
 341	2387	2391	三個禮拜	time
 341	2397	2402	三個禮拜後	time
 341	2410	2418	三個月後、三個月	time
@@ -10262,6 +10281,7 @@ article_id	start_position	end_position	entity_text	entity_type
 345	1485	1487	今天	time
 345	1585	1587	兩天	time
 345	1612	1616	一個禮拜	time
+345	1669	1673	8932	ID
 
 --------------------
 
@@ -10272,6 +10292,7 @@ article_id	start_position	end_position	entity_text	entity_type
 346	36	39	這個月	time
 346	46	49	十月底	time
 346	67	69	上周	time
+346	432	434	三天	time
 346	1056	1060	第五個月	time
 346	1079	1082	下個月	time
 346	1090	1093	下個月	time
@@ -10320,6 +10341,7 @@ article_id	start_position	end_position	entity_text	entity_type
 348	945	948	三個月	time
 348	1033	1035	今年	med_exam
 348	1092	1096	line	contact
+348	1109	1116	pwodumn	ID
 
 --------------------
 
@@ -10521,20 +10543,26 @@ article_id	start_position	end_position	entity_text	entity_type
 353	53	56	3到4	med_exam
 353	81	83	今天	time
 353	130	132	今天	time
+353	150	154	第六個月	time
+353	163	166	下個月	time
 353	332	335	半年後	time
-353	387	390	六個月	time
+353	357	360	這半年	time
+353	386	391	這六個月來	time
 353	1132	1136	兩個禮拜	time
 353	1181	1185	兩個禮拜	time
 353	1340	1343	三個月	time
 353	1348	1353	三、四個月	time
 353	1436	1439	一萬五	money
-353	1484	1487	170	money
+353	1443	1446	521	money
+353	1484	1489	170左右	money
 353	1575	1578	600	money
 353	1587	1590	680	money
+353	1599	1605	600多一點	money
 353	1654	1656	泰國	location
 353	1662	1664	泰國	location
 353	1675	1679	1600	money
 353	1690	1693	60塊	money
+353	1720	1723	521	money
 353	1842	1844	台灣	location
 353	2017	2019	泰國	location
 353	2020	2022	印度	location
@@ -10578,10 +10606,12 @@ article_id	start_position	end_position	entity_text	entity_type
 355	199	203	一個禮拜	time
 355	410	412	今天	time
 355	489	491	明年	time
+355	594	596	明年	time
 355	733	736	這一年	time
 355	1000	1002	台灣	location
 355	1021	1023	台灣	location
 355	1092	1095	510	money
+355	1099	1102	一個月	time
 355	1105	1108	一萬五	money
 355	1154	1157	510	money
 355	1171	1176	一萬五左右	money
