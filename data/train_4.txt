@@ -6920,8 +6920,7 @@ article_id	start_position	end_position	entity_text	entity_type
 204	187	192	8月13號	time
 204	215	218	622	med_exam
 204	288	293	15降到6	med_exam
-204	299	301	30	med_exam
-204	303	305	12	med_exam
+204	299	305	30降到12	med_exam
 204	319	321	15	med_exam
 204	326	328	31	med_exam
 204	365	368	三個禮	time
@@ -8849,6 +8848,7 @@ article_id	start_position	end_position	entity_text	entity_type
 283	2939	2941	早上	time
 283	2954	2956	15	time
 283	2956	2958	早上	time
+283	3064	3067	這兩天	time
 283	3159	3164	十二個小時	time
 283	3192	3194	晚上	time
 283	3199	3201	八點	time
@@ -9242,6 +9242,7 @@ article_id	start_position	end_position	entity_text	entity_type
 299	680	682	昨天	time
 299	892	895	5公分	med_exam
 299	900	903	5公分	med_exam
+299	1002	1004	兩天	time
 299	1099	1101	今天	time
 299	1335	1338	兩個月	time
 299	1341	1344	三個月	time
@@ -9389,6 +9390,7 @@ article_id	start_position	end_position	entity_text	entity_type
 307	554	556	1點	time
 307	593	597	3、4點	time
 307	603	608	5點、6點	time
+307	622	624	晚上	time
 307	682	687	晚上10點	time
 307	692	696	2點半後	time
 307	697	699	3點	time
@@ -9911,6 +9913,7 @@ article_id	start_position	end_position	entity_text	entity_type
 329	1859	1862	3年多	time
 329	1885	1888	這3年	time
 329	1954	1958	兩個小時	time
+329	2185	2191	2到24小時	time
 
 --------------------
 
@@ -10293,6 +10296,7 @@ article_id	start_position	end_position	entity_text	entity_type
 345	1298	1300	兩天	time
 345	1317	1319	九點	time
 345	1376	1379	禮拜六	time
+345	1437	1439	兩天	time
 345	1485	1487	今天	time
 345	1585	1587	兩天	time
 345	1612	1616	一個禮拜	time
@@ -10322,7 +10326,7 @@ article_id	start_position	end_position	entity_text	entity_type
 347	5	8	這個月	time
 347	40	43	這個月	time
 347	700	702	今天	time
-347	710	712	今天	name
+347	710	712	今天	time
 347	804	807	一個月	time
 347	809	812	28天	time
 347	871	876	一個禮拜多	time
@@ -10440,6 +10444,7 @@ article_id	start_position	end_position	entity_text	entity_type
 350	2913	2917	兩小時後	time
 350	3002	3004	五點	time
 350	3079	3082	一個月	time
+350	3126	3130	這個月份	time
 350	3135	3138	五個月	time
 350	3300	3302	今天	time
 350	3548	3553	一萬三左右	money
