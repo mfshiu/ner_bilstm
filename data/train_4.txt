@@ -7156,6 +7156,7 @@ article_id	start_position	end_position	entity_text	entity_type
 211	5180	5186	11月30號	time
 211	5191	5196	11/29	time
 211	5210	5215	11/29	time
+211	5618	5621	八公斤	med_exam
 211	5697	5699	75	med_exam
 211	5704	5711	63、62左右	med_exam
 211	5727	5730	十公斤	med_exam
@@ -7513,6 +7514,7 @@ article_id	start_position	end_position	entity_text	entity_type
 230	809	812	苓雅區	location
 230	868	870	高雄	location
 230	878	880	高雄	location
+230	885	888	苓雅區	location
 230	920	922	8月	time
 230	923	925	8月	time
 230	966	968	8月	time
@@ -7716,6 +7718,7 @@ article_id	start_position	end_position	entity_text	entity_type
 241	666	668	五百	med_exam
 241	806	809	一千六	money
 241	824	827	一千六	money
+241	834	837	一千六	money
 241	876	878	凱則	name
 241	936	941	二零一六年	time
 241	942	948	十一月十八號	time
@@ -8925,6 +8928,7 @@ article_id	start_position	end_position	entity_text	entity_type
 285	1334	1337	190	med_exam
 285	1354	1357	190	med_exam
 285	1857	1861	半個小時	time
+285	1882	1886	半個小時	time
 285	2157	2159	半夜	time
 285	2208	2213	這五、六年	time
 285	2343	2345	九點	med_exam
@@ -9296,6 +9300,7 @@ article_id	start_position	end_position	entity_text	entity_type
 302	151	153	85	med_exam
 302	164	167	100	med_exam
 302	187	189	85	med_exam
+302	214	217	上個月	time
 302	247	249	80	med_exam
 302	282	284	27	med_exam
 302	307	309	30	med_exam
@@ -9406,7 +9411,7 @@ article_id	start_position	end_position	entity_text	entity_type
 307	1707	1712	10幾年前	time
 307	1912	1917	250cc	med_exam
 307	1931	1935	10分鐘	time
-307	2010	2015	6.7年來	time
+307	2010	2014	6.7年	time
 307	2067	2070	李醫師	name
 307	2246	2249	李醫師	name
 307	2278	2281	李醫師	name
@@ -9445,8 +9450,7 @@ article_id	start_position	end_position	entity_text	entity_type
 308	1794	1798	一百cc	med_exam
 308	2063	2065	一百cc	med_exam
 308	2092	2094	今天	time
-308	2158	2163	三、四、五	time
-308	2164	2169	三、四、五	time
+308	2158	2169	三、四、五、三、四、五	time
 308	2171	2174	禮拜三	time
 308	2175	2178	禮拜四	time
 308	2179	2182	禮拜五	time
@@ -9495,39 +9499,38 @@ article_id	start_position	end_position	entity_text	entity_type
 310	247	252	五百二十二	med_exam
 310	285	288	四百一	med_exam
 310	349	351	半年	time
-310	356	359	每半年	time
-310	433	435	爸爸	family
-310	470	472	去年	time
-310	496	501	去年，年初	time
-310	508	510	每年	time
-310	511	513	每年	time
-310	558	560	今年	time
-310	562	564	去年	time
-310	610	614	今年年初	time
-310	862	866	二比二三	med_exam
+310	434	436	爸爸	family
+310	437	439	媽媽	family
+310	471	473	去年	time
+310	497	502	去年，年初	time
+310	559	561	今年	time
+310	563	565	去年	time
+310	611	615	今年年初	time
+310	863	867	二比二三	med_exam
 310	901	904	四十六	med_exam
 310	905	907	二三	med_exam
 310	908	910	二三	med_exam
+310	1348	1350	墾丁	location
 310	1355	1357	墾丁	location
 310	1369	1371	石門	location
 310	1375	1377	石門	location
 310	1381	1385	石門水庫	location
 310	1391	1393	石門	location
-310	1406	1408	貢寮	location
-310	1432	1437	下下個禮拜	time
-310	1460	1462	八里	location
-310	1471	1473	九份	location
-310	1477	1479	九份	location
-310	1493	1496	兩個月	time
-310	1519	1521	東區	location
-310	1525	1527	東區	location
-310	1528	1530	台北	location
+310	1407	1409	貢寮	location
+310	1433	1438	下下個禮拜	time
+310	1461	1463	八里	location
+310	1472	1474	九份	location
+310	1478	1480	九份	location
+310	1494	1497	兩個月	time
+310	1520	1522	東區	location
+310	1526	1528	東區	location
+310	1529	1531	台北	location
 310	1534	1536	東區	location
-310	1551	1553	台北	location
+310	1552	1555	台北	location
 310	1555	1557	東區	location
-310	1624	1628	二月五號	time
-310	1726	1728	宜蘭	location
-310	1854	1856	台北	location
+310	1625	1629	二月五號	time
+310	1727	1729	宜蘭	location
+310	1855	1857	台北	location
 
 --------------------
 
@@ -9748,7 +9751,8 @@ article_id	start_position	end_position	entity_text	entity_type
 320	3343	3345	今天	time
 320	3404	3407	前一天	time
 320	3433	3437	兩個小時	time
-320	3706	3708	今天	name
+320	3449	3454	前兩個小時	time
+320	3706	3708	今天	time
 320	3735	3737	今天	time
 320	3752	3754	今天	time
 320	3799	3802	10點	time
@@ -9835,6 +9839,7 @@ article_id	start_position	end_position	entity_text	entity_type
 個管師：這個月還好嗎？民眾：還好。個管師：阿有性行為嗎？民眾：兩次。個管師：約的？民眾：這一次兩次，對對對。民眾：阿是固定？民眾：以前約過的，哈哈哈～個管師：就是固砲？民眾：恩，算是。個管師：喔，算是恩好，那，那你就是會，你會跟他無套嗎？民眾：沒有我這次是有戴，有戴套，呵呵～個管師：喔，阿會這次有戴套的原因是？民眾：因為，像之前都有說過就是，只有固砲也可能，或許也有跟別人也……個管師：嗯哼。民眾：那他也沒有安全性行為那我也不太知道這樣子。個管師：嗯哼，所以你這次就有戴？民眾：對。個管師：好，阿所以這兩次都跟他喔？還是有一個是約的？民眾：不同的，呵呵～個管師：所以你好幾個固砲？民眾：沒有，哪有很多，曾經有約過的，呵呵呵～就是有可能之前……個管師：呵呵～這是第二次？民眾：對。個管師：之前約過一次，對。個管師：喔OKOK，就覺得好像也還OK所以就再約了一次？民眾：對對。個管師：但是這次就會戴套？民眾：對。個管師：好，那吃PREP會不會讓你現階段，就是在約的過程當中比較不會那麼擔心？民眾：對啦。個管師：會？民眾：還是比較不會那麼擔心這樣。個管師：OK，那你現在吃任務型？民眾：是。個管師：阿怎麼，都怎麼吃？民眾：恩就是性行為最慢的前兩個小時。個管師：恩，最晚前兩個小時。民眾：你要吃兩顆。個管師：吃兩顆，然後咧？民眾：然後之後的吃藥時間點二十四小時小時候吃一顆。個管師：吃一顆，恩。民眾：然後再隔天再吃一樣……個管師：再二十四小時再吃一顆？民眾：對。個管師：那如果假設你性行為的那一天隔天又一次性行為，比如說好，禮拜六性行為，禮拜天又一次性行為，阿這個藥要吃到禮拜幾？民眾：禮……你說是禮拜幾？個管師：第一次是禮拜六的性行為嘛。民眾：誒對。個管師：然後所以性行為前兩個小時吃兩顆。民眾：對。個管師：然後禮拜天吃一顆，禮拜一再吃一顆。民眾：對，然後……個管師：如果說這樣子的話。民眾：恩。個管師：那如果禮拜六有一次性行為，禮拜天又有一次性行為。民眾：這樣還要再往後再加一天。個管師：就是禮拜二再吃一顆，同一個時，同一個第一天的吃藥時間。民眾：吃藥時間。個管師：OK好，因為會先，會問一下就是因為恩吃PREP要具備保護力第一個一定是要吃法正確。民眾：恩。個管師：然後你吃法正確他才具備有保護力，阿包含了吃的顆數劑量跟他吃的頻率的時間。民眾：恩。個管師：這個部分OK嗎？民眾：OK。個管師：好喔。
 article_id	start_position	end_position	entity_text	entity_type
 325	4	7	這個月	time
+325	519	523	兩個小時	time
 325	666	669	禮拜天	time
 325	708	711	禮拜六	time
 325	735	739	兩個小時	time
@@ -9905,6 +9910,7 @@ article_id	start_position	end_position	entity_text	entity_type
 329	1049	1052	許醫師	name
 329	1859	1862	3年多	time
 329	1885	1888	這3年	time
+329	1954	1958	兩個小時	time
 
 --------------------
 
@@ -9923,6 +9929,7 @@ article_id	start_position	end_position	entity_text	entity_type
 330	865	867	9點	time
 330	909	914	11月3號	time
 330	923	928	11月4號	time
+330	1125	1130	禮拜五隔天	time
 330	1171	1177	11月10號	time
 330	1178	1180	9點	time
 330	1187	1189	9號	time
@@ -10003,9 +10010,9 @@ article_id	start_position	end_position	entity_text	entity_type
 334	4	7	這個月	time
 334	14	17	這個月	time
 334	224	226	六週	time
-334	313	315	今天	name
+334	313	315	今天	time
 334	340	342	今天	time
-334	397	399	今天	name
+334	397	399	今天	time
 334	447	449	明年	time
 334	450	454	3月7號	time
 334	467	469	今天	time
@@ -10216,6 +10223,8 @@ article_id	start_position	end_position	entity_text	entity_type
 343	305	309	8月9號	time
 343	310	312	8月	time
 343	345	348	這個月	time
+343	384	387	一天後	time
+343	392	395	一天後	time
 343	433	437	兩個小時	time
 343	492	495	兩個月	time
 343	621	623	今天	time
