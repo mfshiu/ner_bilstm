@@ -7395,8 +7395,7 @@ article_id	start_position	end_position	entity_text	entity_type
 224	137	139	59	med_exam
 224	143	145	59	med_exam
 224	297	301	兩個禮拜	time
-224	325	327	早上	time
-224	328	330	下午	time
+224	325	330	早上或下午	time
 224	339	341	早上	time
 224	372	377	12月15	time
 224	381	384	禮拜一	med_exam
@@ -7440,6 +7439,7 @@ article_id	start_position	end_position	entity_text	entity_type
 226	1049	1051	慧英	name
 226	1053	1055	佳明	name
 226	1123	1126	140	med_exam
+226	1422	1424	晚上	time
 226	1584	1586	半年	time
 
 --------------------
@@ -8798,7 +8798,7 @@ article_id	start_position	end_position	entity_text	entity_type
 283	2060	2062	8月	time
 283	2064	2066	7月	time
 283	2069	2073	7月14	time
-283	2073	2076	禮拜一	time
+283	2069	2076	7月14禮拜一	time
 283	2078	2081	禮拜一	time
 283	2088	2093	今天10號	time
 283	2097	2102	今天12號	time
@@ -9503,6 +9503,7 @@ article_id	start_position	end_position	entity_text	entity_type
 310	247	252	五百二十二	med_exam
 310	285	288	四百一	med_exam
 310	349	351	半年	time
+310	357	360	每半年	time
 310	434	436	爸爸	family
 310	437	439	媽媽	family
 310	471	473	去年	time
@@ -9591,6 +9592,7 @@ article_id	start_position	end_position	entity_text	entity_type
 314	438	441	三個月	time
 314	447	450	六個月	time
 314	566	569	三個月	time
+314	612	615	六個月	time
 314	675	678	三個月	time
 314	1344	1347	兩小時	time
 314	1348	1353	十二小時前	time
@@ -10009,6 +10011,7 @@ article_id	start_position	end_position	entity_text	entity_type
 333	820	823	525	money
 333	828	831	兩萬多	money
 333	1012	1016	LINE	contact
+333	1069	1073	三個月內	time
 
 --------------------
 
@@ -10273,7 +10276,7 @@ article_id	start_position	end_position	entity_text	entity_type
 345	55	57	十月	time
 345	65	68	十月底	time
 345	79	81	四週	time
-345	84	90	十一月二十三	time
+345	84	91	十一月二十三號	time
 345	93	96	禮拜四	time
 345	99	105	十一月二十三	time
 345	145	148	禮拜四	time
@@ -10392,14 +10395,10 @@ article_id	start_position	end_position	entity_text	entity_type
 349	2063	2066	禮拜一	time
 349	2072	2078	禮拜一的早上	time
 349	2082	2084	早上	time
-349	2088	2091	禮拜一	time
-349	2092	2094	早上	time
-349	2095	2096	三	time
-349	2097	2099	下午	time
-349	2100	2101	四	time
-349	2102	2104	早上	time
-349	2105	2106	五	time
-349	2107	2109	早上	time
+349	2088	2094	禮拜一的早上	time
+349	2095	2099	三是下午	time
+349	2100	2104	四是早上	time
+349	2105	2109	五的早上	time
 349	2116	2122	禮拜一的早上	time
 349	2134	2138	下禮拜一	time
 349	2139	2143	十月七號	time
@@ -10508,6 +10507,7 @@ article_id	start_position	end_position	entity_text	entity_type
 351	302	304	今天	time
 351	344	346	今天	time
 351	670	672	年底	time
+351	1047	1050	三個月	time
 351	1167	1170	下個月	time
 351	1237	1238	十	med_exam
 351	1274	1276	六周	time
