@@ -8196,6 +8196,7 @@ article_id	start_position	end_position	entity_text	entity_type
 262	1229	1232	150	med_exam
 262	1252	1255	270	med_exam
 262	1259	1262	270	med_exam
+262	1277	1279	昨天	time
 262	1313	1316	500	money
 262	1365	1368	500	money
 262	1376	1385	FOODPANDA	profession
@@ -8370,6 +8371,7 @@ article_id	start_position	end_position	entity_text	entity_type
 267	2913	2917	37.3	med_exam
 267	2923	2927	37.3	med_exam
 267	2962	2964	早上	time
+267	3094	3096	七天	time
 267	3106	3108	七天	time
 267	3117	3119	三天	time
 267	3213	3217	二十八天	time
@@ -9030,7 +9032,8 @@ article_id	start_position	end_position	entity_text	entity_type
 290	311	313	40	med_exam
 290	421	425	37.2	med_exam
 290	581	583	晚上	time
-290	772	774	晚上	med_exam
+290	762	764	晚上	time
+290	772	774	晚上	time
 290	1014	1015	一	family
 290	1206	1210	五月十號	time
 290	1220	1224	四個多月	time
@@ -10295,7 +10298,7 @@ article_id	start_position	end_position	entity_text	entity_type
 345	99	105	十一月二十三	time
 345	145	148	禮拜四	time
 345	158	161	禮拜三	time
-345	165	168	十一月二十九	time
+345	165	171	十一月二十九	time
 345	204	208	二十五號	time
 345	249	252	禮拜三	time
 345	263	265	一週	time
@@ -10447,6 +10450,7 @@ article_id	start_position	end_position	entity_text	entity_type
 350	1630	1633	這一年	time
 350	1760	1762	今年	time
 350	1796	1798	明年	time
+350	2076	2078	明年	time
 350	2183	2187	414塊	money
 350	2329	2332	一個月	time
 350	2471	2474	前兩天	time
@@ -10572,6 +10576,7 @@ article_id	start_position	end_position	entity_text	entity_type
 352	3672	3676	十二小時	time
 352	3714	3716	八點	time
 352	3731	3733	七點	time
+352	3815	3820	兩個小時後	time
 352	3842	3844	後天	time
 352	3909	3911	早上	time
 352	3913	3915	五點	time
