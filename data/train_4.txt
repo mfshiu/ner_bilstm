@@ -7187,10 +7187,18 @@ article_id	start_position	end_position	entity_text	entity_type
 213	499	501	曉萍	name
 213	504	506	今年	time
 213	714	715	三	med_exam
+213	958	960	一七	med_exam
 213	965	968	一七五	med_exam
+213	973	976	七十三	med_exam
 213	980	983	一七五	med_exam
-213	1029	1030	九	time
+213	984	987	七十三	med_exam
+213	1025	1030	七十八或九	med_exam
 213	1106	1109	一一五	med_exam
+213	1110	1112	十四	med_exam
+213	1149	1152	一二五	med_exam
+213	1153	1156	七十五	med_exam
+213	1165	1168	一二五	med_exam
+213	1169	1172	七十五	med_exam
 213	1182	1185	一一五	med_exam
 213	1273	1283	E137354975	ID
 
@@ -7202,7 +7210,7 @@ article_id	start_position	end_position	entity_text	entity_type
 214	529	532	349	med_exam
 214	703	706	500	med_exam
 214	741	743	半年	time
-214	900	902	三百	money
+214	900	903	三百塊	money
 214	930	932	今天	time
 214	987	989	今年	time
 214	1011	1015	台大醫院	location
@@ -7378,11 +7386,13 @@ article_id	start_position	end_position	entity_text	entity_type
 223	1166	1169	215	money
 223	1389	1392	170	med_exam
 223	1393	1396	180	med_exam
+223	1400	1403	170	med_exam
 223	1404	1407	180	med_exam
 223	1541	1543	五點	time
 223	1573	1577	一個小時	time
 223	1577	1579	六點	time
 223	1639	1642	180	med_exam
+223	1662	1665	170	med_exam
 223	1666	1669	180	med_exam
 223	1906	1909	六月份	time
 223	1986	1989	六月份	name
@@ -8181,7 +8191,7 @@ article_id	start_position	end_position	entity_text	entity_type
 262	220	223	8月底	time
 262	364	366	今天	time
 262	422	425	徐醫師	name
-262	818	820	9點	med_exam
+262	818	820	9點	time
 262	827	829	晚上	time
 262	835	837	下午	time
 262	844	846	下午	time
@@ -8226,6 +8236,7 @@ article_id	start_position	end_position	entity_text	entity_type
 263	679	681	7天	time
 263	687	689	早上	time
 263	691	693	晚上	time
+263	720	723	14天	time
 263	1004	1008	1200	med_exam
 263	1012	1016	1200	med_exam
 263	1021	1025	1200	med_exam
@@ -8345,6 +8356,7 @@ article_id	start_position	end_position	entity_text	entity_type
 267	1906	1908	早上	time
 267	1914	1920	禮拜五的早上	time
 267	2006	2008	今天	time
+267	2185	2187	兩天	time
 267	2274	2277	四個月	time
 267	2335	2338	十塊錢	money
 267	2434	2437	禮拜五	time
@@ -8407,7 +8419,7 @@ article_id	start_position	end_position	entity_text	entity_type
 268	783	786	禮拜三	time
 268	800	803	禮拜三	time
 268	861	864	禮拜三	time
-268	874	876	今天	name
+268	874	876	今天	time
 268	901	904	禮拜三	time
 268	916	919	禮拜三	time
 268	929	932	禮拜三	time
@@ -8474,7 +8486,7 @@ article_id	start_position	end_position	entity_text	entity_type
 270	1874	1876	保險	profession
 270	1891	1896	7月16號	time
 270	1897	1902	7月16號	time
-270	1921	1924	10點	location
+270	1921	1924	10點	time
 270	1930	1932	晚上	time
 270	1956	1958	7月	time
 270	1961	1966	7月23號	time
@@ -8714,7 +8726,7 @@ article_id	start_position	end_position	entity_text	entity_type
 280	1085	1087	今年	time
 280	1089	1094	11月8號	time
 280	1218	1224	11月25號	time
-280	1228	1230	25	med_exam
+280	1228	1230	25	time
 280	1239	1242	第一號	time
 280	1272	1274	今天	time
 280	1303	1305	91	med_exam
@@ -8926,7 +8938,8 @@ article_id	start_position	end_position	entity_text	entity_type
 285	1113	1116	100	med_exam
 285	1117	1120	105	med_exam
 285	1155	1158	180	med_exam
-285	1204	1211	170、180	med_exam
+285	1204	1207	170	med_exam
+285	1208	1211	180	med_exam
 285	1236	1239	170	med_exam
 285	1250	1253	160	med_exam
 285	1262	1265	160	med_exam
@@ -8936,8 +8949,8 @@ article_id	start_position	end_position	entity_text	entity_type
 285	1882	1886	半個小時	time
 285	2157	2159	半夜	time
 285	2208	2213	這五、六年	time
-285	2343	2345	九點	med_exam
-285	2346	2348	十點	med_exam
+285	2343	2345	九點	time
+285	2346	2351	十點或十點半	time
 285	2367	2369	兩點	time
 285	2370	2372	三點	time
 285	2405	2407	七點	time
@@ -9058,6 +9071,7 @@ article_id	start_position	end_position	entity_text	entity_type
 291	634	637	一兩天	time
 291	706	711	兩天、三天	time
 291	718	722	兩天三天	time
+291	732	734	早上	time
 291	750	753	禮拜三	time
 291	796	802	11月25號	time
 291	811	814	11月	time
@@ -9423,9 +9437,11 @@ article_id	start_position	end_position	entity_text	entity_type
 307	1158	1162	10點多	time
 307	1165	1168	11點	time
 307	1200	1204	早上6點	time
-307	1221	1229	11點多、12點	time
+307	1221	1225	11點多	time
+307	1226	1229	12點	time
 307	1243	1245	3點	time
 307	1707	1712	10幾年前	time
+307	1779	1781	半夜	time
 307	1912	1917	250cc	med_exam
 307	1931	1935	10分鐘	time
 307	2010	2014	6.7年	time
@@ -9489,6 +9505,7 @@ article_id	start_position	end_position	entity_text	entity_type
 309	255	258	張醫師	name
 309	336	338	晚上	time
 309	463	465	今天	time
+309	490	494	四十二歲	time
 309	502	504	去年	time
 309	537	540	五十歲	time
 309	752	755	兩個月	time
@@ -9520,7 +9537,7 @@ article_id	start_position	end_position	entity_text	entity_type
 310	434	436	爸爸	family
 310	437	439	媽媽	family
 310	471	473	去年	time
-310	497	502	去年，年初	time
+310	497	499	去年	time
 310	559	561	今年	time
 310	563	565	去年	time
 310	611	615	今年年初	time
@@ -9692,6 +9709,7 @@ article_id	start_position	end_position	entity_text	entity_type
 317	592	595	兩小時	time
 317	606	608	十點	time
 317	619	621	十點	time
+317	629	631	十點	time
 317	650	651	十	time
 317	652	654	八點	time
 317	731	733	幾點	time
@@ -9839,6 +9857,7 @@ article_id	start_position	end_position	entity_text	entity_type
 article_id	start_position	end_position	entity_text	entity_type
 323	4	6	今天	time
 323	26	29	這個月	time
+323	133	135	明年	time
 323	344	347	這個月	time
 
 --------------------
@@ -9999,7 +10018,7 @@ article_id	start_position	end_position	entity_text	entity_type
 332	1131	1137	10月12號	time
 332	1163	1165	三天	time
 332	1194	1196	晚上	time
-332	1207	1209	8點	med_exam
+332	1207	1209	8點	time
 332	1213	1215	晚上	time
 332	1216	1218	8點	time
 332	1234	1236	今天	time
@@ -10050,6 +10069,8 @@ article_id	start_position	end_position	entity_text	entity_type
 335	83	86	這個月	time
 335	372	374	今天	time
 335	450	452	今天	time
+335	479	481	今天	time
+335	487	489	今天	time
 335	536	539	吳醫師	name
 335	878	881	泰國廠	location
 335	882	885	印度廠	location
@@ -10100,6 +10121,7 @@ article_id	start_position	end_position	entity_text	entity_type
 337	614	617	這個月	time
 337	650	652	今天	time
 337	728	731	這個月	time
+337	920	923	一天前	time
 337	953	957	兩個小時	time
 337	1034	1037	一個月	time
 337	1140	1142	今天	time
@@ -10207,6 +10229,7 @@ article_id	start_position	end_position	entity_text	entity_type
 341	1166	1170	6700	money
 341	1171	1175	6500	money
 341	1446	1448	今天	time
+341	2144	2145	爸	family
 341	2387	2391	三個禮拜	time
 341	2397	2402	三個禮拜後	time
 341	2410	2418	三個月後、三個月	time
@@ -10352,6 +10375,7 @@ article_id	start_position	end_position	entity_text	entity_type
 article_id	start_position	end_position	entity_text	entity_type
 347	5	8	這個月	time
 347	40	43	這個月	time
+347	66	68	今天	time
 347	700	702	今天	time
 347	710	712	今天	time
 347	804	807	一個月	time
@@ -10426,8 +10450,7 @@ article_id	start_position	end_position	entity_text	entity_type
 349	2208	2211	這禮拜	time
 349	2213	2216	下禮拜	time
 349	2218	2220	三天	time
-349	2238	2241	這禮拜	time
-349	2242	2244	四天	time
+349	2238	2244	這禮拜有四天	time
 349	2245	2251	下禮拜再三天	time
 349	2261	2265	下禮拜二	time
 349	2276	2279	禮拜一	time
