@@ -9700,6 +9700,7 @@ article_id	start_position	end_position	entity_text	entity_type
 317	112	116	這一個月	time
 317	135	137	每天	time
 317	322	325	兩小時	time
+317	362	364	今天	time
 317	435	437	今天	time
 317	438	440	五月	time
 317	441	443	今天	time
@@ -10499,7 +10500,7 @@ article_id	start_position	end_position	entity_text	entity_type
 350	2876	2880	兩個小時	time
 350	2906	2910	兩個小時	time
 350	2913	2917	兩小時後	time
-350	3002	3004	五點	time
+350	2970	2974	今天五點	time
 350	3079	3082	一個月	time
 350	3126	3130	這個月份	time
 350	3135	3138	五個月	time
