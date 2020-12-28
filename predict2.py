@@ -29,6 +29,7 @@ tag2fullname = {
 }
 
 taged_words = {
+    "今天": "B-time",
     "恩亨": "O",
     "恩恩": "O",
     "恩恩恩": "O",
