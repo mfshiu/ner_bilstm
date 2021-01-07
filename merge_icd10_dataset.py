@@ -112,8 +112,8 @@ def read_data_a_fast2(xlsx_path):
     locker = threading.Lock()
 
     threads = []
-    batch_size = 1000
-    for i in range(0, 46000, batch_size):
+    batch_size = 10000
+    for i in range(0, 50000, batch_size):
         t = threading.Thread(target=read_data_a2, args=(xlsx_path, i, i+batch_size, data, locker))
         threads.append(t)
         t.start()
