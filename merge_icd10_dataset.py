@@ -1,6 +1,7 @@
 import pandas as pd
 import re
 import threading
+import time
 
 
 def read_data_a(xlsx_path):
@@ -27,13 +28,15 @@ def read_data_a(xlsx_path):
     return data
 
 
-def read_data_a_fast(xlsx_path):
-    data = []
+def read_data_a2(xlsx_path, begin, end, data, locker):
+    locker.acquire()
+    print("Read %s, begin: %d, end: %d" % (xlsx_path, begin, end))
     xlsx = pd.read_excel(xlsx_path, engine='openpyxl')
-    locker = threading.Lock()
+    locker.release()
 
-    def job(i):
-        print("\rRead %s, Line: %d" % (xlsx_path, i), end="")
+    for i in xlsx.index[begin: end]:
+        tic = time.perf_counter()
+        print("Read %s, Line: %d" % (xlsx_path, i))
         a = {
             "id": xlsx.ID加密[i],
             "birthday": str(xlsx.YYMMDD[i]),
@@ -47,21 +50,79 @@ def read_data_a_fast(xlsx_path):
                                        trim_ingores(xlsx.values[i][19]),    # 住院治療經過
                                        trim_ingores(xlsx.values[i][20]))    # 合併症與病發症
         }
-
         locker.acquire()
         data.append(a)
         locker.release()
+
+        toc = time.perf_counter()
+        print("Finish line: %d, in %0.4f seconds" % (i, toc - tic))
+
+    print("Read %s, Total: %d lines, done." % (xlsx_path, end - begin))
+
+    return data
+
+
+def read_data_a_fast(xlsx_path):
+    data = []
+    print("Reading %s..." % (xlsx_path,))
+    xlsx = pd.read_excel(xlsx_path, engine='openpyxl')
+    locker = threading.Lock()
+
+    def job(i):
+        tic = time.perf_counter()
+        # print("\rRead %s, Line: %d" % (xlsx_path, i), end="")
+        print("Read line: %d" % (i,))
+        a = {
+            "id": xlsx.ID加密[i],
+            "birthday": str(xlsx.YYMMDD[i]),
+            "admission_date": xlsx.入院日期[i].strftime("%Y%m%d"),
+            "chief_compliant": trim_ingores(xlsx.主訴[i]),
+            "history": trim_ingores(xlsx.病史[i]),
+            "pathology": trim_ingores(xlsx.values[i][13]),  # 理學檢查發現
+            "exam": trim_ingores(xlsx.檢驗[i]),
+            "others": "%s|%s|%s|%s" % (trim_ingores(xlsx.values[i][17]),    # 病理報告
+                                       trim_ingores(xlsx.values[i][18]),    # 手術日期及方法
+                                       trim_ingores(xlsx.values[i][19]),    # 住院治療經過
+                                       trim_ingores(xlsx.values[i][20]))    # 合併症與病發症
+        }
+        locker.acquire()
+        data.append(a)
+        locker.release()
+
+        toc = time.perf_counter()
+        print("Finish line: %d, in %0.4f seconds" % (i, toc - tic))
 
     threads = []
     for i in xlsx.index:
         t = threading.Thread(target=job, args=(i,))
         threads.append(t)
         t.start()
+        print("Threads count: %d" % (len(threads)))
 
     for t in threads:
         t.join()
 
-    print("\rRead %s, Total: %d lines, done." % (xlsx_path, i + 1))
+    print("Read %s, Total: %d lines, done." % (xlsx_path, i + 1))
+
+    return data
+
+
+def read_data_a_fast2(xlsx_path):
+    data = []
+    locker = threading.Lock()
+
+    threads = []
+    batch_size = 1000
+    for i in range(0, 46000, batch_size):
+        t = threading.Thread(target=read_data_a2, args=(xlsx_path, i, i+batch_size, data, locker))
+        threads.append(t)
+        t.start()
+        print("Threads count: %d" % (len(threads)))
+
+    for t in threads:
+        t.join()
+
+    print("Read %s, Total: %d lines, done." % (xlsx_path, i + 1))
 
     return data
 
@@ -94,7 +155,7 @@ if __name__ == '__main__':
     input_path_b = "data/icd10_dataset_b.xlsx"
     output_path = "data/icd10_dataset_ab.tsv"
 
-    data_a = read_data_a_fast(input_path_a)
+    data_a = read_data_a_fast2(input_path_a)
     data_b = read_data_b(input_path_b)
 
     lines = []
