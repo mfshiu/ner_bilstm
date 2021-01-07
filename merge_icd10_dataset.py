@@ -148,7 +148,7 @@ def trim_ingores(text):
 
 
 if __name__ == '__main__':
-    input_path_a = "data/icd10_dataset_a_1000.xlsx"
+    input_path_a = "data/icd10_dataset_a_10000.xlsx"
     # input_path_b = "data/icd10_dataset_b_3000.xlsx"
     # output_path = "data/icd10_dataset_ab_1000.tsv"
     # input_path_a = "data/icd10_dataset_a.xlsx"

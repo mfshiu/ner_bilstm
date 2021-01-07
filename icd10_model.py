@@ -37,7 +37,7 @@ BATCH_SIZE = 512  # Number of examples used in each iteration
 EPOCHS = 20  # Number of passes through entire dataset
 MAX_LEN = 75  # Max length of review (in words)
 EMBEDDING = 40  # Dimension of word embedding vector
-LSTM_UNITS = 100
+LSTM_UNITS = 20
 
 class NerModel:
     def __init__(self, dataset_path, embedding_size = EMBEDDING, max_words = MAX_LEN):

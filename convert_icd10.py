@@ -22,17 +22,17 @@ def parse_input(input_path):
     for line in lines[1:]:
         cells = line.split("\t")
         icd10s = cells[0].split(",")
-        text = cells[1]
-        sens = re.split('; |, |\. |! ', text)
-        for sen in sens:
-            words = sen.split(" ")
-            ww = []
-            for w in words:
-                w = w.replace(",", " ").strip()
-                if len(w):
-                    ww.append((w, random.choice(icd10s)))
-            if len(ww):
-                sentences.append(ww)
+        for text in cells[1:]:
+            sens = re.split('; |, |\. |! ', text)
+            for sen in sens:
+                words = sen.split(" ")
+                ww = []
+                for w in words:
+                    w = w.replace(",", " ").strip()
+                    if len(w):
+                        ww.append((w, random.choice(icd10s)))
+                if len(ww):
+                    sentences.append(ww)
 
     return sentences
 
