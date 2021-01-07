@@ -2,7 +2,7 @@ import pandas as pd
 import re
 import threading
 import time
-
+import sys
 
 def read_data_a(xlsx_path):
     data = []
@@ -148,14 +148,15 @@ def trim_ingores(text):
 
 
 if __name__ == '__main__':
-    # input_path_a = "data/icd10_dataset_a_1000.xlsx"
+    input_path_a = "data/icd10_dataset_a_1000.xlsx"
     # input_path_b = "data/icd10_dataset_b_3000.xlsx"
     # output_path = "data/icd10_dataset_ab_1000.tsv"
-    input_path_a = "data/icd10_dataset_a.xlsx"
+    # input_path_a = "data/icd10_dataset_a.xlsx"
+    # input_path_a = sys.argv[1]
     input_path_b = "data/icd10_dataset_b.xlsx"
-    output_path = "data/icd10_dataset_ab.tsv"
+    output_path = "data/icd10_dataset_ab_1000.tsv"
 
-    data_a = read_data_a_fast2(input_path_a)
+    data_a = read_data_a(input_path_a)
     data_b = read_data_b(input_path_b)
 
     lines = []
