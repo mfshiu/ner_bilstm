@@ -13,7 +13,7 @@ data_path = convert_icd10.output_path
 model_path = "trained/e10-h20-v20-200.pkl"
 
 if __name__ == '__main__':
-    os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+    os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
     print("\n\n##### START TRAINING #####")
     print("data_path: " + data_path)
