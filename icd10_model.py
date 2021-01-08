@@ -33,7 +33,7 @@ class SentenceGetter(object):
             return None
 
 
-BATCH_SIZE = 512  # Number of examples used in each iteration
+BATCH_SIZE = 128  # Number of examples used in each iteration
 EPOCHS = 20  # Number of passes through entire dataset
 MAX_LEN = 75  # Max length of review (in words)
 EMBEDDING = 40  # Dimension of word embedding vector

@@ -1,5 +1,6 @@
 import random
 import re
+import merge_icd10_dataset
 
 
 MAX_LENS = 70
@@ -11,6 +12,24 @@ def add_tag_history(tag, name):
     if tag not in tags_history:
         tags_history[tag] = list()
     tags_history[tag].append(name)
+
+
+def remove_ignore_chars(word):
+    word = word.replace(",", " ").strip()
+    return word
+
+
+skip_words = set([
+    "for", "with", "this", "has", "was", "is", "are", "of", "or", "to",
+    "our", "at", "in", "he", "and", "not", "no", "nil", "without", "a",
+    "on", "via", "about", "to", "the", "she", "also", "have", "that", "ago",
+    "from", "recent", "ago", "data", "but", "were", "as", "&", "by", "be",
+    "some", "ever", "his", "him", "do", "done", "nil.", "-", "we", "got",
+])
+
+
+def is_skip_word(word):
+    return word.lower() in skip_words
 
 
 def parse_input(input_path):
@@ -30,7 +49,8 @@ def parse_input(input_path):
                 for w in words:
                     w = w.replace(",", " ").strip()
                     if len(w):
-                        ww.append((w, random.choice(icd10s)))
+                        if not is_skip_word(w):
+                            ww.append((w, random.choice(icd10s)))
                 if len(ww):
                     sentences.append(ww)
 
@@ -51,10 +71,10 @@ def gen_output_rows(sentences, start_id, show_head):
     return rows
 
 
-if __name__ == '__main__':
-    input_path = "data/icd10_dataset_ab_1000.tsv"
-    output_path = "data/icd10_dataset.csv"
+input_path = merge_icd10_dataset.output_path
+output_path = "data/icd10_dataset_200.csv"
 
+if __name__ == '__main__':
     print("\n\n##### START CONVERT #####")
     print("input_path: " + input_path)
     print("output_path: " + output_path)

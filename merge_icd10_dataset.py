@@ -17,10 +17,10 @@ def read_data_a(xlsx_path):
             "history": trim_ingores(xlsx.病史[i]),
             "pathology": trim_ingores(xlsx.values[i][13]),  # 理學檢查發現
             "exam": trim_ingores(xlsx.檢驗[i]),
-            "others": "%s|%s|%s|%s" % (trim_ingores(xlsx.values[i][17]),    # 病理報告
-                                       trim_ingores(xlsx.values[i][18]),    # 手術日期及方法
-                                       trim_ingores(xlsx.values[i][19]),    # 住院治療經過
-                                       trim_ingores(xlsx.values[i][20]))    # 合併症與病發症
+            "others": "%s. %s. %s. %s." % (trim_ingores(xlsx.values[i][17]),    # 病理報告
+                                           trim_ingores(xlsx.values[i][18]),    # 手術日期及方法
+                                           trim_ingores(xlsx.values[i][19]),    # 住院治療經過
+                                           trim_ingores(xlsx.values[i][20]))    # 合併症與病發症
         }
         data.append(a)
     print("\rRead %s, Total: %d lines, done." % (xlsx_path, i + 1))
@@ -147,15 +147,15 @@ def trim_ingores(text):
     # return text.replace("\n", " ").replace("\t", " ")
 
 
-if __name__ == '__main__':
-    input_path_a = "data/icd10_dataset_a_10000.xlsx"
-    # input_path_b = "data/icd10_dataset_b_3000.xlsx"
-    # output_path = "data/icd10_dataset_ab_1000.tsv"
-    # input_path_a = "data/icd10_dataset_a.xlsx"
-    # input_path_a = sys.argv[1]
-    input_path_b = "data/icd10_dataset_b.xlsx"
-    output_path = "data/icd10_dataset_ab_1000.tsv"
+input_path_a = "data/icd10_dataset_a_200.xlsx"
+# input_path_b = "data/icd10_dataset_b_3000.xlsx"
+# output_path = "data/icd10_dataset_ab_10000.tsv"
+# input_path_a = "data/icd10_dataset_a.xlsx"
+# input_path_a = sys.argv[1]
+input_path_b = "data/icd10_dataset_b.xlsx"
+output_path = "data/icd10_dataset_ab_200.tsv"
 
+if __name__ == '__main__':
     data_a = read_data_a(input_path_a)
     data_b = read_data_b(input_path_b)
 
